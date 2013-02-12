@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QSelectSection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QSelectSection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/setItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSelectSection/items</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/setSelectedIndexes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *selectedIndexes</Declaration>
+			
+			
+			<Anchor>//api/name/selectedIndexes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSelectSection/selectedIndexes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *selectedIndexes</Declaration>
+			
+			
+			<Anchor>//api/name/selectedIndexes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/setSelectedItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *selectedItems</Declaration>
+			
+			
+			<Anchor>//api/name/selectedItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSelectSection/selectedItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *selectedItems</Declaration>
+			
+			
+			<Anchor>//api/name/selectedItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/setMultipleAllowed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL multipleAllowed</Declaration>
+			
+			
+			<Anchor>//api/name/multipleAllowed</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSelectSection/multipleAllowed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL multipleAllowed</Declaration>
+			
+			
+			<Anchor>//api/name/multipleAllowed</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/setOnSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) onSelected</Declaration>
+			
+			
+			<Anchor>//api/name/onSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSelectSection/onSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) onSelected</Declaration>
+			
+			
+			<Anchor>//api/name/onSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/initWithItems:selectedIndexes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithItems:(NSArray *)stringArray selectedIndexes:(NSArray *)selected</Declaration>
+			
+			
+			<Anchor>//api/name/initWithItems:selectedIndexes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/initWithItems:selectedIndexes:title:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithItems:(NSArray *)stringArray selectedIndexes:(NSArray *)selected title:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/initWithItems:selectedIndexes:title:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/initWithItems:selectedItems:title:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithItems:(NSArray *)stringArray selectedItems:(NSArray *)selectedItems title:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/initWithItems:selectedItems:title:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/initWithItems:selected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithItems:(NSArray *)stringArray selected:(NSUInteger)selected</Declaration>
+			
+			
+			<Anchor>//api/name/initWithItems:selected:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/initWithItems:selected:title:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithItems:(NSArray *)stringArray selected:(NSUInteger)selected title:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/initWithItems:selected:title:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/addOption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>- (void)addOption:(NSString *)option</Declaration>
+			
+			
+			<Anchor>//api/name/addOption:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/insertOption:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertOption:(NSString *)option atIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/insertOption:atIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSelectSection/createElements</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSelectSection.h</DeclaredIn>			
+			
+			<Declaration>- (void)createElements</Declaration>
+			
+			
+			<Anchor>//api/name/createElements</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

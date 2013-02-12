@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QDateEntryTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QDateEntryTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateEntryTableViewCell.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateEntryTableViewCell/setPickerView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIDatePicker *pickerView</Declaration>
+			
+			
+			<Anchor>//api/name/pickerView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateEntryTableViewCell/pickerView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIDatePicker *pickerView</Declaration>
+			
+			
+			<Anchor>//api/name/pickerView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateEntryTableViewCell/setCenteredLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UILabel *centeredLabel</Declaration>
+			
+			
+			<Anchor>//api/name/centeredLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateEntryTableViewCell/centeredLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UILabel *centeredLabel</Declaration>
+			
+			
+			<Anchor>//api/name/centeredLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/QDateEntryTableViewCell/getPickerForDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>+ (UIDatePicker *)getPickerForDate</Declaration>
+			
+			
+			<Anchor>//api/name/getPickerForDate</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

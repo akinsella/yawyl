@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QWebElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QWebElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QWebElement.h</DeclaredIn>
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QWebElement/setUrl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QWebElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QWebElement/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QWebElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QWebElement/initWithTitle:url:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QWebElement.h</DeclaredIn>			
+			
+			<Declaration>- (QWebElement *)initWithTitle:(NSString *)title url:(NSString *)url</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:url:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QWebElement/selected:controller:indexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QWebElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)selected:(QuickDialogTableView *)tableView controller:(QuickDialogController *)controller indexPath:(NSIndexPath *)path</Declaration>
+			
+			
+			<Anchor>//api/name/selected:controller:indexPath:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

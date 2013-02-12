@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QAutoEntryElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QAutoEntryElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setTextValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *textValue</Declaration>
+			
+			
+			<Anchor>//api/name/textValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/textValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *textValue</Declaration>
+			
+			
+			<Anchor>//api/name/textValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setPlaceholder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *placeholder</Declaration>
+			
+			
+			<Anchor>//api/name/placeholder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/placeholder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *placeholder</Declaration>
+			
+			
+			<Anchor>//api/name/placeholder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setAutoCompleteValues:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *autoCompleteValues</Declaration>
+			
+			
+			<Anchor>//api/name/autoCompleteValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/autoCompleteValues</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *autoCompleteValues</Declaration>
+			
+			
+			<Anchor>//api/name/autoCompleteValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setAutoCompleteColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *autoCompleteColor</Declaration>
+			
+			
+			<Anchor>//api/name/autoCompleteColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/autoCompleteColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *autoCompleteColor</Declaration>
+			
+			
+			<Anchor>//api/name/autoCompleteColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setHiddenToolbar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) BOOL hiddenToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/hiddenToolbar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/hiddenToolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) BOOL hiddenToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/hiddenToolbar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setLastAutoComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastAutoComplete</Declaration>
+			
+			
+			<Anchor>//api/name/lastAutoComplete</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/lastAutoComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastAutoComplete</Declaration>
+			
+			
+			<Anchor>//api/name/lastAutoComplete</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, unsafe_unretained) id&lt;QuickDialogEntryElementDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, unsafe_unretained) id&lt;QuickDialogEntryElementDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setAutocapitalizationType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAutocapitalizationType autocapitalizationType</Declaration>
+			
+			
+			<Anchor>//api/name/autocapitalizationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/autocapitalizationType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAutocapitalizationType autocapitalizationType</Declaration>
+			
+			
+			<Anchor>//api/name/autocapitalizationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setAutocorrectionType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAutocorrectionType autocorrectionType</Declaration>
+			
+			
+			<Anchor>//api/name/autocorrectionType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/autocorrectionType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAutocorrectionType autocorrectionType</Declaration>
+			
+			
+			<Anchor>//api/name/autocorrectionType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setKeyboardType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIKeyboardType keyboardType</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/keyboardType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIKeyboardType keyboardType</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setKeyboardAppearance:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIKeyboardAppearance keyboardAppearance</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardAppearance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/keyboardAppearance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIKeyboardAppearance keyboardAppearance</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardAppearance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setReturnKeyType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIReturnKeyType returnKeyType</Declaration>
+			
+			
+			<Anchor>//api/name/returnKeyType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/returnKeyType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIReturnKeyType returnKeyType</Declaration>
+			
+			
+			<Anchor>//api/name/returnKeyType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setEnablesReturnKeyAutomatically:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL enablesReturnKeyAutomatically</Declaration>
+			
+			
+			<Anchor>//api/name/enablesReturnKeyAutomatically</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/enablesReturnKeyAutomatically</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL enablesReturnKeyAutomatically</Declaration>
+			
+			
+			<Anchor>//api/name/enablesReturnKeyAutomatically</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/setSecureTextEntry:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, getter=isSecureTextEntry) BOOL secureTextEntry</Declaration>
+			
+			
+			<Anchor>//api/name/secureTextEntry</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryElement/secureTextEntry</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, getter=isSecureTextEntry) BOOL secureTextEntry</Declaration>
+			
+			
+			<Anchor>//api/name/secureTextEntry</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>- (QAutoEntryElement *)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryElement/initWithTitle:value:placeholder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryElement.h</DeclaredIn>			
+			
+			<Declaration>- (QAutoEntryElement *)initWithTitle:(NSString *)string value:(NSString *)param placeholder:(NSString *)string1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:value:placeholder:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

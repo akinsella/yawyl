@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QLabelElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QLabelElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QLabelElement/setImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QLabelElement/image</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QLabelElement/setImageNamed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSString *imageNamed</Declaration>
+			
+			
+			<Anchor>//api/name/imageNamed</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QLabelElement/imageNamed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSString *imageNamed</Declaration>
+			
+			
+			<Anchor>//api/name/imageNamed</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QLabelElement/setAccessoryType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UITableViewCellAccessoryType accessoryType</Declaration>
+			
+			
+			<Anchor>//api/name/accessoryType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QLabelElement/accessoryType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UITableViewCellAccessoryType accessoryType</Declaration>
+			
+			
+			<Anchor>//api/name/accessoryType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QLabelElement/setValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QLabelElement/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QLabelElement/setKeepSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL keepSelected</Declaration>
+			
+			
+			<Anchor>//api/name/keepSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QLabelElement/keepSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL keepSelected</Declaration>
+			
+			
+			<Anchor>//api/name/keepSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QLabelElement/initWithTitle:Value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLabelElement.h</DeclaredIn>			
+			
+			<Declaration>- (QLabelElement *)initWithTitle:(NSString *)string Value:(id)value</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:Value:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

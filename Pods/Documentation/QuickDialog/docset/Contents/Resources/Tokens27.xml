@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QMultilineTextViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QMultilineTextViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMultilineTextViewController/setTextView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) UITextView *textView</Declaration>
+			
+			
+			<Anchor>//api/name/textView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QMultilineTextViewController/textView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) UITextView *textView</Declaration>
+			
+			
+			<Anchor>//api/name/textView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMultilineTextViewController/setResizeWhenKeyboardPresented:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL resizeWhenKeyboardPresented</Declaration>
+			
+			
+			<Anchor>//api/name/resizeWhenKeyboardPresented</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QMultilineTextViewController/resizeWhenKeyboardPresented</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL resizeWhenKeyboardPresented</Declaration>
+			
+			
+			<Anchor>//api/name/resizeWhenKeyboardPresented</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMultilineTextViewController/setWillDisappearCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) willDisappearCallback</Declaration>
+			
+			
+			<Anchor>//api/name/willDisappearCallback</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QMultilineTextViewController/willDisappearCallback</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) willDisappearCallback</Declaration>
+			
+			
+			<Anchor>//api/name/willDisappearCallback</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMultilineTextViewController/setEntryElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QMultilineElement *entryElement</Declaration>
+			
+			
+			<Anchor>//api/name/entryElement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QMultilineTextViewController/entryElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QMultilineElement *entryElement</Declaration>
+			
+			
+			<Anchor>//api/name/entryElement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMultilineTextViewController/setEntryCell:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QEntryTableViewCell *entryCell</Declaration>
+			
+			
+			<Anchor>//api/name/entryCell</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QMultilineTextViewController/entryCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QEntryTableViewCell *entryCell</Declaration>
+			
+			
+			<Anchor>//api/name/entryCell</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMultilineTextViewController/initWithTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineTextViewController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTitle:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

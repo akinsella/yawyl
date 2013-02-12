@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QMapAnnotation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QMapAnnotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapAnnotation.h</DeclaredIn>
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMapAnnotation/initWithCoordinate:title:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapAnnotation.h</DeclaredIn>			
+			
+			<Declaration>- (QMapAnnotation *)initWithCoordinate:(CLLocationCoordinate2D)coordinate title:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoordinate:title:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMapAnnotation/setCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QMapAnnotation/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,70 @@
+
+PODS: 
+- AFHTTPRequestOperationLogger (0.10.0): 
+  - AFNetworking (>= 0.9.0)
+- AFNetworking (1.0.1)
+- JSONKit (1.5pre)
+- MagicalRecord (2.0.8)
+- Reachability (3.0.0)
+- SDURLCache (1.2)
+- SDWebImage (2.6)
+- SSKeychain (0.1.4)
+- SVProgressHUD (0.8)
+- SVPullToRefresh (0.4)
+- ShareKit/Evernote (2.0): 
+  - Reachability
+  - SSKeychain
+- ShareKit/GoogleReader (2.0): 
+  - Reachability
+  - SSKeychain
+- ShareKit/Instapaper (2.0): 
+  - Reachability
+  - SSKeychain
+- ShareKit/ReadItLater (2.0): 
+  - Reachability
+  - SSKeychain
+- ShareKit/Twitter (2.0): 
+  - JSONKit
+  - Reachability
+  - SSKeychain
+- Underscore.m (0.1.0)
+- ZUUIRevealController (0.9.6)
+
+DEPENDENCIES: 
+- AFHTTPRequestOperationLogger (= 0.10.0)
+- AFNetworking (= 1.0.1)
+- JSONKit (= 1.5pre)
+- MagicalRecord (= 2.0.8)
+- Reachability (= 3.0.0)
+- SDURLCache (= 1.2)
+- SDWebImage (= 2.6)
+- SVProgressHUD (= 0.8)
+- SVPullToRefresh (= 0.4)
+- ShareKit/Evernote (= 2.0)
+- ShareKit/GoogleReader (= 2.0)
+- ShareKit/Instapaper (= 2.0)
+- ShareKit/ReadItLater (= 2.0)
+- ShareKit/Twitter (= 2.0)
+- Underscore.m (= 0.1.0)
+- ZUUIRevealController (= 0.9.6)
+
+SPEC CHECKSUMS: 
+  AFHTTPRequestOperationLogger: 1d65fa5d905211c8981a11091eae8c98b410eb19
+  AFNetworking: 0bce3ae41023e080e96b8a2e0d07c94709f72a81
+  JSONKit: 3d4708953ea7ae399a49777372d8b060a43ddd27
+  MagicalRecord: daa15d6c83bd7d30e074c8923e53c64248ae6930
+  Reachability: 500bd76bf6cd8ff2c6fb715fc5f44ef6e4c024f2
+  SDURLCache: 2208f93474756c694eed002fa7e3ab62ff3c6468
+  SDWebImage: e99768b51af331194b1d4bd68b9d9e23bf8702d4
+  SSKeychain: bae692a4354f48691ca3463a121dc8060f781a7d
+  SVProgressHUD: 51042a14e3a716efdbdd73cbb2181fb23ee94389
+  SVPullToRefresh: 479bcbbf42c83366f49aab231ed6e94dad928fef
+  ShareKit/Evernote: e66bcbf977fa93ab3e3f33c3ce637e9bbe98945c
+  ShareKit/GoogleReader: e66bcbf977fa93ab3e3f33c3ce637e9bbe98945c
+  ShareKit/Instapaper: e66bcbf977fa93ab3e3f33c3ce637e9bbe98945c
+  ShareKit/ReadItLater: e66bcbf977fa93ab3e3f33c3ce637e9bbe98945c
+  ShareKit/Twitter: e66bcbf977fa93ab3e3f33c3ce637e9bbe98945c
+  Underscore.m: e72bd89a319e8d924b84bb4f5fc695955413ac5f
+  ZUUIRevealController: ab8e1f25e000357ec7fd1be64ba7c3c4fbc1257c
+
+COCOAPODS: 0.16.0

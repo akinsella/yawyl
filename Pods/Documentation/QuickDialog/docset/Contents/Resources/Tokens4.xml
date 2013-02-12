@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QBadgeElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QBadgeElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QBadgeElement.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QBadgeElement/setBadgeTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QBadgeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *badgeTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/badgeTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QBadgeElement/badgeTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QBadgeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *badgeTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/badgeTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QBadgeElement/setBadgeColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QBadgeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *badgeColor</Declaration>
+			
+			
+			<Anchor>//api/name/badgeColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QBadgeElement/badgeColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QBadgeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *badgeColor</Declaration>
+			
+			
+			<Anchor>//api/name/badgeColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QBadgeElement/setBadge:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QBadgeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *badge</Declaration>
+			
+			
+			<Anchor>//api/name/badge</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QBadgeElement/badge</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QBadgeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *badge</Declaration>
+			
+			
+			<Anchor>//api/name/badge</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QBadgeElement/initWithTitle:Value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QBadgeElement.h</DeclaredIn>			
+			
+			<Declaration>- (QBadgeElement *)initWithTitle:(NSString *)title Value:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:Value:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

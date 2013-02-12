@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/akinsella/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.QuickDialog-0.6.docset
+Time: 2013-02-06 09:07:49 +0000

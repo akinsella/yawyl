@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QPickerTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QPickerTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerTableViewCell.h</DeclaredIn>
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QPickerTableViewCell/setPickerView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIPickerView *pickerView</Declaration>
+			
+			
+			<Anchor>//api/name/pickerView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QPickerTableViewCell/pickerView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIPickerView *pickerView</Declaration>
+			
+			
+			<Anchor>//api/name/pickerView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QPickerTableViewCell/prepareForElement:inTableView:pickerView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)prepareForElement:(QEntryElement *)element inTableView:(QuickDialogTableView *)tableView pickerView:(UIPickerView **)pickerView</Declaration>
+			
+			
+			<Anchor>//api/name/prepareForElement:inTableView:pickerView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QPickerTableViewCell/setPickerViewValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)setPickerViewValue:(id)value</Declaration>
+			
+			
+			<Anchor>//api/name/setPickerViewValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QPickerTableViewCell/getPickerViewValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (id)getPickerViewValue</Declaration>
+			
+			
+			<Anchor>//api/name/getPickerViewValue</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

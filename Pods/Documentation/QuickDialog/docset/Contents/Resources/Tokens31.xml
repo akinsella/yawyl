@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QRadioElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QRadioElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/setItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRadioElement/items</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/setSelectedItem:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id selectedItem</Declaration>
+			
+			
+			<Anchor>//api/name/selectedItem</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRadioElement/selectedItem</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id selectedItem</Declaration>
+			
+			
+			<Anchor>//api/name/selectedItem</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/setSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign, readwrite) NSInteger selected</Declaration>
+			
+			
+			<Anchor>//api/name/selected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRadioElement/selected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign, readwrite) NSInteger selected</Declaration>
+			
+			
+			<Anchor>//api/name/selected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/setValues:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *values</Declaration>
+			
+			
+			<Anchor>//api/name/values</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRadioElement/values</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *values</Declaration>
+			
+			
+			<Anchor>//api/name/values</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/initWithDict:selected:title:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>- (QRadioElement *)initWithDict:(NSDictionary *)valuesDictionary selected:(int)selected title:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDict:selected:title:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/createElements</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)createElements</Declaration>
+			
+			
+			<Anchor>//api/name/createElements</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/selectedValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>- (NSObject *)selectedValue</Declaration>
+			
+			
+			<Anchor>//api/name/selectedValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/setSelectedValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)setSelectedValue:(NSObject *)aSelected</Declaration>
+			
+			
+			<Anchor>//api/name/setSelectedValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/initWithItems:selected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>- (QRadioElement *)initWithItems:(NSArray *)stringArray selected:(NSInteger)selected</Declaration>
+			
+			
+			<Anchor>//api/name/initWithItems:selected:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRadioElement/initWithItems:selected:title:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRadioElement.h</DeclaredIn>			
+			
+			<Declaration>- (QRadioElement *)initWithItems:(NSArray *)stringArray selected:(NSInteger)selected title:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/initWithItems:selected:title:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

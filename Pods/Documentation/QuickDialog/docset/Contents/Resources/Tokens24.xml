@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QMapElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QMapElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapElement.h</DeclaredIn>
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMapElement/setCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QMapElement/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMapElement/initWithTitle:coordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapElement.h</DeclaredIn>			
+			
+			<Declaration>- (QMapElement *)initWithTitle:(NSString *)string coordinate:(CLLocationCoordinate2D)param</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:coordinate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMapElement/setLat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)setLat:(double)lat</Declaration>
+			
+			
+			<Anchor>//api/name/setLat:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMapElement/setLng:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMapElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)setLng:(double)lng</Declaration>
+			
+			
+			<Anchor>//api/name/setLng:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

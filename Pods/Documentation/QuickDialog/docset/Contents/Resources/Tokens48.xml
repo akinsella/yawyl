@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QuickDialogTableDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QuickDialogTableDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableDelegate/initForTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (id&lt;UITableViewDelegate,UIScrollViewDelegate&gt;)initForTableView:(QuickDialogTableView *)tableView</Declaration>
+			
+			
+			<Anchor>//api/name/initForTableView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableDelegate/tableView:editingStyleForRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:editingStyleForRowAtIndexPath:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

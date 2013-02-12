@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QFloatElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QFloatElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QFloatElement.h</DeclaredIn>
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QFloatElement/setFloatValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QFloatElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float floatValue</Declaration>
+			
+			
+			<Anchor>//api/name/floatValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QFloatElement/floatValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QFloatElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float floatValue</Declaration>
+			
+			
+			<Anchor>//api/name/floatValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QFloatElement/initWithTitle:value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QFloatElement.h</DeclaredIn>			
+			
+			<Declaration>- (QFloatElement *)initWithTitle:(NSString *)string value:(float)value</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:value:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QFloatElement/initWithValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QFloatElement.h</DeclaredIn>			
+			
+			<Declaration>- (QElement *)initWithValue:(float)value</Declaration>
+			
+			
+			<Anchor>//api/name/initWithValue:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

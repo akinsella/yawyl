@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QRootBuilder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QRootBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootBuilder.h</DeclaredIn>
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootBuilder/buildWithObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootBuilder.h</DeclaredIn>			
+			
+			<Declaration>- (QRootElement *)buildWithObject:(id)obj</Declaration>
+			
+			
+			<Anchor>//api/name/buildWithObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/QRootBuilder/trySetProperty:onObject:withValue:localized:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootBuilder.h</DeclaredIn>			
+			
+			<Declaration>+ (void)trySetProperty:(NSString *)propertyName onObject:(id)target withValue:(id)value localized:(BOOL)shouldLocalize</Declaration>
+			
+			
+			<Anchor>//api/name/trySetProperty:onObject:withValue:localized:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootBuilder/buildElementWithObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootBuilder.h</DeclaredIn>			
+			
+			<Declaration>- (QElement *)buildElementWithObject:(id)obj</Declaration>
+			
+			
+			<Anchor>//api/name/buildElementWithObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootBuilder/buildSectionWithObject:forRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootBuilder.h</DeclaredIn>			
+			
+			<Declaration>- (void)buildSectionWithObject:(id)obj forRoot:(QRootElement *)root</Declaration>
+			
+			
+			<Anchor>//api/name/buildSectionWithObject:forRoot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootBuilder/buildSectionWithObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootBuilder.h</DeclaredIn>			
+			
+			<Declaration>- (QSection *)buildSectionWithObject:(NSDictionary *)dictionary</Declaration>
+			
+			
+			<Anchor>//api/name/buildSectionWithObject:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

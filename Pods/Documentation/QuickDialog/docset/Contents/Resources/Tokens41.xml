@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QTableViewCell.h</DeclaredIn>
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QTableViewCell/initWithReuseIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (QTableViewCell *)initWithReuseIdentifier:(NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/initWithReuseIdentifier:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QTableViewCell/setLabelingPolicy:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) QLabelingPolicy labelingPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/labelingPolicy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QTableViewCell/labelingPolicy</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) QLabelingPolicy labelingPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/labelingPolicy</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

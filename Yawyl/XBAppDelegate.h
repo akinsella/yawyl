@@ -1,9 +1,9 @@
 //
 //  XBAppDelegate.h
-//  Yawyl
+//  Broadcast
 //
-//  Created by Alexis Kinsella on 06/02/13.
-//  Copyright (c) 2013 Xebia / CodeStory. All rights reserved.
+//  Created by Alexis Kinsella on 28/01/13.
+//  Copyright (c) 2013 Xebia. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,11 +12,14 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
++ (NSString *)baseUrl;
+
+- (UIStoryboard *)mainStoryBoard;
+
+@property(nonatomic, assign) Boolean registered;
+@property(nonatomic, retain) NSString *deviceToken;
+- (UINavigationController *)rootNavigationController;
 
 @end

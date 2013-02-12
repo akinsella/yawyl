@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QDateTimeInlineElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QDateTimeInlineElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeInlineElement/setDateValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *dateValue</Declaration>
+			
+			
+			<Anchor>//api/name/dateValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateTimeInlineElement/dateValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *dateValue</Declaration>
+			
+			
+			<Anchor>//api/name/dateValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeInlineElement/setTicksValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSNumber *ticksValue</Declaration>
+			
+			
+			<Anchor>//api/name/ticksValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateTimeInlineElement/ticksValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSNumber *ticksValue</Declaration>
+			
+			
+			<Anchor>//api/name/ticksValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeInlineElement/setMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) UIDatePickerMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateTimeInlineElement/mode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) UIDatePickerMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeInlineElement/setCenterLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL centerLabel</Declaration>
+			
+			
+			<Anchor>//api/name/centerLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateTimeInlineElement/centerLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL centerLabel</Declaration>
+			
+			
+			<Anchor>//api/name/centerLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeInlineElement/setMaximumDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *maximumDate</Declaration>
+			
+			
+			<Anchor>//api/name/maximumDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateTimeInlineElement/maximumDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *maximumDate</Declaration>
+			
+			
+			<Anchor>//api/name/maximumDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeInlineElement/setMinimumDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *minimumDate</Declaration>
+			
+			
+			<Anchor>//api/name/minimumDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateTimeInlineElement/minimumDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *minimumDate</Declaration>
+			
+			
+			<Anchor>//api/name/minimumDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeInlineElement/initWithDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>- (QDateTimeInlineElement *)initWithDate:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeInlineElement/initWithTitle:date:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeInlineElement.h</DeclaredIn>			
+			
+			<Declaration>- (QDateTimeInlineElement *)initWithTitle:(NSString *)string date:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:date:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

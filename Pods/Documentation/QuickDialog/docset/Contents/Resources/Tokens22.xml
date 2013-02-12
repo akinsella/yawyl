@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QLoadingElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QLoadingElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLoadingElement.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QLoadingElement/setIndicatorStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLoadingElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIActivityIndicatorViewStyle indicatorStyle</Declaration>
+			
+			
+			<Anchor>//api/name/indicatorStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QLoadingElement/indicatorStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QLoadingElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIActivityIndicatorViewStyle indicatorStyle</Declaration>
+			
+			
+			<Anchor>//api/name/indicatorStyle</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

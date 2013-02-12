@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QEntryElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QEntryElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setTextValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *textValue</Declaration>
+			
+			
+			<Anchor>//api/name/textValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/textValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *textValue</Declaration>
+			
+			
+			<Anchor>//api/name/textValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setPlaceholder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *placeholder</Declaration>
+			
+			
+			<Anchor>//api/name/placeholder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/placeholder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *placeholder</Declaration>
+			
+			
+			<Anchor>//api/name/placeholder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setPrefix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/prefix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setSuffix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *suffix</Declaration>
+			
+			
+			<Anchor>//api/name/suffix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/suffix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *suffix</Declaration>
+			
+			
+			<Anchor>//api/name/suffix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setHiddenToolbar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) BOOL hiddenToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/hiddenToolbar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/hiddenToolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) BOOL hiddenToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/hiddenToolbar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, unsafe_unretained) id&lt;QuickDialogEntryElementDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, unsafe_unretained) id&lt;QuickDialogEntryElementDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setAutocapitalizationType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAutocapitalizationType autocapitalizationType</Declaration>
+			
+			
+			<Anchor>//api/name/autocapitalizationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/autocapitalizationType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAutocapitalizationType autocapitalizationType</Declaration>
+			
+			
+			<Anchor>//api/name/autocapitalizationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setAutocorrectionType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAutocorrectionType autocorrectionType</Declaration>
+			
+			
+			<Anchor>//api/name/autocorrectionType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/autocorrectionType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAutocorrectionType autocorrectionType</Declaration>
+			
+			
+			<Anchor>//api/name/autocorrectionType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setTextAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/textAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UITextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setKeyboardType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIKeyboardType keyboardType</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/keyboardType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIKeyboardType keyboardType</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setKeyboardAppearance:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIKeyboardAppearance keyboardAppearance</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardAppearance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/keyboardAppearance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIKeyboardAppearance keyboardAppearance</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardAppearance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setReturnKeyType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIReturnKeyType returnKeyType</Declaration>
+			
+			
+			<Anchor>//api/name/returnKeyType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/returnKeyType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIReturnKeyType returnKeyType</Declaration>
+			
+			
+			<Anchor>//api/name/returnKeyType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setEnablesReturnKeyAutomatically:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL enablesReturnKeyAutomatically</Declaration>
+			
+			
+			<Anchor>//api/name/enablesReturnKeyAutomatically</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/enablesReturnKeyAutomatically</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL enablesReturnKeyAutomatically</Declaration>
+			
+			
+			<Anchor>//api/name/enablesReturnKeyAutomatically</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setSecureTextEntry:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, getter=isSecureTextEntry) BOOL secureTextEntry</Declaration>
+			
+			
+			<Anchor>//api/name/secureTextEntry</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/secureTextEntry</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, getter=isSecureTextEntry) BOOL secureTextEntry</Declaration>
+			
+			
+			<Anchor>//api/name/secureTextEntry</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setClearsOnBeginEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL clearsOnBeginEditing</Declaration>
+			
+			
+			<Anchor>//api/name/clearsOnBeginEditing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/clearsOnBeginEditing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL clearsOnBeginEditing</Declaration>
+			
+			
+			<Anchor>//api/name/clearsOnBeginEditing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/setCustomDateFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *customDateFormat</Declaration>
+			
+			
+			<Anchor>//api/name/customDateFormat</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryElement/customDateFormat</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *customDateFormat</Declaration>
+			
+			
+			<Anchor>//api/name/customDateFormat</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>- (QEntryElement *)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/initWithTitle:Value:Placeholder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>- (QEntryElement *)initWithTitle:(NSString *)string Value:(NSString *)param Placeholder:(NSString *)string1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:Value:Placeholder:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryElement/canTakeFocus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryElement.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)canTakeFocus</Declaration>
+			
+			
+			<Anchor>//api/name/canTakeFocus</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

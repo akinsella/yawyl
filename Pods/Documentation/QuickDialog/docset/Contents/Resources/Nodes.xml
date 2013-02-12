@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>QuickDialog 0.6</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						<NodeRef refid="56"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>DOAutocompleteTextField</Name>
+			<Path>Classes/DOAutocompleteTextField.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>QAutoEntryElement</Name>
+			<Path>Classes/QAutoEntryElement.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>QAutoEntryTableViewCell</Name>
+			<Path>Classes/QAutoEntryTableViewCell.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>QBadgeElement</Name>
+			<Path>Classes/QBadgeElement.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>QBadgeLabel</Name>
+			<Path>Classes/QBadgeLabel.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>QBadgeTableCell</Name>
+			<Path>Classes/QBadgeTableCell.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>QBindingEvaluator</Name>
+			<Path>Classes/QBindingEvaluator.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>QBooleanElement</Name>
+			<Path>Classes/QBooleanElement.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>QButtonElement</Name>
+			<Path>Classes/QButtonElement.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>QDateEntryTableViewCell</Name>
+			<Path>Classes/QDateEntryTableViewCell.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>QDateTimeElement</Name>
+			<Path>Classes/QDateTimeElement.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>QDateTimeInlineElement</Name>
+			<Path>Classes/QDateTimeInlineElement.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>QDecimalElement</Name>
+			<Path>Classes/QDecimalElement.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>QDecimalTableViewCell</Name>
+			<Path>Classes/QDecimalTableViewCell.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>QDynamicDataSection</Name>
+			<Path>Classes/QDynamicDataSection.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>QElement</Name>
+			<Path>Classes/QElement.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>QEmptyListElement</Name>
+			<Path>Classes/QEmptyListElement.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>QEntryElement</Name>
+			<Path>Classes/QEntryElement.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>QEntryTableViewCell</Name>
+			<Path>Classes/QEntryTableViewCell.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>QFloatElement</Name>
+			<Path>Classes/QFloatElement.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>QLabelElement</Name>
+			<Path>Classes/QLabelElement.html</Path>
+		</Node>
+		<Node id="22">
+			<Name>QLoadingElement</Name>
+			<Path>Classes/QLoadingElement.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>QMapAnnotation</Name>
+			<Path>Classes/QMapAnnotation.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>QMapElement</Name>
+			<Path>Classes/QMapElement.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>QMapViewController</Name>
+			<Path>Classes/QMapViewController.html</Path>
+		</Node>
+		<Node id="26">
+			<Name>QMultilineElement</Name>
+			<Path>Classes/QMultilineElement.html</Path>
+		</Node>
+		<Node id="27">
+			<Name>QMultilineTextViewController</Name>
+			<Path>Classes/QMultilineTextViewController.html</Path>
+		</Node>
+		<Node id="28">
+			<Name>QPickerElement</Name>
+			<Path>Classes/QPickerElement.html</Path>
+		</Node>
+		<Node id="29">
+			<Name>QPickerTabDelimitedStringParser</Name>
+			<Path>Classes/QPickerTabDelimitedStringParser.html</Path>
+		</Node>
+		<Node id="30">
+			<Name>QPickerTableViewCell</Name>
+			<Path>Classes/QPickerTableViewCell.html</Path>
+		</Node>
+		<Node id="31">
+			<Name>QRadioElement</Name>
+			<Path>Classes/QRadioElement.html</Path>
+		</Node>
+		<Node id="32">
+			<Name>QRadioItemElement</Name>
+			<Path>Classes/QRadioItemElement.html</Path>
+		</Node>
+		<Node id="33">
+			<Name>QRadioSection</Name>
+			<Path>Classes/QRadioSection.html</Path>
+		</Node>
+		<Node id="34">
+			<Name>QRootBuilder</Name>
+			<Path>Classes/QRootBuilder.html</Path>
+		</Node>
+		<Node id="35">
+			<Name>QRootElement</Name>
+			<Path>Classes/QRootElement.html</Path>
+		</Node>
+		<Node id="36">
+			<Name>QSection</Name>
+			<Path>Classes/QSection.html</Path>
+		</Node>
+		<Node id="37">
+			<Name>QSegmentedElement</Name>
+			<Path>Classes/QSegmentedElement.html</Path>
+		</Node>
+		<Node id="38">
+			<Name>QSelectItemElement</Name>
+			<Path>Classes/QSelectItemElement.html</Path>
+		</Node>
+		<Node id="39">
+			<Name>QSelectSection</Name>
+			<Path>Classes/QSelectSection.html</Path>
+		</Node>
+		<Node id="40">
+			<Name>QSortingSection</Name>
+			<Path>Classes/QSortingSection.html</Path>
+		</Node>
+		<Node id="41">
+			<Name>QTableViewCell</Name>
+			<Path>Classes/QTableViewCell.html</Path>
+		</Node>
+		<Node id="42">
+			<Name>QTextElement</Name>
+			<Path>Classes/QTextElement.html</Path>
+		</Node>
+		<Node id="43">
+			<Name>QTextField</Name>
+			<Path>Classes/QTextField.html</Path>
+		</Node>
+		<Node id="44">
+			<Name>QWebElement</Name>
+			<Path>Classes/QWebElement.html</Path>
+		</Node>
+		<Node id="45">
+			<Name>QWebViewController</Name>
+			<Path>Classes/QWebViewController.html</Path>
+		</Node>
+		<Node id="46">
+			<Name>QuickDialogController</Name>
+			<Path>Classes/QuickDialogController.html</Path>
+		</Node>
+		<Node id="47">
+			<Name>QuickDialogDataSource</Name>
+			<Path>Classes/QuickDialogDataSource.html</Path>
+		</Node>
+		<Node id="48">
+			<Name>QuickDialogTableDelegate</Name>
+			<Path>Classes/QuickDialogTableDelegate.html</Path>
+		</Node>
+		<Node id="49">
+			<Name>QuickDialogTableView</Name>
+			<Path>Classes/QuickDialogTableView.html</Path>
+		</Node>
+		<Node id="50">
+			<Name>QuickDialogWebController</Name>
+			<Path>Classes/QuickDialogWebController.html</Path>
+		</Node>
+		
+		<Node id="51">
+			<Name>NSMutableArray(IMSExtensions)</Name>
+			<Path>Categories/NSMutableArray+IMSExtensions.html</Path>
+		</Node>
+		<Node id="52">
+			<Name>NSMutableArray(MoveObject)</Name>
+			<Path>Categories/NSMutableArray+MoveObject.html</Path>
+		</Node>
+		
+		<Node id="53">
+			<Name>DOAutocompleteTextFieldDelegate</Name>
+			<Path>Protocols/DOAutocompleteTextFieldDelegate.html</Path>
+		</Node>
+		<Node id="54">
+			<Name>QPickerValueParser</Name>
+			<Path>Protocols/QPickerValueParser.html</Path>
+		</Node>
+		<Node id="55">
+			<Name>QuickDialogEntryElementDelegate</Name>
+			<Path>Protocols/QuickDialogEntryElementDelegate.html</Path>
+		</Node>
+		<Node id="56">
+			<Name>QuickDialogStyleProvider</Name>
+			<Path>Protocols/QuickDialogStyleProvider.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QAutoEntryTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QAutoEntryTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryTableViewCell/setAutoCompleteField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) DOAutocompleteTextField *autoCompleteField</Declaration>
+			
+			
+			<Anchor>//api/name/autoCompleteField</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryTableViewCell/autoCompleteField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) DOAutocompleteTextField *autoCompleteField</Declaration>
+			
+			
+			<Anchor>//api/name/autoCompleteField</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryTableViewCell/setAutoCompleteValues:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *autoCompleteValues</Declaration>
+			
+			
+			<Anchor>//api/name/autoCompleteValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryTableViewCell/autoCompleteValues</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *autoCompleteValues</Declaration>
+			
+			
+			<Anchor>//api/name/autoCompleteValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryTableViewCell/setLastAutoComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *lastAutoComplete</Declaration>
+			
+			
+			<Anchor>//api/name/lastAutoComplete</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QAutoEntryTableViewCell/lastAutoComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *lastAutoComplete</Declaration>
+			
+			
+			<Anchor>//api/name/lastAutoComplete</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryTableViewCell/prepareForElement:inTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)prepareForElement:(QEntryElement *)element inTableView:(QuickDialogTableView *)tableView</Declaration>
+			
+			
+			<Anchor>//api/name/prepareForElement:inTableView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryTableViewCell/createSubviews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)createSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/createSubviews</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QAutoEntryTableViewCell/recalculateEntryFieldPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QAutoEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)recalculateEntryFieldPosition</Declaration>
+			
+			
+			<Anchor>//api/name/recalculateEntryFieldPosition</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

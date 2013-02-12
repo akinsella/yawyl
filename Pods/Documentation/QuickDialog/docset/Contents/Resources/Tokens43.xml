@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QTextField.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QTextField.h</DeclaredIn>
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QTextField/setPrefix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QTextField.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QTextField/prefix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QTextField.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QTextField/setSuffix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QTextField.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *suffix</Declaration>
+			
+			
+			<Anchor>//api/name/suffix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QTextField/suffix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QTextField.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *suffix</Declaration>
+			
+			
+			<Anchor>//api/name/suffix</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QMultilineElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QMultilineElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineElement.h</DeclaredIn>
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMultilineElement/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;QuickDialogEntryElementDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QMultilineElement/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;QuickDialogEntryElementDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QMultilineElement/initWithTitle:value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QMultilineElement.h</DeclaredIn>			
+			
+			<Declaration>- (QMultilineElement *)initWithTitle:(NSString *)title value:(NSString *)text</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:value:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

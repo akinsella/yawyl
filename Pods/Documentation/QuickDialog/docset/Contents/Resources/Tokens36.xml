@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QSection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QSection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setBind:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bind</Declaration>
+			
+			
+			<Anchor>//api/name/bind</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/bind</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bind</Declaration>
+			
+			
+			<Anchor>//api/name/bind</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setFooter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *footer</Declaration>
+			
+			
+			<Anchor>//api/name/footer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/footer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *footer</Declaration>
+			
+			
+			<Anchor>//api/name/footer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setElements:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *elements</Declaration>
+			
+			
+			<Anchor>//api/name/elements</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/elements</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *elements</Declaration>
+			
+			
+			<Anchor>//api/name/elements</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setBeforeTemplateElements:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *beforeTemplateElements</Declaration>
+			
+			
+			<Anchor>//api/name/beforeTemplateElements</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/beforeTemplateElements</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *beforeTemplateElements</Declaration>
+			
+			
+			<Anchor>//api/name/beforeTemplateElements</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setAfterTemplateElements:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *afterTemplateElements</Declaration>
+			
+			
+			<Anchor>//api/name/afterTemplateElements</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/afterTemplateElements</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *afterTemplateElements</Declaration>
+			
+			
+			<Anchor>//api/name/afterTemplateElements</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setRootElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) QRootElement *rootElement</Declaration>
+			
+			
+			<Anchor>//api/name/rootElement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/rootElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) QRootElement *rootElement</Declaration>
+			
+			
+			<Anchor>//api/name/rootElement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setNeedsEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL needsEditing</Declaration>
+			
+			
+			<Anchor>//api/name/needsEditing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/needsEditing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL needsEditing</Declaration>
+			
+			
+			<Anchor>//api/name/needsEditing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setHeaderView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *headerView</Declaration>
+			
+			
+			<Anchor>//api/name/headerView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/headerView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *headerView</Declaration>
+			
+			
+			<Anchor>//api/name/headerView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setHeaderImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *headerImage</Declaration>
+			
+			
+			<Anchor>//api/name/headerImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/headerImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *headerImage</Declaration>
+			
+			
+			<Anchor>//api/name/headerImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setFooterView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *footerView</Declaration>
+			
+			
+			<Anchor>//api/name/footerView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/footerView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *footerView</Declaration>
+			
+			
+			<Anchor>//api/name/footerView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setFooterImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *footerImage</Declaration>
+			
+			
+			<Anchor>//api/name/footerImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/footerImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *footerImage</Declaration>
+			
+			
+			<Anchor>//api/name/footerImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setEntryPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGRect entryPosition</Declaration>
+			
+			
+			<Anchor>//api/name/entryPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/entryPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGRect entryPosition</Declaration>
+			
+			
+			<Anchor>//api/name/entryPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setElementTemplate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *elementTemplate</Declaration>
+			
+			
+			<Anchor>//api/name/elementTemplate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/elementTemplate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *elementTemplate</Declaration>
+			
+			
+			<Anchor>//api/name/elementTemplate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/setCanDeleteRows:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL canDeleteRows</Declaration>
+			
+			
+			<Anchor>//api/name/canDeleteRows</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSection/canDeleteRows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL canDeleteRows</Declaration>
+			
+			
+			<Anchor>//api/name/canDeleteRows</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/initWithTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>- (QSection *)initWithTitle:(NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/addElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>- (void)addElement:(QElement *)element</Declaration>
+			
+			
+			<Anchor>//api/name/addElement:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/insertElement:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertElement:(QElement *)element atIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/insertElement:atIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/indexOfElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)indexOfElement:(QElement *)element</Declaration>
+			
+			
+			<Anchor>//api/name/indexOfElement:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/bindToObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>- (void)bindToObject:(id)data</Declaration>
+			
+			
+			<Anchor>//api/name/bindToObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/fetchValueIntoObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>- (void)fetchValueIntoObject:(id)obj</Declaration>
+			
+			
+			<Anchor>//api/name/fetchValueIntoObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSection/fetchValueUsingBindingsIntoObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSection.h</DeclaredIn>			
+			
+			<Declaration>- (void)fetchValueUsingBindingsIntoObject:(id)data</Declaration>
+			
+			
+			<Anchor>//api/name/fetchValueUsingBindingsIntoObject:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

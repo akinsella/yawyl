@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QuickDialogController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QuickDialogController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/setRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) QRootElement *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuickDialogController/root</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) QRootElement *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/setWillDisappearCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) willDisappearCallback</Declaration>
+			
+			
+			<Anchor>//api/name/willDisappearCallback</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuickDialogController/willDisappearCallback</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) willDisappearCallback</Declaration>
+			
+			
+			<Anchor>//api/name/willDisappearCallback</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/setQuickDialogTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QuickDialogTableView *quickDialogTableView</Declaration>
+			
+			
+			<Anchor>//api/name/quickDialogTableView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuickDialogController/quickDialogTableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QuickDialogTableView *quickDialogTableView</Declaration>
+			
+			
+			<Anchor>//api/name/quickDialogTableView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/setResizeWhenKeyboardPresented:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL resizeWhenKeyboardPresented</Declaration>
+			
+			
+			<Anchor>//api/name/resizeWhenKeyboardPresented</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuickDialogController/resizeWhenKeyboardPresented</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL resizeWhenKeyboardPresented</Declaration>
+			
+			
+			<Anchor>//api/name/resizeWhenKeyboardPresented</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/setPopoverBeingPresented:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIPopoverController *popoverBeingPresented</Declaration>
+			
+			
+			<Anchor>//api/name/popoverBeingPresented</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuickDialogController/popoverBeingPresented</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIPopoverController *popoverBeingPresented</Declaration>
+			
+			
+			<Anchor>//api/name/popoverBeingPresented</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/loadView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>- (void)loadView</Declaration>
+			
+			
+			<Anchor>//api/name/loadView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/initWithRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>- (QuickDialogController *)initWithRoot:(QRootElement *)rootElement</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRoot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/displayViewController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>- (void)displayViewController:(UIViewController *)newController</Declaration>
+			
+			
+			<Anchor>//api/name/displayViewController:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/displayViewControllerForRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>- (void)displayViewControllerForRoot:(QRootElement *)element</Declaration>
+			
+			
+			<Anchor>//api/name/displayViewControllerForRoot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/displayViewControllerInPopover:withNavigation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>- (void)displayViewControllerInPopover:(QuickDialogController *)newController withNavigation:(BOOL)navigation</Declaration>
+			
+			
+			<Anchor>//api/name/displayViewControllerInPopover:withNavigation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/controllerForRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>- (QuickDialogController *)controllerForRoot:(QRootElement *)root</Declaration>
+			
+			
+			<Anchor>//api/name/controllerForRoot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/QuickDialogController/controllerForRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>+ (QuickDialogController *)controllerForRoot:(QRootElement *)root</Declaration>
+			
+			
+			<Anchor>//api/name/controllerForRoot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/QuickDialogController/controllerWithNavigationForRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController.h</DeclaredIn>			
+			
+			<Declaration>+ (UINavigationController *)controllerWithNavigationForRoot:(QRootElement *)root</Declaration>
+			
+			
+			<Anchor>//api/name/controllerWithNavigationForRoot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogController/loading:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogController+Loading.h</DeclaredIn>			
+			
+			<Declaration>- (void)loading:(BOOL)value</Declaration>
+			
+			
+			<Anchor>//api/name/loading:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

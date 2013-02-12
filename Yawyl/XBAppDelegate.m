@@ -1,28 +1,92 @@
 //
 //  XBAppDelegate.m
-//  Yawyl
+//  Broadcast
 //
-//  Created by Alexis Kinsella on 06/02/13.
-//  Copyright (c) 2013 Xebia / CodeStory. All rights reserved.
+//  Created by Alexis Kinsella on 28/01/13.
+//  Copyright (c) 2013 Xebia. All rights reserved.
 //
 
 #import "XBAppDelegate.h"
+#import "UIColor+XBAdditions.h"
+#import "AFHTTPRequestOperationLogger.h"
+#import "SDURLCache.h"
+#import "XBSharekitSupport.h"
+#import "AFHTTPClient.h"
+#import "AFNetworking.h"
+
+static NSString* const DeviceTokenKey = @"DeviceToken";
+
+@interface XBAppDelegate ()
+@end
 
 @implementation XBAppDelegate
 
-@synthesize managedObjectContext = _managedObjectContext;
-@synthesize managedObjectModel = _managedObjectModel;
-@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
-
++(NSString *)baseUrl {
+    return @"http://broadcast-mobile-backend.cloudfoundry.com";
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+
+    [[AFHTTPRequestOperationLogger sharedLogger] startLogging];
+
+
+    SDURLCache *URLCache = [[SDURLCache alloc] initWithMemoryCapacity:1024*1024*2
+                                                         diskCapacity:1024*1024*20
+                                                             diskPath:[SDURLCache defaultCachePath]];
+    [NSURLCache setSharedURLCache:URLCache];
+
+
+    if (launchOptions != nil)
+    {
+        NSDictionary* dictionary = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
+        if (dictionary != nil)
+        {
+            NSLog(@"Launched from push notification: %@", dictionary);
+            [self processRemoteNotification:dictionary];
+        }
+    }
+
+    [[NSUserDefaults standardUserDefaults] registerDefaults: @{ @"0" : DeviceTokenKey }];
+
+    [XBSharekitSupport configure];
+
+
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationBarBackgroundRetro.png"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationBarBackgroundRetroLandscape.png"] forBarMetrics:UIBarMetricsLandscapePhone];
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithHex: @"#BCBFB5"]];
+    [[UINavigationBar appearance] setTitleTextAttributes: @{
+            UITextAttributeTextColor: [UIColor colorWithHex:@"#962A06"],
+            UITextAttributeTextShadowColor: [UIColor colorWithHex:@"#661C04"],
+            UITextAttributeTextShadowOffset: [NSValue valueWithUIOffset:UIOffsetMake(0.0f, 1.0f)],
+            UITextAttributeFont: [UIFont fontWithName:@"Lobster" size:18.0f]
+    }];
+/*    [[UIBarButtonItem appearance] setTitleTextAttributes:@{
+            UITextAttributeTextColor: [UIColor colorWithHex:@"#5E6059"],
+//            UITextAttributeTextShadowColor: [UIColor colorWithHex:@"#661C04"],
+            UITextAttributeTextShadowOffset: [NSValue valueWithUIOffset:UIOffsetMake(0.0f, 0.0f)],
+//            UITextAttributeFont: [UIFont fontWithName:@"Lobster" size:15.0f]
+    } forState:UIControlStateNormal];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{
+            UITextAttributeTextColor: [UIColor colorWithHex:@"#FFFFFF"],
+//            UITextAttributeTextShadowColor: [UIColor colorWithHex:@"#661C04"],
+            UITextAttributeTextShadowOffset: [NSValue valueWithUIOffset:UIOffsetMake(0.0f, 0.0f)],
+//            UITextAttributeFont: [UIFont fontWithName:@"Lobster" size:15.0f]
+    } forState:UIControlStateHighlighted];*/
+
+//    [[UITableView appearance] setBackgroundColor:[UIColor colorWithHex:@"#F2F5E3"]];
+    [[UITableView appearance] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"paper_fibers.png"]]];
+    [[UIToolbar appearance] setTintColor:[UIColor colorWithHex:@"#BCBFB5"]];
+
+
+//    // Override point for customization after application launch.
+//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+//        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+//        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
+//        splitViewController.delegate = (id)navigationController.topViewController;
+//    }
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -37,6 +101,11 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
+    XBAppDelegate *appDelegate = (XBAppDelegate *)[[UIApplication sharedApplication] delegate];
+    UIViewController *viewController = [[appDelegate mainStoryBoard] instantiateViewControllerWithIdentifier:@"Root"];
+
+    appDelegate.window.rootViewController = viewController;
+
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
@@ -48,94 +117,79 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
-    [self saveContext];
+
 }
 
-- (void)saveContext
-{
-    NSError *error = nil;
-    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
-    if (managedObjectContext != nil) {
-        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
-             // Replace this implementation with code to handle the error appropriately.
-             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
-            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-            abort();
-        } 
-    }
+- (NSString*)udid {
+    UIDevice* device = [UIDevice currentDevice];
+    return [device.uniqueIdentifier stringByReplacingOccurrencesOfString:@"-" withString:@""];
 }
 
-#pragma mark - Core Data stack
-
-// Returns the managed object context for the application.
-// If the context doesn't already exist, it is created and bound to the persistent store coordinator for the application.
-- (NSManagedObjectContext *)managedObjectContext
-{
-    if (_managedObjectContext != nil) {
-        return _managedObjectContext;
-    }
-    
-    NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
-    if (coordinator != nil) {
-        _managedObjectContext = [[NSManagedObjectContext alloc] init];
-        [_managedObjectContext setPersistentStoreCoordinator:coordinator];
-    }
-    return _managedObjectContext;
+- (NSString*)deviceToken {
+    return [[NSUserDefaults standardUserDefaults] stringForKey:DeviceTokenKey];
 }
 
-// Returns the managed object model for the application.
-// If the model doesn't already exist, it is created from the application's model.
-- (NSManagedObjectModel *)managedObjectModel
-{
-    if (_managedObjectModel != nil) {
-        return _managedObjectModel;
-    }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Yawyl" withExtension:@"momd"];
-    _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
-    return _managedObjectModel;
+- (void)setDeviceToken:(NSString*)token {
+    [[NSUserDefaults standardUserDefaults] setObject:token forKey:DeviceTokenKey];
 }
 
-// Returns the persistent store coordinator for the application.
-// If the coordinator doesn't already exist, it is created and the application's store added to it.
-- (NSPersistentStoreCoordinator *)persistentStoreCoordinator
-{
-    if (_persistentStoreCoordinator != nil) {
-        return _persistentStoreCoordinator;
+// Delegation methods
+
+- (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    NSLog(@"My token is: %@", deviceToken);
+
+    NSString* newToken = [deviceToken description];
+    newToken = [newToken stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+    newToken = [newToken stringByReplacingOccurrencesOfString:@" " withString:@""];
+
+    NSLog(@"My token is: %@", newToken);
+
+    if (self.deviceToken != newToken || !self.registered) {
+        [self sendProviderDeviceToken: newToken];
+        self.deviceToken = newToken;
+        self.registered = YES;
     }
-    
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Yawyl.sqlite"];
-    
-    NSError *error = nil;
-    _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
-        /*
-         Replace this implementation with code to handle the error appropriately.
-         
-         abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
-         
-         Typical reasons for an error here include:
-         * The persistent store is not accessible;
-         * The schema for the persistent store is incompatible with current managed object model.
-         Check the error message to determine what the actual problem was.
-         
-         
-         If the persistent store is not accessible, there is typically something wrong with the file path. Often, a file URL is pointing into the application's resources directory instead of a writeable directory.
-         
-         If you encounter schema incompatibility errors during development, you can reduce their frequency by:
-         * Simply deleting the existing store:
-         [[NSFileManager defaultManager] removeItemAtURL:storeURL error:nil]
-         
-         * Performing automatic lightweight migration by passing the following dictionary as the options parameter:
-         @{NSMigratePersistentStoresAutomaticallyOption:@YES, NSInferMappingModelAutomaticallyOption:@YES}
-         
-         Lightweight migration will only work for a limited set of schema changes; consult "Core Data Model Versioning and Data Migration Programming Guide" for details.
-         
-         */
-        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-        abort();
-    }    
-    
-    return _persistentStoreCoordinator;
+
+
+}
+
+- (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error {
+    NSLog(@"Failed to get token, error: %@", error);
+}
+
+-(void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    NSLog(@"Received notification: %@", userInfo);
+    [self processRemoteNotification:userInfo];
+}
+
+- (void)sendProviderDeviceToken:(NSString *)deviceToken {
+    NSDictionary *jsonPayload = @{ @"udid": [self udid], @"token": deviceToken};
+
+    AFHTTPClient *client = [AFHTTPClient clientWithBaseURL:[NSURL URLWithString:[XBAppDelegate baseUrl]]];
+    NSURLRequest *urlRequest = [client requestWithMethod:@"POST" path:@"/api/notification/register" parameters:jsonPayload];
+
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:urlRequest
+                                                                                        success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+                                                                                            if (response.statusCode > 299) {
+                                                                                                NSString *reasonPhrase = (__bridge_transfer NSString *)CFHTTPMessageCopyResponseStatusLine((__bridge CFHTTPMessageRef)response);
+                                                                                                NSLog(@"We got an error ! Status code: %i - Message: %@", response.statusCode, reasonPhrase);
+                                                                                            } else {
+                                                                                                NSLog(@"Device was registered by server as expected");
+                                                                                            }
+                                                                                        }
+                                                                                        failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
+                                                                                            NSLog(@"Device was registered by server as expected. Error: %@, JSON: %@", error, JSON);
+                                                                                        }
+    ];
+
+    [operation start];
+
+}
+
+- (void)processRemoteNotification:(NSDictionary*)userInfo {
+    NSString* alertValue = [[userInfo valueForKey:@"aps"] valueForKey:@"alert"];
+
+    NSLog(@"Alert received: %@", alertValue);
 }
 
 #pragma mark - Application's Documents directory
@@ -144,6 +198,26 @@
 - (NSURL *)applicationDocumentsDirectory
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+- (UIStoryboard *)mainStoryBoard {
+
+    NSString *storyBoardFilename = [NSString stringWithFormat:@"MainStoryboard_%@",
+                    [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad ?  @"iPad" : @"iPhone"];
+
+    return [UIStoryboard storyboardWithName:storyBoardFilename bundle: nil];
+
+}
+
+- (UINavigationController *)rootNavigationController {
+
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+        return [splitViewController.viewControllers lastObject];
+    }
+    else{
+        return (UINavigationController *)self.window.rootViewController;
+    }
 }
 
 @end

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QPickerElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QPickerElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerElement.h</DeclaredIn>
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QPickerElement/setValueParser:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id&lt;QPickerValueParser&gt; valueParser</Declaration>
+			
+			
+			<Anchor>//api/name/valueParser</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QPickerElement/valueParser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id&lt;QPickerValueParser&gt; valueParser</Declaration>
+			
+			
+			<Anchor>//api/name/valueParser</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QPickerElement/setItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QPickerElement/items</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QPickerElement/setSelectedIndexes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *selectedIndexes</Declaration>
+			
+			
+			<Anchor>//api/name/selectedIndexes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QPickerElement/selectedIndexes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *selectedIndexes</Declaration>
+			
+			
+			<Anchor>//api/name/selectedIndexes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QPickerElement/initWithTitle:items:value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerElement.h</DeclaredIn>			
+			
+			<Declaration>- (QPickerElement *)initWithTitle:(NSString *)title items:(NSArray *)items value:(id)value</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:items:value:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

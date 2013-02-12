@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/QuickDialogEntryElementDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/QuickDialogEntryElementDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogEntryElementDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuickDialogEntryElementDelegate/QEntryShouldChangeCharactersInRangeForElement:andCell:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogEntryElementDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)QEntryShouldChangeCharactersInRangeForElement:(QEntryElement *)element andCell:(QEntryTableViewCell *)cell</Declaration>
+			
+			
+			<Anchor>//api/name/QEntryShouldChangeCharactersInRangeForElement:andCell:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuickDialogEntryElementDelegate/QEntryEditingChangedForElement:andCell:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogEntryElementDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)QEntryEditingChangedForElement:(QEntryElement *)element andCell:(QEntryTableViewCell *)cell</Declaration>
+			
+			
+			<Anchor>//api/name/QEntryEditingChangedForElement:andCell:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuickDialogEntryElementDelegate/QEntryDidBeginEditingElement:andCell:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogEntryElementDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)QEntryDidBeginEditingElement:(QEntryElement *)element andCell:(QEntryTableViewCell *)cell</Declaration>
+			
+			
+			<Anchor>//api/name/QEntryDidBeginEditingElement:andCell:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuickDialogEntryElementDelegate/QEntryDidEndEditingElement:andCell:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogEntryElementDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)QEntryDidEndEditingElement:(QEntryElement *)element andCell:(QEntryTableViewCell *)cell</Declaration>
+			
+			
+			<Anchor>//api/name/QEntryDidEndEditingElement:andCell:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuickDialogEntryElementDelegate/QEntryShouldReturnForElement:andCell:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogEntryElementDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)QEntryShouldReturnForElement:(QEntryElement *)element andCell:(QEntryTableViewCell *)cell</Declaration>
+			
+			
+			<Anchor>//api/name/QEntryShouldReturnForElement:andCell:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuickDialogEntryElementDelegate/QEntryMustReturnForElement:andCell:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogEntryElementDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)QEntryMustReturnForElement:(QEntryElement *)element andCell:(QEntryTableViewCell *)cell</Declaration>
+			
+			
+			<Anchor>//api/name/QEntryMustReturnForElement:andCell:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

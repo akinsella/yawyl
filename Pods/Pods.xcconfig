@@ -1,0 +1,7 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+OTHER_LDFLAGS = -ObjC -framework CoreData -framework CoreGraphics -framework MessageUI -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -framework Twitter
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/AFHTTPRequestOperationLogger" "${PODS_ROOT}/BuildHeaders/AFNetworking" "${PODS_ROOT}/BuildHeaders/JSONKit" "${PODS_ROOT}/BuildHeaders/MagicalRecord" "${PODS_ROOT}/BuildHeaders/Reachability" "${PODS_ROOT}/BuildHeaders/SDURLCache" "${PODS_ROOT}/BuildHeaders/SDWebImage" "${PODS_ROOT}/BuildHeaders/SSKeychain" "${PODS_ROOT}/BuildHeaders/SVProgressHUD" "${PODS_ROOT}/BuildHeaders/SVPullToRefresh" "${PODS_ROOT}/BuildHeaders/ShareKit" "${PODS_ROOT}/BuildHeaders/Underscore.m" "${PODS_ROOT}/BuildHeaders/ZUUIRevealController"
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFHTTPRequestOperationLogger" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/JSONKit" "${PODS_ROOT}/Headers/MagicalRecord" "${PODS_ROOT}/Headers/Reachability" "${PODS_ROOT}/Headers/SDURLCache" "${PODS_ROOT}/Headers/SDWebImage" "${PODS_ROOT}/Headers/SSKeychain" "${PODS_ROOT}/Headers/SVProgressHUD" "${PODS_ROOT}/Headers/SVPullToRefresh" "${PODS_ROOT}/Headers/ShareKit" "${PODS_ROOT}/Headers/Underscore.m" "${PODS_ROOT}/Headers/ZUUIRevealController"
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}

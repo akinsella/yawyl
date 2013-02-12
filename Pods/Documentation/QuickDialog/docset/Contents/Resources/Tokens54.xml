@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/QPickerValueParser.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/QPickerValueParser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerValueParser.h</DeclaredIn>
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QPickerValueParser/objectFromComponentsValues:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerValueParser.h</DeclaredIn>			
+			
+			<Declaration>- (id)objectFromComponentsValues:(NSArray *)componentsValues</Declaration>
+			
+			
+			<Anchor>//api/name/objectFromComponentsValues:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QPickerValueParser/componentsValuesFromObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerValueParser.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)componentsValuesFromObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/componentsValuesFromObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QPickerValueParser/presentationOfObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QPickerValueParser.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)presentationOfObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/presentationOfObject:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

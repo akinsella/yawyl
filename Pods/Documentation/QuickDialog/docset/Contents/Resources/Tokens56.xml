@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/QuickDialogStyleProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/QuickDialogStyleProvider</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogStyleProvider.h</DeclaredIn>
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuickDialogStyleProvider/cell:willAppearForElement:atIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>- (void)cell:(UITableViewCell *)cell willAppearForElement:(QElement *)element atIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/cell:willAppearForElement:atIndexPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuickDialogStyleProvider/sectionHeaderWillAppearForSection:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>- (void)sectionHeaderWillAppearForSection:(QSection *)section atIndex:(NSInteger)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/sectionHeaderWillAppearForSection:atIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuickDialogStyleProvider/sectionFooterWillAppearForSection:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>- (void)sectionFooterWillAppearForSection:(QSection *)section atIndex:(NSInteger)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/sectionFooterWillAppearForSection:atIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

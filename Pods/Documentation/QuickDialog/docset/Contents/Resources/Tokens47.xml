@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QuickDialogDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QuickDialogDataSource</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogDataSource.h</DeclaredIn>
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogDataSource/initForTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogDataSource.h</DeclaredIn>			
+			
+			<Declaration>- (id&lt;UITableViewDataSource,NSObject&gt;)initForTableView:(QuickDialogTableView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/initForTableView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogDataSource/tableView:canEditRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogDataSource.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:canEditRowAtIndexPath:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

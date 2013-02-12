@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QDateTimeElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QDateTimeElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeElement.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeElement/setDateValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *dateValue</Declaration>
+			
+			
+			<Anchor>//api/name/dateValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateTimeElement/dateValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *dateValue</Declaration>
+			
+			
+			<Anchor>//api/name/dateValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeElement/setTicksValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSNumber *ticksValue</Declaration>
+			
+			
+			<Anchor>//api/name/ticksValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateTimeElement/ticksValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSNumber *ticksValue</Declaration>
+			
+			
+			<Anchor>//api/name/ticksValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeElement/setMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) UIDatePickerMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QDateTimeElement/mode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) UIDatePickerMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeElement/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeElement.h</DeclaredIn>			
+			
+			<Declaration>- (QDateTimeElement *)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QDateTimeElement/initWithTitle:date:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QDateTimeElement.h</DeclaredIn>			
+			
+			<Declaration>- (QDateTimeElement *)initWithTitle:(NSString *)string date:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:date:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

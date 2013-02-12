@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/setOnSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) onSelected</Declaration>
+			
+			
+			<Anchor>//api/name/onSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QElement/onSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) onSelected</Declaration>
+			
+			
+			<Anchor>//api/name/onSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/setControllerAction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *controllerAction</Declaration>
+			
+			
+			<Anchor>//api/name/controllerAction</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QElement/controllerAction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *controllerAction</Declaration>
+			
+			
+			<Anchor>//api/name/controllerAction</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/setControllerAccessoryAction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *controllerAccessoryAction</Declaration>
+			
+			
+			<Anchor>//api/name/controllerAccessoryAction</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QElement/controllerAccessoryAction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *controllerAccessoryAction</Declaration>
+			
+			
+			<Anchor>//api/name/controllerAccessoryAction</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/setHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QElement/height</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/setParentSection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) QSection *parentSection</Declaration>
+			
+			
+			<Anchor>//api/name/parentSection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QElement/parentSection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) QSection *parentSection</Declaration>
+			
+			
+			<Anchor>//api/name/parentSection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/setKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QElement/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/setObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QElement/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/setBind:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bind</Declaration>
+			
+			
+			<Anchor>//api/name/bind</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QElement/bind</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bind</Declaration>
+			
+			
+			<Anchor>//api/name/bind</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/setLabelingPolicy:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) QLabelingPolicy labelingPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/labelingPolicy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QElement/labelingPolicy</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) QLabelingPolicy labelingPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/labelingPolicy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/initWithKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>- (QElement *)initWithKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/initWithKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/getCellForTableView:controller:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>- (UITableViewCell *)getCellForTableView:(QuickDialogTableView *)tableView controller:(QuickDialogController *)controller</Declaration>
+			
+			
+			<Anchor>//api/name/getCellForTableView:controller:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/handleElementSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)handleElementSelected:(QuickDialogController *)controller</Declaration>
+			
+			
+			<Anchor>//api/name/handleElementSelected:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/selectedAccessory:controller:indexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)selectedAccessory:(QuickDialogTableView *)tableView controller:(QuickDialogController *)controller indexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/selectedAccessory:controller:indexPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/selected:controller:indexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)selected:(QuickDialogTableView *)tableView controller:(QuickDialogController *)controller indexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/selected:controller:indexPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/getRowHeightForTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>- (CGFloat)getRowHeightForTableView:(QuickDialogTableView *)tableView</Declaration>
+			
+			
+			<Anchor>//api/name/getRowHeightForTableView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/fetchValueIntoObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)fetchValueIntoObject:(id)obj</Declaration>
+			
+			
+			<Anchor>//api/name/fetchValueIntoObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/bindToObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)bindToObject:(id)obj</Declaration>
+			
+			
+			<Anchor>//api/name/bindToObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QElement/fetchValueUsingBindingsIntoObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)fetchValueUsingBindingsIntoObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/fetchValueUsingBindingsIntoObject:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

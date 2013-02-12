@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QRootElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QRootElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRootElement/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/setSections:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *sections</Declaration>
+			
+			
+			<Anchor>//api/name/sections</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRootElement/sections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *sections</Declaration>
+			
+			
+			<Anchor>//api/name/sections</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/setSectionTemplate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *sectionTemplate</Declaration>
+			
+			
+			<Anchor>//api/name/sectionTemplate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRootElement/sectionTemplate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *sectionTemplate</Declaration>
+			
+			
+			<Anchor>//api/name/sectionTemplate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/setGrouped:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) BOOL grouped</Declaration>
+			
+			
+			<Anchor>//api/name/grouped</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRootElement/grouped</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) BOOL grouped</Declaration>
+			
+			
+			<Anchor>//api/name/grouped</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/setControllerName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *controllerName</Declaration>
+			
+			
+			<Anchor>//api/name/controllerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRootElement/controllerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *controllerName</Declaration>
+			
+			
+			<Anchor>//api/name/controllerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/setOnValueChanged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) onValueChanged</Declaration>
+			
+			
+			<Anchor>//api/name/onValueChanged</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRootElement/onValueChanged</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) onValueChanged</Declaration>
+			
+			
+			<Anchor>//api/name/onValueChanged</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/setEmptyMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *emptyMessage</Declaration>
+			
+			
+			<Anchor>//api/name/emptyMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRootElement/emptyMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *emptyMessage</Declaration>
+			
+			
+			<Anchor>//api/name/emptyMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/setPresentationMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) QPresentationMode presentationMode</Declaration>
+			
+			
+			<Anchor>//api/name/presentationMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QRootElement/presentationMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) QPresentationMode presentationMode</Declaration>
+			
+			
+			<Anchor>//api/name/presentationMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>- (QRootElement *)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/addSection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSection:(QSection *)section</Declaration>
+			
+			
+			<Anchor>//api/name/addSection:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/getSectionForIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>- (QSection *)getSectionForIndex:(NSInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/getSectionForIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/numberOfSections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)numberOfSections</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfSections</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/fetchValueIntoObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)fetchValueIntoObject:(id)obj</Declaration>
+			
+			
+			<Anchor>//api/name/fetchValueIntoObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/fetchValueUsingBindingsIntoObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>- (void)fetchValueUsingBindingsIntoObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/fetchValueUsingBindingsIntoObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/sectionWithKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>- (QSection *)sectionWithKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/sectionWithKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/elementWithKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement.h</DeclaredIn>			
+			
+			<Declaration>- (QElement *)elementWithKey:(NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/elementWithKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/initWithJSONFile:andData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement+JsonBuilder.h</DeclaredIn>			
+			
+			<Declaration>- (QRootElement *)initWithJSONFile:(NSString *)json andData:(id)data</Declaration>
+			
+			
+			<Anchor>//api/name/initWithJSONFile:andData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/initWithJSON:andData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement+JsonBuilder.h</DeclaredIn>			
+			
+			<Declaration>- (QRootElement *)initWithJSON:(id)parsedJson andData:(id)data</Declaration>
+			
+			
+			<Anchor>//api/name/initWithJSON:andData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/initWithJSONFile:andDataJSONFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement+JsonBuilder.h</DeclaredIn>			
+			
+			<Declaration>- (QRootElement *)initWithJSONFile:(NSString *)jsonPath andDataJSONFile:(NSString *)dataPath</Declaration>
+			
+			
+			<Anchor>//api/name/initWithJSONFile:andDataJSONFile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/QRootElement/rootForJSON:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement+JsonBuilder.h</DeclaredIn>			
+			
+			<Declaration>+ (QRootElement *)rootForJSON:(NSString *)json</Declaration>
+			
+			
+			<Anchor>//api/name/rootForJSON:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QRootElement/initWithJSONFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement+JsonBuilder.h</DeclaredIn>			
+			
+			<Declaration>- (QRootElement *)initWithJSONFile:(NSString *)jsonPath</Declaration>
+			
+			
+			<Anchor>//api/name/initWithJSONFile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/QRootElement/JSONParserClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QRootElement+JsonBuilder.h</DeclaredIn>			
+			
+			<Declaration>+ (Class)JSONParserClass</Declaration>
+			
+			
+			<Anchor>//api/name/JSONParserClass</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

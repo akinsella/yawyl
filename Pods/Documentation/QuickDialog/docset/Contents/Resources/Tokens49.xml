@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QuickDialogTableView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QuickDialogTableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>
+			
+			<NodeRef refid="49"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableView/setRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QRootElement *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuickDialogTableView/root</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QRootElement *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableView/setController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) QuickDialogController *controller</Declaration>
+			
+			
+			<Anchor>//api/name/controller</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuickDialogTableView/controller</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) QuickDialogController *controller</Declaration>
+			
+			
+			<Anchor>//api/name/controller</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableView/setStyleProvider:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSObject&lt;QuickDialogStyleProvider&gt; *styleProvider</Declaration>
+			
+			
+			<Anchor>//api/name/styleProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuickDialogTableView/styleProvider</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSObject&lt;QuickDialogStyleProvider&gt; *styleProvider</Declaration>
+			
+			
+			<Anchor>//api/name/styleProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableView/setDeselectRowWhenViewAppears:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL deselectRowWhenViewAppears</Declaration>
+			
+			
+			<Anchor>//api/name/deselectRowWhenViewAppears</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuickDialogTableView/deselectRowWhenViewAppears</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL deselectRowWhenViewAppears</Declaration>
+			
+			
+			<Anchor>//api/name/deselectRowWhenViewAppears</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableView/initWithController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>- (QuickDialogTableView *)initWithController:(QuickDialogController *)controller</Declaration>
+			
+			
+			<Anchor>//api/name/initWithController:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableView/indexForElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>- (NSIndexPath *)indexForElement:(QElement *)element</Declaration>
+			
+			
+			<Anchor>//api/name/indexForElement:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableView/cellForElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>- (UITableViewCell *)cellForElement:(QElement *)element</Declaration>
+			
+			
+			<Anchor>//api/name/cellForElement:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableView/viewWillAppear</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>- (void)viewWillAppear</Declaration>
+			
+			
+			<Anchor>//api/name/viewWillAppear</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuickDialogTableView/reloadCellForElements:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuickDialogTableView.h</DeclaredIn>			
+			
+			<Declaration>- (void)reloadCellForElements:(QElement *)element, ...</Declaration>
+			
+			
+			<Anchor>//api/name/reloadCellForElements:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

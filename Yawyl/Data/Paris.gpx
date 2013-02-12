@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="Geovative Solutions GeoTours" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+<metadata>
+  <name>Paris</name>
+  <desc></desc>
+  <author>
+    <name>verwuif, using GeoTours</name>
+    <link href="http://www.geovative.com/view?t=EKEL">
+      <text>Paris</text>
+    </link>
+  </author>
+  <link href="http://www.geovative.com/view?t=EKEL">
+    <text>Paris</text>
+  </link>
+  <time>2007-10-20T02:01:33</time>
+  <keywords></keywords>
+</metadata>
+
+
+<wpt lat="48.871899" lon="2.325815">
+<name>Massena hotel</name>
+<desc></desc>
+<sym>Waypoint</sym>
+<extensions>
+        <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+            <gpxx:Proximity>152.4</gpxx:Proximity>
+            <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        </gpxx:WaypointExtension>
+</extensions>
+</wpt>
+</gpx>

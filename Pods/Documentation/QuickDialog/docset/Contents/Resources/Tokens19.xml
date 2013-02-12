@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QEntryTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QEntryTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/setTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QTextField *textField</Declaration>
+			
+			
+			<Anchor>//api/name/textField</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QEntryTableViewCell/textField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) QTextField *textField</Declaration>
+			
+			
+			<Anchor>//api/name/textField</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/updatePrevNextStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)updatePrevNextStatus</Declaration>
+			
+			
+			<Anchor>//api/name/updatePrevNextStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/prepareForElement:inTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)prepareForElement:(QEntryElement *)element inTableView:(QuickDialogTableView *)tableView</Declaration>
+			
+			
+			<Anchor>//api/name/prepareForElement:inTableView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/createActionBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (UIToolbar *)createActionBar</Declaration>
+			
+			
+			<Anchor>//api/name/createActionBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/createSubviews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)createSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/createSubviews</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/calculateFrameForEntryElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (CGRect)calculateFrameForEntryElement</Declaration>
+			
+			
+			<Anchor>//api/name/calculateFrameForEntryElement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/findNextElementToFocusOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (QEntryElement *)findNextElementToFocusOn</Declaration>
+			
+			
+			<Anchor>//api/name/findNextElementToFocusOn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/handleActionBarDone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)handleActionBarDone:(UIBarButtonItem *)doneButton</Declaration>
+			
+			
+			<Anchor>//api/name/handleActionBarDone:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/findPreviousElementToFocusOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (QEntryElement *)findPreviousElementToFocusOn</Declaration>
+			
+			
+			<Anchor>//api/name/findPreviousElementToFocusOn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QEntryTableViewCell/recalculateEntryFieldPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QEntryTableViewCell.h</DeclaredIn>			
+			
+			<Declaration>- (void)recalculateEntryFieldPosition</Declaration>
+			
+			
+			<Anchor>//api/name/recalculateEntryFieldPosition</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

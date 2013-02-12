@@ -1,0 +1,1468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B9AE146CE846BEA51C3DCE /* NSManagedObjectContext+MagicalSaves.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4E0242A1E14EFA9A14AA3F /* NSManagedObjectContext+MagicalSaves.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		059275719E9A42079609E983 /* NSManagedObjectContext+MagicalThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABB7D45639847578B90C70C /* NSManagedObjectContext+MagicalThreading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08313B656B5D43E0B168B934 /* SHKTextMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8AA5D9FD74CBEA7C425E6 /* SHKTextMessage.m */; settings = {}; };
+		089273955BF84D25BCE00693 /* SDImageCacheDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B52A7CD978424D8DF9130C /* SDImageCacheDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C1BC9C68CE49D492B72FEB /* NSManagedObjectContext+MagicalObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = CBAA24E702264482BD3A880C /* NSManagedObjectContext+MagicalObserving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09D37CACDD2B4286A4EA6C27 /* SHKLogout.m in Sources */ = {isa = PBXBuildFile; fileRef = 52186B1A383A4037A9EE4A87 /* SHKLogout.m */; settings = {}; };
+		0AAA298A606C4477B2F19CA0 /* PodsDummy_Pods.m in Sources */ = {isa = PBXBuildFile; fileRef = 1955EA5558994E90A9C74D94 /* PodsDummy_Pods.m */; settings = {}; };
+		0AC07F21513A44D98E3044C3 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E5452BED1534416DA72583DE /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D6296AD22A84F77850966EB /* THTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D116A703A8D44ACB9A80E4F3 /* THTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F9A74FC8F3E496DAD4BBFF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C844BEF07C34692AAFB471C /* Foundation.framework */; settings = {}; };
+		0FF2202033E2405E8208F308 /* NSManagedObject+MagicalRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB8E3EE3BA9412CBC245EA7 /* NSManagedObject+MagicalRequests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1030FA2CF1DF4D418171FC13 /* OAToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B34134E85E5C474CAC601DFC /* OAToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		105F8D7ACB2444D2B458C983 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E5E4DC82E44FD6BF04A65E /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		124A9F18C3F744AA95AEF62A /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CCC4B5D4454D4B92C617DB /* SSKeychain.m */; settings = {}; };
+		13EF5DCA586C4FFFB27C494B /* SHKReadItLater.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9720F9C77647CE9871BF11 /* SHKReadItLater.m */; settings = {}; };
+		15278819B505489BB3F2A48C /* SHKSafari.m in Sources */ = {isa = PBXBuildFile; fileRef = D716E28A349441A2A95C9F3D /* SHKSafari.m */; settings = {}; };
+		15697705B3B14CE4AF422868 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD592C2130A4B5C9BBC2371 /* AFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18C6640BBE5E4FD28A0BAE56 /* OAHMAC_SHA1SignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 780A5F32E2F241D7B2A75668 /* OAHMAC_SHA1SignatureProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B38E98054942BD98F2C1EE /* SHKConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD531F82265491089CD19A6 /* SHKConfiguration.m */; settings = {}; };
+		19F272C17CF2483D9DDE5931 /* TMemoryBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 775CE466D3C24355AF05E4FE /* TMemoryBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AC18085A22145889CA5EFE2 /* SHKCustomFormController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4602162D52544D148A44F56C /* SHKCustomFormController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AEAFB329F9D422BAB96F4AE /* AFHTTPRequestOperationLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3A3D9E38124E82BDDC0D10 /* AFHTTPRequestOperationLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BF047E519CA4CC6B9E48752 /* SHKiOS5Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A767E45FA384EC1B8747E4E /* SHKiOS5Twitter.m */; settings = {}; };
+		1BF884941D5D4C9F83DB9F5C /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = B03A9BF85E4D4C7E8DC3FF5C /* NSObject+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		20EA673FDA7444AF9D18F9C1 /* SHKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC07448EEC49589690B8FF /* SHKItem.m */; settings = {}; };
+		210F8D3C03194702A6AA6065 /* OAAsynchronousDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7BD596F5A4C558D8250CC /* OAAsynchronousDataFetcher.m */; settings = {}; };
+		212069CC7B0548618F093581 /* NSString+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = C4881DB4825C403AADA5B6B0 /* NSString+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212225D7E1724893B88255B0 /* SHKFormControllerLargeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEAA0737E42432EBC40634D /* SHKFormControllerLargeTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23CA16E5EE2B4915B48E8AB4 /* SHKCustomShareMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A1BE9E03845DD8ACED490 /* SHKCustomShareMenuCell.m */; settings = {}; };
+		23EC7E8E1D9641778ACFA922 /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A503219A294BDF977D90AB /* NSManagedObject+MagicalAggregation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		27AE4D109DFB43DE94ACFA46 /* SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = A064EA28697D4529A358F200 /* SHK.m */; settings = {}; };
+		28DCB85B847849859EE4F9BE /* USDictionaryWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DC9A1B17E647E49F325BBF /* USDictionaryWrapper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		29006F753AA04FEFA8281B7D /* SHKLogout.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE302F8B2AF4F6F91A79AFD /* SHKLogout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297F9E39A2234CFAB48E8173 /* Types.m in Sources */ = {isa = PBXBuildFile; fileRef = 64022514888A471AABD800DD /* Types.m */; settings = {}; };
+		2A2B3D5FE0A1497CB70258EA /* SHKOfflineSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F4CD6E15A34D14A407A26B /* SHKOfflineSharer.m */; settings = {}; };
+		2D43F2CC577A4B12BB469F55 /* SHKActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B13DEA966E57401A9BEB23D7 /* SHKActivityIndicator.m */; settings = {}; };
+		2E99F65AE5F44A6DA41B2F82 /* SHKFormOptionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CAB42505E7D417FA55EC4EC /* SHKFormOptionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EA1A39C28E5405A9F3DAB32 /* SHKSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 816C92B126604BDCA66562EF /* SHKSharer.m */; settings = {}; };
+		2FBBA9974EEE4803B4437587 /* SHKiOS5Twitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C35200008B4AF8B18526DD /* SHKiOS5Twitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C2F2F4A4E24841BBC130CB /* SHKOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C81413D6B07426BBAEAE7C1 /* SHKOAuthView.m */; settings = {}; };
+		31B6F19541D0494690DB309D /* SHKEvernote.h in Headers */ = {isa = PBXBuildFile; fileRef = B1517B19D0034593B047F3E7 /* SHKEvernote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31E22093C16840F8A9E6304E /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF3CA848172488DA966892D /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		32233678B59248C7BAA0B69C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDBD2641E84438AFEC12C4 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-Wno-deprecated-objc-isa-usage -Wno-format"; }; };
+		3262B8C48D49498DAB9E0A13 /* SHKFormOptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7A222D2AD74AC3867795EF /* SHKFormOptionController.m */; settings = {}; };
+		3435A3A07F1F4FD9B04C1AEE /* NSManagedObject+MagicalFinders.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CF11FA7B7A4B1B8738971F /* NSManagedObject+MagicalFinders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F54E70C0944373AB46E4A0 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = C366A6F143DD4B428CCC4118 /* TMemoryBuffer.m */; settings = {}; };
+		352B603FA8404AC991916EF6 /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BCF29D48B7464FB8617A25 /* MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3542010632D240169F5171F1 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815E08A7B7A4788822849D3 /* SDWebImagePrefetcher.m */; settings = {}; };
+		35C0CB008B304992AE9A2EDF /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9870AE1FBB4442BF7ACF41 /* NSRelationshipDescription+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3640AACCF7D64179AA7D40AE /* SHKReadItLater.h in Headers */ = {isa = PBXBuildFile; fileRef = BA773A5336FC4D43B69AA9B9 /* SHKReadItLater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37ECCFE377DA4522BCDF2853 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFBB0E6DBA648F5ADD2C688 /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A3879B6C359475FAEEC938D /* MagicalRecord+Actions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DF8149572449D3B223A81C /* MagicalRecord+Actions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7939D5623745A995A88197 /* TProtocolFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F958F6D3F54C33B00E4EC0 /* TProtocolFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BA4BC5C54174CC0B8C84E46 /* MagicalRecord+Setup.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E538202BED94DE690FB071C /* MagicalRecord+Setup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C15D0FE91524B2B99FD3FC8 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 23322A6532644B9FBFBB82D3 /* SDWebImageDownloader.m */; settings = {}; };
+		3C88159FA4954BA7B9851439 /* Underscore.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B809BDBD142ED974AA9FA /* Underscore.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3D3299C665584486B3A3DACD /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FAFAC81E2C4816876A11FC /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EC07D2581A945DDA9D5B8CB /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = D40BCB91F98B45AAA4399CB7 /* NSNumber+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3EDC35FEF3F84ABF89F86AA9 /* SVPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 691B4CFD39914E7799A48116 /* SVPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2736B703D24AF6A3F639A8 /* SHKMail.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F8337214B1465E9C9D2029 /* SHKMail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40825C55D4EE4DEFB407A83E /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C34BB7F4590F4DEA8B09D845 /* SDWebImageManager.m */; settings = {}; };
+		42159B92CD404FC3B2037776 /* DefaultSHKConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 525821BAAA754B6E800A4C9F /* DefaultSHKConfigurator.m */; settings = {}; };
+		42F886270B8241328714773B /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4214B7BB64682AA0D7F30 /* OAMutableURLRequest.m */; settings = {}; };
+		439DF7370DCA431485D26D90 /* SHKGoogleReader.h in Headers */ = {isa = PBXBuildFile; fileRef = A067F6EDFACA472C9CA3B310 /* SHKGoogleReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		447BE3C6521E41658EBEEF6C /* SHKSharerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6D79D99BD4A42A13CE9D1 /* SHKSharerDelegate.m */; settings = {}; };
+		450481714C0A4064BAD56D93 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8B9861C1724247B82B2E2B /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		450994EF83394B22A5D1C852 /* OAPlaintextSignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E38E513F79C4F11AD880309 /* OAPlaintextSignatureProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46B36B39A63F47758E9B8B47 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 827F348D2E804FF8A32308C8 /* TProtocolUtil.m */; settings = {}; };
+		47F3577E3D694932883BF050 /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E666B4070649D98CD5886D /* NSManagedObject+MagicalFinders.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		493194536B2E43C9BF30E086 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1955F059095B427285B3A714 /* sha1.c */; settings = {}; };
+		4AC6BB1D484F4F2BAB617D85 /* SHKItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 403C00FE3588480F8B88569C /* SHKItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF3DFAD40C04F89A42D5695 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C43DD7BFBF04485D9D337B3B /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF4AFF48A1D40E18B0720FD /* SHKCustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 48129505D3D1421280EE5187 /* SHKCustomActionSheet.m */; settings = {}; };
+		4B2E0E9F5A8D4A4493F69650 /* SHKInstapaper.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD0B1151359460BA39539EE /* SHKInstapaper.m */; settings = {}; };
+		4B7EDE83FB4D4A62A6CB46BC /* NSMutableDictionary+NSNullsToEmptyStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D08A6D6C2C4BA589B0E875 /* NSMutableDictionary+NSNullsToEmptyStrings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C70E8256F90410BA8A9F5FA /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA6777107F4C438490D2EB /* THTTPClient.m */; settings = {}; };
+		4CAD6428FDEF4526AF5015AD /* OAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = D28423B6FA4743CBB0F1A283 /* OAuthConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E8E5EC217DE448FB43E8D53 /* SHKTextMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A08E5668E84EF9943FBC53 /* SHKTextMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9D3C79C69C4750952044DB /* OARequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F9009C69A1401F8024A6A5 /* OARequestParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F1630A22A354B6DAC374BD7 /* SHKCustomActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = D5675C4B938E4C4D874A972A /* SHKCustomActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F8CC496335E4913BC49445E /* SDWebImageDownloaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C2D40985D941BE9A9C4512 /* SDWebImageDownloaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5182A801CEE34308B3ECDCDF /* SHKEvernote.m in Sources */ = {isa = PBXBuildFile; fileRef = 258BB6D54DA94E06ABD627F1 /* SHKEvernote.m */; settings = {}; };
+		524AC8E1975549259A074B0D /* SHKCustomFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF7288F033477A9A5EABB5 /* SHKCustomFormController.m */; settings = {}; };
+		524D03B7D88A4BFB8C8E7ECA /* OAMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E35CCD85FD4FE18F2000A9 /* OAMutableURLRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		525ABAFAD8784DC99B62E603 /* SHKGoogleReader.m in Sources */ = {isa = PBXBuildFile; fileRef = EC76D198ED9D4AF2B18D2F1D /* SHKGoogleReader.m */; settings = {}; };
+		5307AB4F4F7042CA831D6E25 /* NSManagedObject+MagicalAggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6B725537754B158425BBA2 /* NSManagedObject+MagicalAggregation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53A727A0140B4DBCA17B005C /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC528C653444959BF3F024E /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		54148433779642B7BE8B25A0 /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8FDEB357E3499FAE81D423 /* AFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56163C8F71FA4FF4AA5C025D /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1F66AAB184ED99B54482D /* MagicalRecord+ErrorHandling.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		59422CBA6EFC40D09345882B /* SHKOfflineSharer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB386566040A4DA7856F3208 /* SHKOfflineSharer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A453A6FA3C5405EA10CC885 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0CD2F5711D4835BE55771C /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5AD89BCD05F74C6F94FAE57A /* SHKXMLResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E7CD6700E24F689F1D9696 /* SHKXMLResponseParser.m */; settings = {}; };
+		5B8837ACD804427E8CE937A5 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 599D2FC6C8454BF1A461A14F /* OARequestParameter.m */; settings = {}; };
+		5D8F7C4F15E84179A89132DD /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CEDACE7FCA4745906D3687 /* NSManagedObjectModel+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DEFEB64F6E64090B48C1456 /* SHKFormController.h in Headers */ = {isa = PBXBuildFile; fileRef = 088DF250243C40309D27A7A7 /* SHKFormController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E53D7C199BC440EA78FF36A /* UIWebView+SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A2C5FB450432C8D5C9BAE /* UIWebView+SHK.m */; settings = {}; };
+		5E667FA30CA04682A0562593 /* SHKSharer.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0BD6FA0E4A4E3999437FA0 /* SHKSharer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E7C1B990B2145E194AAA796 /* DefaultSHKConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72A7D1F45640A8971296FA /* DefaultSHKConfigurator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6BAA6B58AE498B822CD9F9 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6E8BD81B6495F9FE2149B /* NSURL+Base.m */; settings = {}; };
+		5FFCE6DAE4A1454CBFFBECB2 /* SHKTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = A29E0FCB49D3416F8149E5FC /* SHKTwitter.m */; settings = {}; };
+		6108D2F16D144EF6A8546F45 /* OADataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B19C8EB3FC745D7BBB8D0FA /* OADataFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		613A3217C1E74761848DFB7B /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = CA920D89F79545E2B2F49FA3 /* hmac.c */; settings = {}; };
+		616D440AEF3A407D8EF61CDD /* AFHTTPRequestOperationLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C7DD69087BB408D9658317D /* AFHTTPRequestOperationLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62EEBE4D1D7540D39E5B392F /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE1D35EC964785989ABD72 /* NSString+URLEncoding.m */; settings = {}; };
+		62F6803FF4EF497EB4F974B7 /* EDAMLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = F669AD8E4E374EA89047A425 /* EDAMLimits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650409912C8B43008FA7CC33 /* TProtocolUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D0BCED32974057B4D9AF5C /* TProtocolUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C42B4915D1466CBC0FA1E5 /* MagicalRecord+ShorthandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D026E80D14B79951725A5 /* MagicalRecord+ShorthandSupport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		65F096BED15A40B593024E02 /* SHKSafari.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1C9D4809484F89B756B6C7 /* SHKSafari.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		666357F0506E42EB80BAB0F5 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8358A07E394B4C70B1415939 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6784CFCC6209442BBC94DB85 /* NSMutableDictionary+NSNullsToEmptyStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6DC1C23C64BCDA99D87A4 /* NSMutableDictionary+NSNullsToEmptyStrings.m */; settings = {}; };
+		679B2C0CF590424ABCBD10C7 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 207E2C90AEB443E38A61FF0A /* NSMutableURLRequest+Parameters.m */; settings = {}; };
+		68161B255C0A4009BEDE26C7 /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3583D9C644D40A1D8F2E0 /* MagicalImportFunctions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		68F335AA24064ED4B54E3D8B /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3142E7CDFB9F4CE08793B807 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		697FEC0BB3EC4F3EB1A72729 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2C99F09A2745A9B64D26A6 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A4B838E568645DDA6DB612E /* NSManagedObjectContext+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C8EB8AA775445686E89F4A /* NSManagedObjectContext+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A964DC11F1F48448B15AE2B /* UIScrollView+SVInfiniteScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = A77D33F279384D8EA9DF9567 /* UIScrollView+SVInfiniteScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B0FE9DE6ACC44638F238B76 /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D63E96D754FE49FE1CCE1 /* NSString+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6CE9F0C979F8467BBD1AAA6F /* MagicalRecord+ShorthandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0831008B396F43E0BD29C687 /* MagicalRecord+ShorthandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E742AFA56264A78981B7028 /* SHKConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3B94FE60D34E20A247E595 /* SHKConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ED639194B3C4F4993836C06 /* NSPersistentStore+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 026A0159911040CD90DCA290 /* NSPersistentStore+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FE6C93AE63D4B40B8D7527F /* NoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F35BCF5AAE418482C5E8B2 /* NoteStore.m */; settings = {}; };
+		6FECDE58740F4161A1F72BB6 /* MagicalRecord+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BA906D7C7849838E89CEB7 /* MagicalRecord+Options.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		704168F141F0463593406364 /* SHK.h in Headers */ = {isa = PBXBuildFile; fileRef = E2683596DAC0493EB4548F2C /* SHK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70F274296BF74F9E8F69C072 /* TProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EDEAA455D2467896A5E77C /* TProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7154D4FBC30547ACB007DD1D /* SHKCustomFormControllerLargeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 263AE07A93AD45B79DEF9366 /* SHKCustomFormControllerLargeTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7187DA1AFE144B8592F47C07 /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 94575BA54BA34C9A92508DF8 /* NSManagedObject+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		72A2694311F146C9AF061459 /* SHKFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F92C17A1EDBF48C38B0EC86B /* SHKFormFieldCell.m */; settings = {}; };
+		738FCCA958FA407597FC79DD /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = F293C608E86D4D3283BF9960 /* TApplicationException.m */; settings = {}; };
+		783F42624BF64055A399AB75 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = C8CA45FEAE084F7CBFA47C70 /* sha1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A5E3294FABE4585A0E48F4D /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE25F7C69B3441C9BF98168 /* OAServiceTicket.m */; settings = {}; };
+		7ABEC6384CEA4ABA9EC70F9C /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB9C776F88947B68C8AECC9 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B404371D5C740A98663D90C /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE345B57F884B35B1DF5E57 /* hmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C9CA9CF3E24433097EF35EF /* USArrayWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B632478F84FB380CB21F9 /* USArrayWrapper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		7CDF85532E9A4C52B6EF54D7 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8616432742FA4C2F8476BE0B /* NSPersistentStoreCoordinator+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		7E5D8D72F24C467D8A524250 /* MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D1928C8242AB40C1977CBAF6 /* MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F59825DA0B2492B9773AC70 /* NSManagedObjectContext+MagicalObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC5204A5B44CAB6F72FFC /* NSManagedObjectContext+MagicalObserving.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		80C6695791C147F69594AA7A /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EF532BE6FC924432AFA93B26 /* OADataFetcher.m */; settings = {}; };
+		8191B5D9018047C7B7B7D696 /* NSManagedObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = DF512BE8FBE1465B96C68ED6 /* NSManagedObject+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BE1FFB4450400880A502C3 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF0CFF8F15A4D17B806D9D4 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		83F2EEE668E340B1B0E6ECB9 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C16C34BA7D54B6B9210C888 /* Base64Transcoder.c */; settings = {}; };
+		841FB415ACB14856886463B3 /* TProtocolException.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD56B0242D34673B5404CF4 /* TProtocolException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867EF65841B44E389F17DE7B /* SHKFormControllerLargeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F8DEE9761340EE8635AF32 /* SHKFormControllerLargeTextField.m */; settings = {}; };
+		86D34A6D05E14D619332F3D8 /* NSData+md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 929A25F8832A498391E75FA7 /* NSData+md5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		871B2AEA1E99484383AFCFD4 /* NSAttributeDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 83913AB5E67345698170329C /* NSAttributeDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87C725AD81B94C6E8C153958 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC25D52CD7D49D5AE0D182D /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		88834918DBA14E6E8BC60BD6 /* OASignatureProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = 761114A169A045309E0A402F /* OASignatureProviding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8971B9096C944C4D96968125 /* ZUUIRevealController.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AECF16BEE043DEAF78117C /* ZUUIRevealController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89BF87DD38044C50A89615A1 /* NSHTTPCookieStorage+DeleteForURL.h in Headers */ = {isa = PBXBuildFile; fileRef = DB53B3CD707A4D309CF95892 /* NSHTTPCookieStorage+DeleteForURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3E838C6D2842448554F202 /* SHKCustomFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A36A827C324D3FB2F3E9D0 /* SHKCustomFormFieldCell.m */; settings = {}; };
+		8AAAD46CEBDB4A36BDD819EE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D23590251D4A13B631BF07 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		8B26ED35CD42463CA3CB4BA3 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E794FA90F494AA3A1C247CD /* UIButton+WebCache.m */; settings = {}; };
+		8BBD2E9B8F3F49D0B5EA5504 /* OAAsynchronousDataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 31AF1D87004C44F380DE472B /* OAAsynchronousDataFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF1C7B5B0E24793A81B84F1 /* TException.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A03633E1DF44A5C9B9C98A9 /* TException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0CD88083F5460D9BCB4646 /* MagicalRecord+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = E0020F3CFE6A4F5B8A6944B3 /* MagicalRecord+Options.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		8CC8D97A54664EEB8F321A14 /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6855021843C88AAA12F2 /* NSPersistentStore+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		8F065B8527D149FE8F4DB352 /* UserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6576625B87B94AD0B35F7EA0 /* UserStore.m */; settings = {}; };
+		8F6DCECB230840D092E5EB3F /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 0637BE2F80734689BB19EDEB /* NSManagedObjectModel+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9168458E31C247EC87FD37E2 /* SHKFormFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 231209BFDAD34068BA92EF62 /* SHKFormFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9342F43B443A4B4B8138EE26 /* USConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 201B9E82DEF24AE89A37A84A /* USConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		935975E2367D48D596D68182 /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = E724D65C0114458BA9F132E6 /* Underscore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		937CE84D3F844A758EF2BFA5 /* SHKViewControllerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5C9F3B6AA04AEF82CEB9BD /* SHKViewControllerWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93A0F770799945DE91929937 /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB1724872214F96A8336093 /* NSManagedObjectContext+MagicalThreading.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		94076DD966AF413795B7F50A /* NSHTTPCookieStorage+DeleteForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA79F57209E47B0A1637181 /* NSHTTPCookieStorage+DeleteForURL.m */; settings = {}; };
+		948B42F844984F96BEFA457A /* SHKOAuthSharer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C43091CE7BF483193235CCC /* SHKOAuthSharer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		951B040726E44D40B6C62239 /* TBinaryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FB17A90482144368984D7C97 /* TBinaryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96550664395D47358F321D3C /* UIWebView+SHK.h in Headers */ = {isa = PBXBuildFile; fileRef = D15ABE5A7722462083035806 /* UIWebView+SHK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F35DC6B84049CA8269421D /* NSNumber+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD11A967C3A430E815EE52F /* NSNumber+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97198F78462A403D82A515B4 /* SDURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C7376D0264C9E845B3B9A /* SDURLCache.m */; settings = {}; };
+		97666A0BE09B4555A29787E4 /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 411195EFC8304064AE535CC6 /* Base64Transcoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D171E473F3432EB0C93169 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4809BCF4C84896B67B3AFD /* UIScrollView+SVPullToRefresh.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		986471FEB84241829252A779 /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30A3C174954EAB81C24AD6 /* MagicalRecord+iCloud.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		999421E539FF4098AD2C24D5 /* SDURLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B58B69AA2E5440CAB1B7BD5C /* SDURLCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99EC097575CF478B80C1641F /* NSRelationshipDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E8C4F70F4540F28C55E5BE /* NSRelationshipDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A73F8CC8E584043B6BF110C /* NSManagedObject+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB5B5F056A1439C976AD55C /* NSManagedObject+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AE5A3C1E58A4691A3E1F958 /* Errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B59375DBA08493B809F8D54 /* Errors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB3FBA8B7D84502B3AA2623 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F642DBCF7242CD8F53883F /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9CFCD90E513A45DAB99AC94A /* NSManagedObjectContext+MagicalSaves.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F81A575EA4660A08360C9 /* NSManagedObjectContext+MagicalSaves.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9D28FB577ED34D0A89DEC0D5 /* SHKShareMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 547F5007B91A44F184FC32AD /* SHKShareMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D68AA65E5F14649B13552FF /* SHKCustomFormControllerLargeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF0230CF5734B52BCA0E802 /* SHKCustomFormControllerLargeTextField.m */; settings = {}; };
+		9F0F5EDD7AE04A63A8AF50EB /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A703CA74E47943148D6FF13C /* NSManagedObject+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A1C2A94F0E2B4510A2809CF5 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CB1C9D036C488CA945EBF4 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A23EAB5C76D94F3BB4CEB7C4 /* NSMutableURLRequest+Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D6CAC9F00430CB0C65B5F /* NSMutableURLRequest+Parameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A496B59182594009B2F19EA8 /* UserStore.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2CE43E5B604E158124DDCA /* UserStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5E8EEB1346F401D925EB892 /* NSObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5963C7741D4848F0A7388073 /* NSObject+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7EDB4791B5843EBB113AD82 /* MagicalRecordShorthand.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDBB9AD8D2B4ED188F7A60D /* MagicalRecordShorthand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9E80BEAC3024D2B8C08202D /* ZUUIRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53457F2822174186BC1580CB /* ZUUIRevealController.m */; settings = {}; };
+		AA32DB3AA0F9472D99C6027C /* SHKActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 22635BF73A0A40B48AEFD50B /* SHKActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA69A6AE4B434C9DAB39E7E3 /* SHKShareItemDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE79C5BB7C94C9D9E4BF1B8 /* SHKShareItemDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC07578CC8F42EABBAD7771 /* SHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EBA22D525341689BC68717 /* SHKActionSheet.m */; settings = {}; };
+		ABE1760FFE33436DBE810BE1 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = F901F4D5B390431E809E8846 /* OAConsumer.m */; settings = {}; };
+		AD03F7EA567A4C25929A9301 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D12B66CB3BDC45AABB03EFF0 /* UIImageView+WebCache.m */; settings = {}; };
+		AE9C2CC0ED0D4435838762E8 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEE6ACCB66142768EAF2C8C /* SDWebImageDecoder.m */; settings = {}; };
+		B118C28E456546D297C5D2A5 /* SHKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 26622AA6C422432ABEB762D0 /* SHKRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12A464BAC2D4959B017A355 /* NoteStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F7980AF5BB844A0A31883C7 /* NoteStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1B09DEF5526474E8F8A22F5 /* TSharedProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 018F99B5DA6141968F66391E /* TSharedProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D51B90FDF04C0AA2C2EF81 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3ED05866524D6D9A825D92 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B32151D50C9D45DD88A337CA /* TProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = A63492B59A844B1DA15C72DE /* TProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39C62FD4B9549A2B8E0B911 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 92837202C5894B4DA5BD6C79 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B59D5EC346BA4008A0DFFA4D /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D9FCD650964CD58CA4C08D /* NSString+URLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5D6194740B943E7B57F0BF3 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34E8E7A8954BF1B46A1720 /* NSAttributeDescription+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B5F8F0CFA17B4DA3B2C18BA7 /* MagicalRecord+ErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 753C63199EAE4974A4CFCF00 /* MagicalRecord+ErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B68B65419A224EA8B76F7332 /* SHKInstapaper.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3747B5A60C4D2F8CDBDDCC /* SHKInstapaper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7233B8ED73A4FA9A62EC064 /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6E169CA2684D76A33DDBC0 /* AFImageRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA0894302E2A4B3CBB902F43 /* SHKCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = 312DE332411742D78CBF45A2 /* SHKCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC73BED4DB6C41E2967F6C09 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69CE6B0C83457B867C3FB2 /* TProtocolException.m */; settings = {}; };
+		BC8B144C9B4749779A3054B5 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C857E8E46DC402E880DD30A /* SDImageCache.m */; settings = {}; };
+		BD8B64906DB143169CE78785 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7E6763FF4D4FE4BCDDC0A3 /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2BD49820C54FDB97B5B290 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 73478F33F6D84B93B77C718F /* OAPlaintextSignatureProvider.m */; settings = {}; };
+		C1608330F04845FBAB4C451F /* SHKCustomShareMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 473A9302A61D4B868545E484 /* SHKCustomShareMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C6690F94B9456195BED930 /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D455013F04BA2BDB94B75 /* NSManagedObjectContext+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C306B6C230064F4EBB03E6C2 /* SHKFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDBE9F709547B1A5BE0DB5 /* SHKFormController.m */; settings = {}; };
+		C4B37955A3D5427A99AA6D0B /* SHKMail.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41B3D1FFB94DFC95F28EEF /* SHKMail.m */; settings = {}; };
+		C4BCFE2E5BB9461190B8AC0E /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF916C4116F409588B172DB /* TTransportException.m */; settings = {}; };
+		C5816229D3FA40838DBA8169 /* MagicalImportFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F564D91E4440D785DA654A /* MagicalImportFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FB22F517814E4D90A3B048 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 033167DD4ECC484E932889CA /* OAToken.m */; settings = {}; };
+		C8388CEBD5CC4F649D5FA558 /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74EF9EA693455092CAA7AE /* MagicalRecord+Setup.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C856F50AFDC24E63B2864D59 /* SHKCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8D37AC86A4F92AB228838 /* SHKCopy.m */; settings = {}; };
+		C9388BCD11634841A0BA207D /* SHKPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AECE6EA52E4BA0B5AA3C8A /* SHKPrint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA5C4F08E1354272AF9FEDBD /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DBF710C166480B9900AF40 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF4844AC1164A0BB5BE04CD /* SHKPhotoAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1C36D8BFD74B168D83A236 /* SHKPhotoAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCCD529133974ED5BF325192 /* SHKCustomShareMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5667E7A2CE8E487E83919311 /* SHKCustomShareMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE80F9E22F764811A97026E5 /* SHKXMLResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6DDB917D434A408236CF20 /* SHKXMLResponseParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFEB5031C655480786B4C675 /* EDAMLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = C201428EB5C54E6D88E89061 /* EDAMLimits.m */; settings = {}; };
+		D3159035930A4AD79F303E35 /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6B0F6F72364B6ABDC0D0C1 /* AFPropertyListRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D392090953594020A2262038 /* SHKCustomFormFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0308822F26604119A1231CD6 /* SHKCustomFormFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D412A596FEE64CC693E33F29 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A80444841D42499B5361AC /* TBinaryProtocol.m */; settings = {}; };
+		D5633D5271084590AC736966 /* SHKTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C3D3940459446BDBD403820 /* SHKTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D76ABA05BFE846EC976AC08E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DECE0B8F05043598D2BFCDB /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DA76034BE2F6465F99BBACFE /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D597CD705616483E91DAAC7E /* NSPersistentStoreCoordinator+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC720E664EB349659A396978 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B7618806C4C748078AD0B /* UIScrollView+SVInfiniteScrolling.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DC81F55C54564F96947B1CE0 /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7799725250254735B3EE19BD /* TException.m */; settings = {}; };
+		DCC525E79F7A403DA8A4EE2C /* NSData+md5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1AB39D9CDC4D0686C1D4A4 /* NSData+md5.m */; settings = {}; };
+		DD4D7B38F22A40AA81CCF28A /* SHKActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 99058F26D1F1473480ED9648 /* SHKActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CA267F72E48FBB4E5C0F7 /* CoreData+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DE507A0B1E447F96A0A14F /* CoreData+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3E726DFF534EDC979E3EE0 /* SHKShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D931AEB47F4EEFB235032E /* SHKShareMenu.m */; settings = {}; };
+		DE65E73A8C9F4D9DB922B120 /* MagicalRecord+iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D09CAE69D254FF48AF770A8 /* MagicalRecord+iCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB37072242A4ADFA7FD390F /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EB55EE1F84078A180EF75 /* Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFD435AF74944644A0901E27 /* TProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 087626E2169E45EA9B439F06 /* TProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2085F86909742CDA8C3690C /* TTransportException.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA16D5A5DC348CD82281720 /* TTransportException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B0882129834B1CA38C7D97 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A26B529B2EEB41989F4CC477 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4BFF5983B6A45F6A659DD7F /* SHKFormFieldSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = B8416E6E67974BF1A34285B0 /* SHKFormFieldSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E639DF7DDA4B178D54083C /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B703B180F3A4AB391DEE747 /* AFJSONRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5BF497247634D209FF244FA /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C44C39BD36BE489691A8CB02 /* TSharedProcessorFactory.m */; settings = {}; };
+		E68A88A05AA84FA3B362B005 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D39C24B7833E465AAF26C72A /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CD4E3D1E784592A4BA3664 /* SHKCustomShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8259EC1916644F77927AB4C4 /* SHKCustomShareMenu.m */; settings = {}; };
+		E94971D88CB94F6699D4EF87 /* TApplicationException.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EFBDEED68E48059983E0C7 /* TApplicationException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC3DCEB0E48549EEA6D31BEE /* TTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 548B2380BCE44CC6AD02CE4D /* TTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC411D2286854384A5604E51 /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE65D62EA6498590BF2B77 /* NSManagedObject+MagicalRequests.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EC77EF2FE74D4CEBBA0CDC06 /* SHKPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B4308594EF43388658A16D /* SHKPhotoAlbum.m */; settings = {}; };
+		ECD3A58803E2463A99711257 /* SHKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BDD51BBC984AB2B7D16312 /* SHKRequest.m */; settings = {}; };
+		ED31724CCC4C41F98CC6E09C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B37212357574790B594C88C /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED6AF457CBE040C9BD3FF4A7 /* UIScrollView+SVPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC39785603E43E3B43EE003 /* UIScrollView+SVPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE0733CD2D304958974172F0 /* SDWebImageManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2B03A931554F4CA3E1E6C1 /* SDWebImageManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF26EB0021D74471BFD919BA /* SHKSharerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F693D9E2AE40538A931D2C /* SHKSharerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF45A7340B2C4B108760A9D8 /* MagicalRecord+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCA2E7065D04F50AD08AF80 /* MagicalRecord+Actions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EFAC12E944724B4E9DCD779D /* OAServiceTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E6B1019BB6489BB3EA7038 /* OAServiceTicket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03EA0EE073443FFA396A8A3 /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E6FAAF4934F688F89796D /* NSEntityDescription+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F0E0231227894B04B911B0BD /* SHKOAuthSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = A925E9BB7B4C408BB9348D02 /* SHKOAuthSharer.m */; settings = {}; };
+		F119BC89B2BA4E669E069C1F /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F18DA1E97DD4001A4E8E1D8 /* OAHMAC_SHA1SignatureProvider.m */; settings = {}; };
+		F1FA69D1C304437B85FB47D6 /* USDictionaryWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D324341349524782851081FB /* USDictionaryWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2755A8CBF13488C96AD4C39 /* SHKViewControllerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B2803DE446427780E02CDA /* SHKViewControllerWrapper.m */; settings = {}; };
+		F46967383D134E9D8F7CC1B0 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E58D40E4163C4E94912395A5 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4962F290842409AB733DC30 /* USArrayWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7285BFF6CE5F4E068442900E /* USArrayWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F57EA1EB1E03425D8CFBBC62 /* Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45A154970B468C82B9F83D /* Errors.m */; settings = {}; };
+		F9893A515F2E4FDBAD471B13 /* SHKFormFieldSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4D778DFA3D49B6864BF0E9 /* SHKFormFieldSettings.m */; settings = {}; };
+		FB1C43CD8B154FD6878C34D8 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 175E185999D148AC9EF882FB /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB574A4C43E74FADB63AE31A /* SHKPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = DABD7CA655494F1B84D2CEC6 /* SHKPrint.m */; settings = {}; };
+		FC4D495659C140C2BD8848CA /* NSEntityDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = C03634968A034C50B3F5FE42 /* NSEntityDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC5B7FB026B341469F8546A0 /* SHKOAuthView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7690CDEB1BD34BE9A4C314F5 /* SHKOAuthView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD80653E5745466A93FAD851 /* OAConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E09F2762D5046E5AA2B9276 /* OAConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4AF9DB01AC4C2D93E7878E /* NSURL+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 787CFC9AFC504F03B4751485 /* NSURL+Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		018F99B5DA6141968F66391E /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSharedProcessorFactory.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/TSharedProcessorFactory.h; sourceTree = SOURCE_ROOT; };
+		026A0159911040CD90DCA290 /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStore+MagicalRecord.h"; path = "MagicalRecord/MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h"; sourceTree = SOURCE_ROOT; };
+		0308822F26604119A1231CD6 /* SHKCustomFormFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKCustomFormFieldCell.h; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomFormFieldCell.h"; sourceTree = SOURCE_ROOT; };
+		033167DD4ECC484E932889CA /* OAToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAToken.m; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAToken.m; sourceTree = SOURCE_ROOT; };
+		04F8337214B1465E9C9D2029 /* SHKMail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKMail.h; path = ShareKit/Classes/ShareKit/Sharers/Actions/Email/SHKMail.h; sourceTree = SOURCE_ROOT; };
+		0637BE2F80734689BB19EDEB /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+MagicalRecord.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h"; sourceTree = SOURCE_ROOT; };
+		0831008B396F43E0BD29C687 /* MagicalRecord+ShorthandSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ShorthandSupport.h"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+ShorthandSupport.h"; sourceTree = SOURCE_ROOT; };
+		087626E2169E45EA9B439F06 /* TProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TProtocol.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/protocol/TProtocol.h; sourceTree = SOURCE_ROOT; };
+		088DF250243C40309D27A7A7 /* SHKFormController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKFormController.h; path = ShareKit/Classes/ShareKit/UI/SHKFormController.h; sourceTree = SOURCE_ROOT; };
+		08CB1C9D036C488CA945EBF4 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = SOURCE_ROOT; };
+		08E7CD6700E24F689F1D9696 /* SHKXMLResponseParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKXMLResponseParser.m; path = ShareKit/Classes/ShareKit/Core/Helpers/SHKXMLResponseParser.m; sourceTree = SOURCE_ROOT; };
+		08EFBDEED68E48059983E0C7 /* TApplicationException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TApplicationException.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/TApplicationException.h; sourceTree = SOURCE_ROOT; };
+		09B2803DE446427780E02CDA /* SHKViewControllerWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKViewControllerWrapper.m; path = ShareKit/Classes/ShareKit/UI/SHKViewControllerWrapper.m; sourceTree = SOURCE_ROOT; };
+		09D6DC1C23C64BCDA99D87A4 /* NSMutableDictionary+NSNullsToEmptyStrings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+NSNullsToEmptyStrings.m"; path = "ShareKit/Classes/ShareKit/Core/Categories/NSMutableDictionary+NSNullsToEmptyStrings.m"; sourceTree = SOURCE_ROOT; };
+		0A72A7D1F45640A8971296FA /* DefaultSHKConfigurator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DefaultSHKConfigurator.h; path = ShareKit/Classes/ShareKit/Configuration/DefaultSHKConfigurator.h; sourceTree = SOURCE_ROOT; };
+		0B982155AA864A74B5573E30 /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-prefix.pch"; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		0CCF7288F033477A9A5EABB5 /* SHKCustomFormController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKCustomFormController.m; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomFormController.m"; sourceTree = SOURCE_ROOT; };
+		0DECE0B8F05043598D2BFCDB /* AFHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = AFNetworking/AFNetworking/AFHTTPClient.m; sourceTree = SOURCE_ROOT; };
+		0E38E513F79C4F11AD880309 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAPlaintextSignatureProvider.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAPlaintextSignatureProvider.h; sourceTree = SOURCE_ROOT; };
+		0F1E6FAAF4934F688F89796D /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEntityDescription+MagicalDataImport.m"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.m"; sourceTree = SOURCE_ROOT; };
+		0FB5B5F056A1439C976AD55C /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRecord.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.h"; sourceTree = SOURCE_ROOT; };
+		0FC6D79D99BD4A42A13CE9D1 /* SHKSharerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKSharerDelegate.m; path = "ShareKit/Classes/ShareKit/Core/Base Sharer Classes/SHKSharerDelegate.m"; sourceTree = SOURCE_ROOT; };
+		111D6CAC9F00430CB0C65B5F /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+Parameters.h"; path = "ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Categories/NSMutableURLRequest+Parameters.h"; sourceTree = SOURCE_ROOT; };
+		11D0BCED32974057B4D9AF5C /* TProtocolUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TProtocolUtil.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/protocol/TProtocolUtil.h; sourceTree = SOURCE_ROOT; };
+		175E185999D148AC9EF882FB /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = SOURCE_ROOT; };
+		1815E08A7B7A4788822849D3 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = SOURCE_ROOT; };
+		18BDBD2641E84438AFEC12C4 /* JSONKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = JSONKit/JSONKit.m; sourceTree = SOURCE_ROOT; };
+		1955EA5558994E90A9C74D94 /* PodsDummy_Pods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PodsDummy_Pods.m; path = PodsDummy_Pods.m; sourceTree = SOURCE_ROOT; };
+		1955F059095B427285B3A714 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.c; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Crytpo/sha1.c; sourceTree = SOURCE_ROOT; };
+		1A03633E1DF44A5C9B9C98A9 /* TException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TException.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/TException.h; sourceTree = SOURCE_ROOT; };
+		1A6DDB917D434A408236CF20 /* SHKXMLResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKXMLResponseParser.h; path = ShareKit/Classes/ShareKit/Core/Helpers/SHKXMLResponseParser.h; sourceTree = SOURCE_ROOT; };
+		1AC39785603E43E3B43EE003 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVPullToRefresh.h"; path = "SVPullToRefresh/SVPullToRefresh/UIScrollView+SVPullToRefresh.h"; sourceTree = SOURCE_ROOT; };
+		1BFC07448EEC49589690B8FF /* SHKItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKItem.m; path = ShareKit/Classes/ShareKit/Core/SHKItem.m; sourceTree = SOURCE_ROOT; };
+		1C7DD69087BB408D9658317D /* AFHTTPRequestOperationLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationLogger.h; path = AFHTTPRequestOperationLogger/AFHTTPRequestOperationLogger.h; sourceTree = SOURCE_ROOT; };
+		1C844BEF07C34692AAFB471C /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D09CAE69D254FF48AF770A8 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+iCloud.h"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+iCloud.h"; sourceTree = SOURCE_ROOT; };
+		1E09F2762D5046E5AA2B9276 /* OAConsumer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAConsumer.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAConsumer.h; sourceTree = SOURCE_ROOT; };
+		1E794FA90F494AA3A1C247CD /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = SOURCE_ROOT; };
+		201B9E82DEF24AE89A37A84A /* USConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = USConstants.h; path = Underscore.m/Underscore/USConstants.h; sourceTree = SOURCE_ROOT; };
+		207E2C90AEB443E38A61FF0A /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableURLRequest+Parameters.m"; path = "ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Categories/NSMutableURLRequest+Parameters.m"; sourceTree = SOURCE_ROOT; };
+		22635BF73A0A40B48AEFD50B /* SHKActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKActionSheet.h; path = ShareKit/Classes/ShareKit/UI/SHKActionSheet.h; sourceTree = SOURCE_ROOT; };
+		231209BFDAD34068BA92EF62 /* SHKFormFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKFormFieldCell.h; path = ShareKit/Classes/ShareKit/UI/SHKFormFieldCell.h; sourceTree = SOURCE_ROOT; };
+		23322A6532644B9FBFBB82D3 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = SOURCE_ROOT; };
+		249BC5204A5B44CAB6F72FFC /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalObserving.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.m"; sourceTree = SOURCE_ROOT; };
+		258BB6D54DA94E06ABD627F1 /* SHKEvernote.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKEvernote.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/SHKEvernote.m; sourceTree = SOURCE_ROOT; };
+		263AE07A93AD45B79DEF9366 /* SHKCustomFormControllerLargeTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKCustomFormControllerLargeTextField.h; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomFormControllerLargeTextField.h"; sourceTree = SOURCE_ROOT; };
+		26622AA6C422432ABEB762D0 /* SHKRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKRequest.h; path = ShareKit/Classes/ShareKit/Core/Helpers/SHKRequest.h; sourceTree = SOURCE_ROOT; };
+		2AC528C653444959BF3F024E /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = AFNetworking/AFNetworking/AFJSONRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		2B37212357574790B594C88C /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = SOURCE_ROOT; };
+		2B3C7376D0264C9E845B3B9A /* SDURLCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDURLCache.m; path = SDURLCache/SDURLCache.m; sourceTree = SOURCE_ROOT; };
+		2C857E8E46DC402E880DD30A /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = SOURCE_ROOT; };
+		2D69CE6B0C83457B867C3FB2 /* TProtocolException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TProtocolException.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/protocol/TProtocolException.m; sourceTree = SOURCE_ROOT; };
+		2F74EF9EA693455092CAA7AE /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Setup.m"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+Setup.m"; sourceTree = SOURCE_ROOT; };
+		2FE345B57F884B35B1DF5E57 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Crytpo/hmac.h; sourceTree = SOURCE_ROOT; };
+		312DE332411742D78CBF45A2 /* SHKCopy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKCopy.h; path = ShareKit/Classes/ShareKit/Sharers/Actions/Copy/SHKCopy.h; sourceTree = SOURCE_ROOT; };
+		3142E7CDFB9F4CE08793B807 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = SOURCE_ROOT; };
+		31AF1D87004C44F380DE472B /* OAAsynchronousDataFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAAsynchronousDataFetcher.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAAsynchronousDataFetcher.h; sourceTree = SOURCE_ROOT; };
+		31F8DEE9761340EE8635AF32 /* SHKFormControllerLargeTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKFormControllerLargeTextField.m; path = ShareKit/Classes/ShareKit/UI/SHKFormControllerLargeTextField.m; sourceTree = SOURCE_ROOT; };
+		36AECF16BEE043DEAF78117C /* ZUUIRevealController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZUUIRevealController.h; path = ZUUIRevealController/ZUUIRevealController/ZUUIRevealController.h; sourceTree = SOURCE_ROOT; };
+		3AFBB0E6DBA648F5ADD2C688 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain.h; sourceTree = SOURCE_ROOT; };
+		3B19C8EB3FC745D7BBB8D0FA /* OADataFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OADataFetcher.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OADataFetcher.h; sourceTree = SOURCE_ROOT; };
+		3B4809BCF4C84896B67B3AFD /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVPullToRefresh.m"; path = "SVPullToRefresh/SVPullToRefresh/UIScrollView+SVPullToRefresh.m"; sourceTree = SOURCE_ROOT; };
+		3C1AB39D9CDC4D0686C1D4A4 /* NSData+md5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+md5.m"; path = "ShareKit/Classes/ShareKit/Core/Categories/NSData+md5.m"; sourceTree = SOURCE_ROOT; };
+		3C3D3940459446BDBD403820 /* SHKTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKTwitter.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Twitter/SHKTwitter.h; sourceTree = SOURCE_ROOT; };
+		3CE1F66AAB184ED99B54482D /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ErrorHandling.m"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+ErrorHandling.m"; sourceTree = SOURCE_ROOT; };
+		3D0B7618806C4C748078AD0B /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVInfiniteScrolling.m"; path = "SVPullToRefresh/SVPullToRefresh/UIScrollView+SVInfiniteScrolling.m"; sourceTree = SOURCE_ROOT; };
+		3DB9C776F88947B68C8AECC9 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = SOURCE_ROOT; };
+		3F7980AF5BB844A0A31883C7 /* NoteStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoteStore.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/NoteStore.h; sourceTree = SOURCE_ROOT; };
+		403C00FE3588480F8B88569C /* SHKItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKItem.h; path = ShareKit/Classes/ShareKit/Core/SHKItem.h; sourceTree = SOURCE_ROOT; };
+		40BDD51BBC984AB2B7D16312 /* SHKRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKRequest.m; path = ShareKit/Classes/ShareKit/Core/Helpers/SHKRequest.m; sourceTree = SOURCE_ROOT; };
+		411195EFC8304064AE535CC6 /* Base64Transcoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64Transcoder.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Crytpo/Base64Transcoder.h; sourceTree = SOURCE_ROOT; };
+		42E35CCD85FD4FE18F2000A9 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAMutableURLRequest.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAMutableURLRequest.h; sourceTree = SOURCE_ROOT; };
+		42E6B1019BB6489BB3EA7038 /* OAServiceTicket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAServiceTicket.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAServiceTicket.h; sourceTree = SOURCE_ROOT; };
+		4602162D52544D148A44F56C /* SHKCustomFormController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKCustomFormController.h; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomFormController.h"; sourceTree = SOURCE_ROOT; };
+		473A9302A61D4B868545E484 /* SHKCustomShareMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKCustomShareMenu.h; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomShareMenu.h"; sourceTree = SOURCE_ROOT; };
+		474A1BE9E03845DD8ACED490 /* SHKCustomShareMenuCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKCustomShareMenuCell.m; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomShareMenuCell.m"; sourceTree = SOURCE_ROOT; };
+		48129505D3D1421280EE5187 /* SHKCustomActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKCustomActionSheet.m; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomActionSheet.m"; sourceTree = SOURCE_ROOT; };
+		49A08E5668E84EF9943FBC53 /* SHKTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKTextMessage.h; path = "ShareKit/Classes/ShareKit/Sharers/Actions/Text Message/SHKTextMessage.h"; sourceTree = SOURCE_ROOT; };
+		4B59375DBA08493B809F8D54 /* Errors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Errors.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/Errors.h; sourceTree = SOURCE_ROOT; };
+		4B6EB55EE1F84078A180EF75 /* Types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Types.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/Types.h; sourceTree = SOURCE_ROOT; };
+		4C0D026E80D14B79951725A5 /* MagicalRecord+ShorthandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ShorthandSupport.m"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+ShorthandSupport.m"; sourceTree = SOURCE_ROOT; };
+		4C43091CE7BF483193235CCC /* SHKOAuthSharer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKOAuthSharer.h; path = "ShareKit/Classes/ShareKit/Core/Base Sharer Classes/SHKOAuthSharer.h"; sourceTree = SOURCE_ROOT; };
+		4DB6E8BD81B6495F9FE2149B /* NSURL+Base.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Base.m"; path = "ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Categories/NSURL+Base.m"; sourceTree = SOURCE_ROOT; };
+		4DD56B0242D34673B5404CF4 /* TProtocolException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TProtocolException.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/protocol/TProtocolException.h; sourceTree = SOURCE_ROOT; };
+		4ED8AA5D9FD74CBEA7C425E6 /* SHKTextMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKTextMessage.m; path = "ShareKit/Classes/ShareKit/Sharers/Actions/Text Message/SHKTextMessage.m"; sourceTree = SOURCE_ROOT; };
+		4F3A3D9E38124E82BDDC0D10 /* AFHTTPRequestOperationLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationLogger.m; path = AFHTTPRequestOperationLogger/AFHTTPRequestOperationLogger.m; sourceTree = SOURCE_ROOT; };
+		52186B1A383A4037A9EE4A87 /* SHKLogout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKLogout.m; path = "ShareKit/Classes/ShareKit/Sharers/Actions/Logout of All Services/SHKLogout.m"; sourceTree = SOURCE_ROOT; };
+		525821BAAA754B6E800A4C9F /* DefaultSHKConfigurator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DefaultSHKConfigurator.m; path = ShareKit/Classes/ShareKit/Configuration/DefaultSHKConfigurator.m; sourceTree = SOURCE_ROOT; };
+		52DE507A0B1E447F96A0A14F /* CoreData+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoreData+MagicalRecord.h"; path = "MagicalRecord/MagicalRecord/CoreData+MagicalRecord.h"; sourceTree = SOURCE_ROOT; };
+		53457F2822174186BC1580CB /* ZUUIRevealController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZUUIRevealController.m; path = ZUUIRevealController/ZUUIRevealController/ZUUIRevealController.m; sourceTree = SOURCE_ROOT; };
+		53FAFAC81E2C4816876A11FC /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = SOURCE_ROOT; };
+		547F5007B91A44F184FC32AD /* SHKShareMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKShareMenu.h; path = ShareKit/Classes/ShareKit/UI/SHKShareMenu.h; sourceTree = SOURCE_ROOT; };
+		548B2380BCE44CC6AD02CE4D /* TTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTransport.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/transport/TTransport.h; sourceTree = SOURCE_ROOT; };
+		5667E7A2CE8E487E83919311 /* SHKCustomShareMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKCustomShareMenuCell.h; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomShareMenuCell.h"; sourceTree = SOURCE_ROOT; };
+		5963C7741D4848F0A7388073 /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MagicalDataImport.h"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h"; sourceTree = SOURCE_ROOT; };
+		599D2FC6C8454BF1A461A14F /* OARequestParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OARequestParameter.m; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OARequestParameter.m; sourceTree = SOURCE_ROOT; };
+		5A767E45FA384EC1B8747E4E /* SHKiOS5Twitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKiOS5Twitter.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Twitter/SHKiOS5Twitter.m; sourceTree = SOURCE_ROOT; };
+		5AB8E3EE3BA9412CBC245EA7 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRequests.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h"; sourceTree = SOURCE_ROOT; };
+		5ABB7D45639847578B90C70C /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalThreading.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"; sourceTree = SOURCE_ROOT; };
+		5C0F81A575EA4660A08360C9 /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalSaves.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.m"; sourceTree = SOURCE_ROOT; };
+		5DC25D52CD7D49D5AE0D182D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		5E9870AE1FBB4442BF7ACF41 /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRelationshipDescription+MagicalDataImport.m"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.m"; sourceTree = SOURCE_ROOT; };
+		6108BFFCBC0E43C6AF77618C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64022514888A471AABD800DD /* Types.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Types.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/Types.m; sourceTree = SOURCE_ROOT; };
+		6576625B87B94AD0B35F7EA0 /* UserStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UserStore.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/UserStore.m; sourceTree = SOURCE_ROOT; };
+		67C35200008B4AF8B18526DD /* SHKiOS5Twitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKiOS5Twitter.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Twitter/SHKiOS5Twitter.h; sourceTree = SOURCE_ROOT; };
+		67DBF710C166480B9900AF40 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = SOURCE_ROOT; };
+		691B4CFD39914E7799A48116 /* SVPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVPullToRefresh.h; path = SVPullToRefresh/SVPullToRefresh/SVPullToRefresh.h; sourceTree = SOURCE_ROOT; };
+		6AD0EA13E10A492B952A03D8 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-resources.sh"; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		6B2B03A931554F4CA3E1E6C1 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManagerDelegate.h; path = SDWebImage/SDWebImageManagerDelegate.h; sourceTree = SOURCE_ROOT; };
+		6BEAA0737E42432EBC40634D /* SHKFormControllerLargeTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKFormControllerLargeTextField.h; path = ShareKit/Classes/ShareKit/UI/SHKFormControllerLargeTextField.h; sourceTree = SOURCE_ROOT; };
+		6CAB42505E7D417FA55EC4EC /* SHKFormOptionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKFormOptionController.h; path = ShareKit/Classes/ShareKit/UI/SHKFormOptionController.h; sourceTree = SOURCE_ROOT; };
+		6EA16D5A5DC348CD82281720 /* TTransportException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTransportException.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/transport/TTransportException.h; sourceTree = SOURCE_ROOT; };
+		6FD531F82265491089CD19A6 /* SHKConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKConfiguration.m; path = ShareKit/Classes/ShareKit/Configuration/SHKConfiguration.m; sourceTree = SOURCE_ROOT; };
+		70CCC4B5D4454D4B92C617DB /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain.m; sourceTree = SOURCE_ROOT; };
+		7285BFF6CE5F4E068442900E /* USArrayWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = USArrayWrapper.h; path = Underscore.m/Underscore/USArrayWrapper.h; sourceTree = SOURCE_ROOT; };
+		73478F33F6D84B93B77C718F /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAPlaintextSignatureProvider.m; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAPlaintextSignatureProvider.m; sourceTree = SOURCE_ROOT; };
+		73CEDACE7FCA4745906D3687 /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+MagicalRecord.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.m"; sourceTree = SOURCE_ROOT; };
+		753C63199EAE4974A4CFCF00 /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ErrorHandling.h"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+ErrorHandling.h"; sourceTree = SOURCE_ROOT; };
+		761114A169A045309E0A402F /* OASignatureProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OASignatureProviding.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OASignatureProviding.h; sourceTree = SOURCE_ROOT; };
+		7690CDEB1BD34BE9A4C314F5 /* SHKOAuthView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKOAuthView.h; path = ShareKit/Classes/ShareKit/UI/SHKOAuthView.h; sourceTree = SOURCE_ROOT; };
+		775CE466D3C24355AF05E4FE /* TMemoryBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMemoryBuffer.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/transport/TMemoryBuffer.h; sourceTree = SOURCE_ROOT; };
+		7799725250254735B3EE19BD /* TException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TException.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/TException.m; sourceTree = SOURCE_ROOT; };
+		780A5F32E2F241D7B2A75668 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAHMAC_SHA1SignatureProvider.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAHMAC_SHA1SignatureProvider.h; sourceTree = SOURCE_ROOT; };
+		787CFC9AFC504F03B4751485 /* NSURL+Base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Base.h"; path = "ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Categories/NSURL+Base.h"; sourceTree = SOURCE_ROOT; };
+		7BF916C4116F409588B172DB /* TTransportException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTransportException.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/transport/TTransportException.m; sourceTree = SOURCE_ROOT; };
+		7CE8D37AC86A4F92AB228838 /* SHKCopy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKCopy.m; path = ShareKit/Classes/ShareKit/Sharers/Actions/Copy/SHKCopy.m; sourceTree = SOURCE_ROOT; };
+		7DE79C5BB7C94C9D9E4BF1B8 /* SHKShareItemDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKShareItemDelegate.h; path = ShareKit/Classes/ShareKit/UI/SHKShareItemDelegate.h; sourceTree = SOURCE_ROOT; };
+		7E8B9861C1724247B82B2E2B /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		7FD11A967C3A430E815EE52F /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+MagicalDataImport.h"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h"; sourceTree = SOURCE_ROOT; };
+		80E5E4DC82E44FD6BF04A65E /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = SOURCE_ROOT; };
+		816C92B126604BDCA66562EF /* SHKSharer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKSharer.m; path = "ShareKit/Classes/ShareKit/Core/Base Sharer Classes/SHKSharer.m"; sourceTree = SOURCE_ROOT; };
+		8259EC1916644F77927AB4C4 /* SHKCustomShareMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKCustomShareMenu.m; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomShareMenu.m"; sourceTree = SOURCE_ROOT; };
+		827F348D2E804FF8A32308C8 /* TProtocolUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TProtocolUtil.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/protocol/TProtocolUtil.m; sourceTree = SOURCE_ROOT; };
+		833A2C5FB450432C8D5C9BAE /* UIWebView+SHK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+SHK.m"; path = "ShareKit/Classes/ShareKit/Core/Categories/UIWebView+SHK.m"; sourceTree = SOURCE_ROOT; };
+		8358A07E394B4C70B1415939 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD/SVProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		83913AB5E67345698170329C /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributeDescription+MagicalDataImport.h"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h"; sourceTree = SOURCE_ROOT; };
+		83A503219A294BDF977D90AB /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalAggregation.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.m"; sourceTree = SOURCE_ROOT; };
+		8616432742FA4C2F8476BE0B /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+MagicalRecord.m"; path = "MagicalRecord/MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = SOURCE_ROOT; };
+		88D08A6D6C2C4BA589B0E875 /* NSMutableDictionary+NSNullsToEmptyStrings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+NSNullsToEmptyStrings.h"; path = "ShareKit/Classes/ShareKit/Core/Categories/NSMutableDictionary+NSNullsToEmptyStrings.h"; sourceTree = SOURCE_ROOT; };
+		88D9FCD650964CD58CA4C08D /* NSString+URLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Categories/NSString+URLEncoding.h"; sourceTree = SOURCE_ROOT; };
+		890B809BDBD142ED974AA9FA /* Underscore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Underscore.m; path = Underscore.m/Underscore/Underscore.m; sourceTree = SOURCE_ROOT; };
+		8C30A3C174954EAB81C24AD6 /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+iCloud.m"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+iCloud.m"; sourceTree = SOURCE_ROOT; };
+		8C81413D6B07426BBAEAE7C1 /* SHKOAuthView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKOAuthView.m; path = ShareKit/Classes/ShareKit/UI/SHKOAuthView.m; sourceTree = SOURCE_ROOT; };
+		8F18DA1E97DD4001A4E8E1D8 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAHMAC_SHA1SignatureProvider.m; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAHMAC_SHA1SignatureProvider.m; sourceTree = SOURCE_ROOT; };
+		90A36A827C324D3FB2F3E9D0 /* SHKCustomFormFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKCustomFormFieldCell.m; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomFormFieldCell.m"; sourceTree = SOURCE_ROOT; };
+		91F642DBCF7242CD8F53883F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
+		92837202C5894B4DA5BD6C79 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		929A25F8832A498391E75FA7 /* NSData+md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+md5.h"; path = "ShareKit/Classes/ShareKit/Core/Categories/NSData+md5.h"; sourceTree = SOURCE_ROOT; };
+		93DDBE9F709547B1A5BE0DB5 /* SHKFormController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKFormController.m; path = ShareKit/Classes/ShareKit/UI/SHKFormController.m; sourceTree = SOURCE_ROOT; };
+		93E666B4070649D98CD5886D /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalFinders.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.m"; sourceTree = SOURCE_ROOT; };
+		94575BA54BA34C9A92508DF8 /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalDataImport.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.m"; sourceTree = SOURCE_ROOT; };
+		97F9009C69A1401F8024A6A5 /* OARequestParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OARequestParameter.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OARequestParameter.h; sourceTree = SOURCE_ROOT; };
+		98A80444841D42499B5361AC /* TBinaryProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBinaryProtocol.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/protocol/TBinaryProtocol.m; sourceTree = SOURCE_ROOT; };
+		99058F26D1F1473480ED9648 /* SHKActivityIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKActivityIndicator.h; path = ShareKit/Classes/ShareKit/UI/SHKActivityIndicator.h; sourceTree = SOURCE_ROOT; };
+		9B3B632478F84FB380CB21F9 /* USArrayWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = USArrayWrapper.m; path = Underscore.m/Underscore/USArrayWrapper.m; sourceTree = SOURCE_ROOT; };
+		9B703B180F3A4AB391DEE747 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking/AFNetworking/AFJSONRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		9BAE65D62EA6498590BF2B77 /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRequests.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.m"; sourceTree = SOURCE_ROOT; };
+		9BDBB9AD8D2B4ED188F7A60D /* MagicalRecordShorthand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordShorthand.h; path = MagicalRecord/MagicalRecord/Core/MagicalRecordShorthand.h; sourceTree = SOURCE_ROOT; };
+		9C16C34BA7D54B6B9210C888 /* Base64Transcoder.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Base64Transcoder.c; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Crytpo/Base64Transcoder.c; sourceTree = SOURCE_ROOT; };
+		9C7E6763FF4D4FE4BCDDC0A3 /* JSONKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = JSONKit/JSONKit.h; sourceTree = SOURCE_ROOT; };
+		9D34E8E7A8954BF1B46A1720 /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributeDescription+MagicalDataImport.m"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.m"; sourceTree = SOURCE_ROOT; };
+		9E538202BED94DE690FB071C /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Setup.h"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+Setup.h"; sourceTree = SOURCE_ROOT; };
+		A064EA28697D4529A358F200 /* SHK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHK.m; path = ShareKit/Classes/ShareKit/Core/SHK.m; sourceTree = SOURCE_ROOT; };
+		A067F6EDFACA472C9CA3B310 /* SHKGoogleReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKGoogleReader.h; path = "ShareKit/Classes/ShareKit/Sharers/Services/Google Reader/SHKGoogleReader.h"; sourceTree = SOURCE_ROOT; };
+		A1B4308594EF43388658A16D /* SHKPhotoAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKPhotoAlbum.m; path = "ShareKit/Classes/ShareKit/Sharers/Actions/Save to Album/SHKPhotoAlbum.m"; sourceTree = SOURCE_ROOT; };
+		A26B529B2EEB41989F4CC477 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking/AFNetworking.h; sourceTree = SOURCE_ROOT; };
+		A29E0FCB49D3416F8149E5FC /* SHKTwitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKTwitter.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Twitter/SHKTwitter.m; sourceTree = SOURCE_ROOT; };
+		A63492B59A844B1DA15C72DE /* TProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TProcessor.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/TProcessor.h; sourceTree = SOURCE_ROOT; };
+		A703CA74E47943148D6FF13C /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRecord.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.m"; sourceTree = SOURCE_ROOT; };
+		A77D33F279384D8EA9DF9567 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVInfiniteScrolling.h"; path = "SVPullToRefresh/SVPullToRefresh/UIScrollView+SVInfiniteScrolling.h"; sourceTree = SOURCE_ROOT; };
+		A84D63E96D754FE49FE1CCE1 /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MagicalDataImport.m"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.m"; sourceTree = SOURCE_ROOT; };
+		A925E9BB7B4C408BB9348D02 /* SHKOAuthSharer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKOAuthSharer.m; path = "ShareKit/Classes/ShareKit/Core/Base Sharer Classes/SHKOAuthSharer.m"; sourceTree = SOURCE_ROOT; };
+		AA9720F9C77647CE9871BF11 /* SHKReadItLater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKReadItLater.m; path = "ShareKit/Classes/ShareKit/Sharers/Services/Read It Later/SHKReadItLater.m"; sourceTree = SOURCE_ROOT; };
+		AAD592C2130A4B5C9BBC2371 /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking/AFNetworking/AFHTTPClient.h; sourceTree = SOURCE_ROOT; };
+		AB0BD6FA0E4A4E3999437FA0 /* SHKSharer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKSharer.h; path = "ShareKit/Classes/ShareKit/Core/Base Sharer Classes/SHKSharer.h"; sourceTree = SOURCE_ROOT; };
+		AB0CD2F5711D4835BE55771C /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD/SVProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		AB4E0242A1E14EFA9A14AA3F /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalSaves.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h"; sourceTree = SOURCE_ROOT; };
+		AB6E169CA2684D76A33DDBC0 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking/AFNetworking/AFImageRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		AC3B94FE60D34E20A247E595 /* SHKConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKConfiguration.h; path = ShareKit/Classes/ShareKit/Configuration/SHKConfiguration.h; sourceTree = SOURCE_ROOT; };
+		B03A9BF85E4D4C7E8DC3FF5C /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MagicalDataImport.m"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.m"; sourceTree = SOURCE_ROOT; };
+		B0E8C4F70F4540F28C55E5BE /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRelationshipDescription+MagicalDataImport.h"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h"; sourceTree = SOURCE_ROOT; };
+		B13DEA966E57401A9BEB23D7 /* SHKActivityIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKActivityIndicator.m; path = ShareKit/Classes/ShareKit/UI/SHKActivityIndicator.m; sourceTree = SOURCE_ROOT; };
+		B1517B19D0034593B047F3E7 /* SHKEvernote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKEvernote.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/SHKEvernote.h; sourceTree = SOURCE_ROOT; };
+		B2F693D9E2AE40538A931D2C /* SHKSharerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKSharerDelegate.h; path = "ShareKit/Classes/ShareKit/Core/Base Sharer Classes/SHKSharerDelegate.h"; sourceTree = SOURCE_ROOT; };
+		B34134E85E5C474CAC601DFC /* OAToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAToken.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAToken.h; sourceTree = SOURCE_ROOT; };
+		B3F35BCF5AAE418482C5E8B2 /* NoteStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NoteStore.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/NoteStore.m; sourceTree = SOURCE_ROOT; };
+		B46462118BE54F09A0499994 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B58B69AA2E5440CAB1B7BD5C /* SDURLCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDURLCache.h; path = SDURLCache/SDURLCache.h; sourceTree = SOURCE_ROOT; };
+		B5BCF29D48B7464FB8617A25 /* MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalRecord.m; path = MagicalRecord/MagicalRecord/Core/MagicalRecord.m; sourceTree = SOURCE_ROOT; };
+		B8416E6E67974BF1A34285B0 /* SHKFormFieldSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKFormFieldSettings.h; path = ShareKit/Classes/ShareKit/UI/SHKFormFieldSettings.h; sourceTree = SOURCE_ROOT; };
+		B9E3583D9C644D40A1D8F2E0 /* MagicalImportFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalImportFunctions.m; path = MagicalRecord/MagicalRecord/Categories/DataImport/MagicalImportFunctions.m; sourceTree = SOURCE_ROOT; };
+		BA2C99F09A2745A9B64D26A6 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = SOURCE_ROOT; };
+		BA773A5336FC4D43B69AA9B9 /* SHKReadItLater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKReadItLater.h; path = "ShareKit/Classes/ShareKit/Sharers/Services/Read It Later/SHKReadItLater.h"; sourceTree = SOURCE_ROOT; };
+		BA8FDEB357E3499FAE81D423 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking/AFNetworking/AFXMLRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		BB4D778DFA3D49B6864BF0E9 /* SHKFormFieldSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKFormFieldSettings.m; path = ShareKit/Classes/ShareKit/UI/SHKFormFieldSettings.m; sourceTree = SOURCE_ROOT; };
+		BCE302F8B2AF4F6F91A79AFD /* SHKLogout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKLogout.h; path = "ShareKit/Classes/ShareKit/Sharers/Actions/Logout of All Services/SHKLogout.h"; sourceTree = SOURCE_ROOT; };
+		BCFE6855021843C88AAA12F2 /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStore+MagicalRecord.m"; path = "MagicalRecord/MagicalRecord/Categories/NSPersistentStore+MagicalRecord.m"; sourceTree = SOURCE_ROOT; };
+		BE3747B5A60C4D2F8CDBDDCC /* SHKInstapaper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKInstapaper.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Instapaper/SHKInstapaper.h; sourceTree = SOURCE_ROOT; };
+		BE45A154970B468C82B9F83D /* Errors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Errors.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/Errors.m; sourceTree = SOURCE_ROOT; };
+		BF41B3D1FFB94DFC95F28EEF /* SHKMail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKMail.m; path = ShareKit/Classes/ShareKit/Sharers/Actions/Email/SHKMail.m; sourceTree = SOURCE_ROOT; };
+		C03634968A034C50B3F5FE42 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEntityDescription+MagicalDataImport.h"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h"; sourceTree = SOURCE_ROOT; };
+		C201428EB5C54E6D88E89061 /* EDAMLimits.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDAMLimits.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/EDAMLimits.m; sourceTree = SOURCE_ROOT; };
+		C2D4214B7BB64682AA0D7F30 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAMutableURLRequest.m; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAMutableURLRequest.m; sourceTree = SOURCE_ROOT; };
+		C34BB7F4590F4DEA8B09D845 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = SOURCE_ROOT; };
+		C366A6F143DD4B428CCC4118 /* TMemoryBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMemoryBuffer.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/transport/TMemoryBuffer.m; sourceTree = SOURCE_ROOT; };
+		C3B52A7CD978424D8DF9130C /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDelegate.h; path = SDWebImage/SDImageCacheDelegate.h; sourceTree = SOURCE_ROOT; };
+		C3D23590251D4A13B631BF07 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = SOURCE_ROOT; };
+		C43DD7BFBF04485D9D337B3B /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		C44C39BD36BE489691A8CB02 /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSharedProcessorFactory.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/TSharedProcessorFactory.m; sourceTree = SOURCE_ROOT; };
+		C4881DB4825C403AADA5B6B0 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MagicalDataImport.h"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h"; sourceTree = SOURCE_ROOT; };
+		C4B7BD596F5A4C558D8250CC /* OAAsynchronousDataFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAAsynchronousDataFetcher.m; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAAsynchronousDataFetcher.m; sourceTree = SOURCE_ROOT; };
+		C5F4CD6E15A34D14A407A26B /* SHKOfflineSharer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKOfflineSharer.m; path = ShareKit/Classes/ShareKit/Core/SHKOfflineSharer.m; sourceTree = SOURCE_ROOT; };
+		C6F564D91E4440D785DA654A /* MagicalImportFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalImportFunctions.h; path = MagicalRecord/MagicalRecord/Categories/DataImport/MagicalImportFunctions.h; sourceTree = SOURCE_ROOT; };
+		C7F958F6D3F54C33B00E4EC0 /* TProtocolFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TProtocolFactory.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/protocol/TProtocolFactory.h; sourceTree = SOURCE_ROOT; };
+		C8CA45FEAE084F7CBFA47C70 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Crytpo/sha1.h; sourceTree = SOURCE_ROOT; };
+		CA5C9F3B6AA04AEF82CEB9BD /* SHKViewControllerWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKViewControllerWrapper.h; path = ShareKit/Classes/ShareKit/UI/SHKViewControllerWrapper.h; sourceTree = SOURCE_ROOT; };
+		CA920D89F79545E2B2F49FA3 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Crytpo/hmac.c; sourceTree = SOURCE_ROOT; };
+		CAF0230CF5734B52BCA0E802 /* SHKCustomFormControllerLargeTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKCustomFormControllerLargeTextField.m; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomFormControllerLargeTextField.m"; sourceTree = SOURCE_ROOT; };
+		CB3ED05866524D6D9A825D92 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFNetworking/AFURLConnectionOperation.m; sourceTree = SOURCE_ROOT; };
+		CB7A222D2AD74AC3867795EF /* SHKFormOptionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKFormOptionController.m; path = ShareKit/Classes/ShareKit/UI/SHKFormOptionController.m; sourceTree = SOURCE_ROOT; };
+		CBAA24E702264482BD3A880C /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalObserving.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h"; sourceTree = SOURCE_ROOT; };
+		CC1C9D4809484F89B756B6C7 /* SHKSafari.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKSafari.h; path = "ShareKit/Classes/ShareKit/Sharers/Actions/Open in Safari/SHKSafari.h"; sourceTree = SOURCE_ROOT; };
+		CCF0CFF8F15A4D17B806D9D4 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = SOURCE_ROOT; };
+		D116A703A8D44ACB9A80E4F3 /* THTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THTTPClient.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/transport/THTTPClient.h; sourceTree = SOURCE_ROOT; };
+		D12B66CB3BDC45AABB03EFF0 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = SOURCE_ROOT; };
+		D15ABE5A7722462083035806 /* UIWebView+SHK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+SHK.h"; path = "ShareKit/Classes/ShareKit/Core/Categories/UIWebView+SHK.h"; sourceTree = SOURCE_ROOT; };
+		D1928C8242AB40C1977CBAF6 /* MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecord.h; path = MagicalRecord/MagicalRecord/Core/MagicalRecord.h; sourceTree = SOURCE_ROOT; };
+		D1DC9A1B17E647E49F325BBF /* USDictionaryWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = USDictionaryWrapper.m; path = Underscore.m/Underscore/USDictionaryWrapper.m; sourceTree = SOURCE_ROOT; };
+		D28423B6FA4743CBB0F1A283 /* OAuthConsumer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAuthConsumer.h; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAuthConsumer.h; sourceTree = SOURCE_ROOT; };
+		D324341349524782851081FB /* USDictionaryWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = USDictionaryWrapper.h; path = Underscore.m/Underscore/USDictionaryWrapper.h; sourceTree = SOURCE_ROOT; };
+		D39C24B7833E465AAF26C72A /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = SOURCE_ROOT; };
+		D40BCB91F98B45AAA4399CB7 /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+MagicalDataImport.m"; path = "MagicalRecord/MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.m"; sourceTree = SOURCE_ROOT; };
+		D4EDEAA455D2467896A5E77C /* TProcessorFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TProcessorFactory.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/TProcessorFactory.h; sourceTree = SOURCE_ROOT; };
+		D5675C4B938E4C4D874A972A /* SHKCustomActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKCustomActionSheet.h; path = "ShareKit/Classes/ShareKit/Customize UI/SHKCustomActionSheet.h"; sourceTree = SOURCE_ROOT; };
+		D597CD705616483E91DAAC7E /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+MagicalRecord.h"; path = "MagicalRecord/MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = SOURCE_ROOT; };
+		D5D931AEB47F4EEFB235032E /* SHKShareMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKShareMenu.m; path = ShareKit/Classes/ShareKit/UI/SHKShareMenu.m; sourceTree = SOURCE_ROOT; };
+		D716E28A349441A2A95C9F3D /* SHKSafari.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKSafari.m; path = "ShareKit/Classes/ShareKit/Sharers/Actions/Open in Safari/SHKSafari.m"; sourceTree = SOURCE_ROOT; };
+		D8AE1D35EC964785989ABD72 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "ShareKit/Classes/ShareKit/Core/Helpers/OAuth/Categories/NSString+URLEncoding.m"; sourceTree = SOURCE_ROOT; };
+		D8EBA22D525341689BC68717 /* SHKActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKActionSheet.m; path = ShareKit/Classes/ShareKit/UI/SHKActionSheet.m; sourceTree = SOURCE_ROOT; };
+		DABD7CA655494F1B84D2CEC6 /* SHKPrint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKPrint.m; path = ShareKit/Classes/ShareKit/Sharers/Actions/Print/SHKPrint.m; sourceTree = SOURCE_ROOT; };
+		DB53B3CD707A4D309CF95892 /* NSHTTPCookieStorage+DeleteForURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSHTTPCookieStorage+DeleteForURL.h"; path = "ShareKit/Classes/ShareKit/Core/Categories/NSHTTPCookieStorage+DeleteForURL.h"; sourceTree = SOURCE_ROOT; };
+		DCB1724872214F96A8336093 /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalThreading.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.m"; sourceTree = SOURCE_ROOT; };
+		DDA79F57209E47B0A1637181 /* NSHTTPCookieStorage+DeleteForURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSHTTPCookieStorage+DeleteForURL.m"; path = "ShareKit/Classes/ShareKit/Core/Categories/NSHTTPCookieStorage+DeleteForURL.m"; sourceTree = SOURCE_ROOT; };
+		DDE25F7C69B3441C9BF98168 /* OAServiceTicket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAServiceTicket.m; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAServiceTicket.m; sourceTree = SOURCE_ROOT; };
+		DF512BE8FBE1465B96C68ED6 /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalDataImport.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h"; sourceTree = SOURCE_ROOT; };
+		DFF3CA848172488DA966892D /* AFImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = AFNetworking/AFNetworking/AFImageRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		E0020F3CFE6A4F5B8A6944B3 /* MagicalRecord+Options.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Options.m"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+Options.m"; sourceTree = SOURCE_ROOT; };
+		E2683596DAC0493EB4548F2C /* SHK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHK.h; path = ShareKit/Classes/ShareKit/Core/SHK.h; sourceTree = SOURCE_ROOT; };
+		E5452BED1534416DA72583DE /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = SOURCE_ROOT; };
+		E58D40E4163C4E94912395A5 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = SOURCE_ROOT; };
+		E724D65C0114458BA9F132E6 /* Underscore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Underscore.h; path = Underscore.m/Underscore/Underscore.h; sourceTree = SOURCE_ROOT; };
+		E73D455013F04BA2BDB94B75 /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalRecord.m"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.m"; sourceTree = SOURCE_ROOT; };
+		E8C2D40985D941BE9A9C4512 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDelegate.h; path = SDWebImage/SDWebImageDownloaderDelegate.h; sourceTree = SOURCE_ROOT; };
+		E9DF8149572449D3B223A81C /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Actions.h"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+Actions.h"; sourceTree = SOURCE_ROOT; };
+		EAEE6ACCB66142768EAF2C8C /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = SOURCE_ROOT; };
+		EB386566040A4DA7856F3208 /* SHKOfflineSharer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKOfflineSharer.h; path = ShareKit/Classes/ShareKit/Core/SHKOfflineSharer.h; sourceTree = SOURCE_ROOT; };
+		EBCA2E7065D04F50AD08AF80 /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Actions.m"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+Actions.m"; sourceTree = SOURCE_ROOT; };
+		EC1C36D8BFD74B168D83A236 /* SHKPhotoAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKPhotoAlbum.h; path = "ShareKit/Classes/ShareKit/Sharers/Actions/Save to Album/SHKPhotoAlbum.h"; sourceTree = SOURCE_ROOT; };
+		EC6B725537754B158425BBA2 /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalAggregation.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h"; sourceTree = SOURCE_ROOT; };
+		EC76D198ED9D4AF2B18D2F1D /* SHKGoogleReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKGoogleReader.m; path = "ShareKit/Classes/ShareKit/Sharers/Services/Google Reader/SHKGoogleReader.m"; sourceTree = SOURCE_ROOT; };
+		EF532BE6FC924432AFA93B26 /* OADataFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OADataFetcher.m; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OADataFetcher.m; sourceTree = SOURCE_ROOT; };
+		F0BA6777107F4C438490D2EB /* THTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THTTPClient.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/transport/THTTPClient.m; sourceTree = SOURCE_ROOT; };
+		F293C608E86D4D3283BF9960 /* TApplicationException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TApplicationException.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/TApplicationException.m; sourceTree = SOURCE_ROOT; };
+		F3BA906D7C7849838E89CEB7 /* MagicalRecord+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Options.h"; path = "MagicalRecord/MagicalRecord/Core/MagicalRecord+Options.h"; sourceTree = SOURCE_ROOT; };
+		F3C8EB8AA775445686E89F4A /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalRecord.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"; sourceTree = SOURCE_ROOT; };
+		F669AD8E4E374EA89047A425 /* EDAMLimits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDAMLimits.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/EDAMLimits.h; sourceTree = SOURCE_ROOT; };
+		F6CF11FA7B7A4B1B8738971F /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalFinders.h"; path = "MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h"; sourceTree = SOURCE_ROOT; };
+		F8AECE6EA52E4BA0B5AA3C8A /* SHKPrint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHKPrint.h; path = ShareKit/Classes/ShareKit/Sharers/Actions/Print/SHKPrint.h; sourceTree = SOURCE_ROOT; };
+		F901F4D5B390431E809E8846 /* OAConsumer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAConsumer.m; path = ShareKit/Classes/ShareKit/Core/Helpers/OAuth/OAConsumer.m; sourceTree = SOURCE_ROOT; };
+		F92C17A1EDBF48C38B0EC86B /* SHKFormFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKFormFieldCell.m; path = ShareKit/Classes/ShareKit/UI/SHKFormFieldCell.m; sourceTree = SOURCE_ROOT; };
+		FA6B0F6F72364B6ABDC0D0C1 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		FB17A90482144368984D7C97 /* TBinaryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBinaryProtocol.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/thrift/protocol/TBinaryProtocol.h; sourceTree = SOURCE_ROOT; };
+		FCD0B1151359460BA39539EE /* SHKInstapaper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHKInstapaper.m; path = ShareKit/Classes/ShareKit/Sharers/Services/Instapaper/SHKInstapaper.m; sourceTree = SOURCE_ROOT; };
+		FD2CE43E5B604E158124DDCA /* UserStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserStore.h; path = ShareKit/Classes/ShareKit/Sharers/Services/Evernote/Helpers/edam/UserStore.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9F28D2D5FE40BEB309F7F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9A74FC8F3E496DAD4BBFF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00708AEAC3184B1DBB22C5DC /* ShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A72A7D1F45640A8971296FA /* DefaultSHKConfigurator.h */,
+				AC3B94FE60D34E20A247E595 /* SHKConfiguration.h */,
+				525821BAAA754B6E800A4C9F /* DefaultSHKConfigurator.m */,
+				6FD531F82265491089CD19A6 /* SHKConfiguration.m */,
+				4C43091CE7BF483193235CCC /* SHKOAuthSharer.h */,
+				AB0BD6FA0E4A4E3999437FA0 /* SHKSharer.h */,
+				B2F693D9E2AE40538A931D2C /* SHKSharerDelegate.h */,
+				929A25F8832A498391E75FA7 /* NSData+md5.h */,
+				DB53B3CD707A4D309CF95892 /* NSHTTPCookieStorage+DeleteForURL.h */,
+				88D08A6D6C2C4BA589B0E875 /* NSMutableDictionary+NSNullsToEmptyStrings.h */,
+				D15ABE5A7722462083035806 /* UIWebView+SHK.h */,
+				111D6CAC9F00430CB0C65B5F /* NSMutableURLRequest+Parameters.h */,
+				88D9FCD650964CD58CA4C08D /* NSString+URLEncoding.h */,
+				787CFC9AFC504F03B4751485 /* NSURL+Base.h */,
+				411195EFC8304064AE535CC6 /* Base64Transcoder.h */,
+				2FE345B57F884B35B1DF5E57 /* hmac.h */,
+				C8CA45FEAE084F7CBFA47C70 /* sha1.h */,
+				31AF1D87004C44F380DE472B /* OAAsynchronousDataFetcher.h */,
+				1E09F2762D5046E5AA2B9276 /* OAConsumer.h */,
+				3B19C8EB3FC745D7BBB8D0FA /* OADataFetcher.h */,
+				780A5F32E2F241D7B2A75668 /* OAHMAC_SHA1SignatureProvider.h */,
+				42E35CCD85FD4FE18F2000A9 /* OAMutableURLRequest.h */,
+				0E38E513F79C4F11AD880309 /* OAPlaintextSignatureProvider.h */,
+				97F9009C69A1401F8024A6A5 /* OARequestParameter.h */,
+				42E6B1019BB6489BB3EA7038 /* OAServiceTicket.h */,
+				761114A169A045309E0A402F /* OASignatureProviding.h */,
+				B34134E85E5C474CAC601DFC /* OAToken.h */,
+				D28423B6FA4743CBB0F1A283 /* OAuthConsumer.h */,
+				26622AA6C422432ABEB762D0 /* SHKRequest.h */,
+				1A6DDB917D434A408236CF20 /* SHKXMLResponseParser.h */,
+				E2683596DAC0493EB4548F2C /* SHK.h */,
+				403C00FE3588480F8B88569C /* SHKItem.h */,
+				EB386566040A4DA7856F3208 /* SHKOfflineSharer.h */,
+				A925E9BB7B4C408BB9348D02 /* SHKOAuthSharer.m */,
+				816C92B126604BDCA66562EF /* SHKSharer.m */,
+				0FC6D79D99BD4A42A13CE9D1 /* SHKSharerDelegate.m */,
+				3C1AB39D9CDC4D0686C1D4A4 /* NSData+md5.m */,
+				DDA79F57209E47B0A1637181 /* NSHTTPCookieStorage+DeleteForURL.m */,
+				09D6DC1C23C64BCDA99D87A4 /* NSMutableDictionary+NSNullsToEmptyStrings.m */,
+				833A2C5FB450432C8D5C9BAE /* UIWebView+SHK.m */,
+				207E2C90AEB443E38A61FF0A /* NSMutableURLRequest+Parameters.m */,
+				D8AE1D35EC964785989ABD72 /* NSString+URLEncoding.m */,
+				4DB6E8BD81B6495F9FE2149B /* NSURL+Base.m */,
+				C4B7BD596F5A4C558D8250CC /* OAAsynchronousDataFetcher.m */,
+				F901F4D5B390431E809E8846 /* OAConsumer.m */,
+				EF532BE6FC924432AFA93B26 /* OADataFetcher.m */,
+				8F18DA1E97DD4001A4E8E1D8 /* OAHMAC_SHA1SignatureProvider.m */,
+				C2D4214B7BB64682AA0D7F30 /* OAMutableURLRequest.m */,
+				73478F33F6D84B93B77C718F /* OAPlaintextSignatureProvider.m */,
+				599D2FC6C8454BF1A461A14F /* OARequestParameter.m */,
+				DDE25F7C69B3441C9BF98168 /* OAServiceTicket.m */,
+				033167DD4ECC484E932889CA /* OAToken.m */,
+				40BDD51BBC984AB2B7D16312 /* SHKRequest.m */,
+				08E7CD6700E24F689F1D9696 /* SHKXMLResponseParser.m */,
+				A064EA28697D4529A358F200 /* SHK.m */,
+				1BFC07448EEC49589690B8FF /* SHKItem.m */,
+				C5F4CD6E15A34D14A407A26B /* SHKOfflineSharer.m */,
+				9C16C34BA7D54B6B9210C888 /* Base64Transcoder.c */,
+				CA920D89F79545E2B2F49FA3 /* hmac.c */,
+				1955F059095B427285B3A714 /* sha1.c */,
+				D5675C4B938E4C4D874A972A /* SHKCustomActionSheet.h */,
+				4602162D52544D148A44F56C /* SHKCustomFormController.h */,
+				263AE07A93AD45B79DEF9366 /* SHKCustomFormControllerLargeTextField.h */,
+				0308822F26604119A1231CD6 /* SHKCustomFormFieldCell.h */,
+				473A9302A61D4B868545E484 /* SHKCustomShareMenu.h */,
+				5667E7A2CE8E487E83919311 /* SHKCustomShareMenuCell.h */,
+				48129505D3D1421280EE5187 /* SHKCustomActionSheet.m */,
+				0CCF7288F033477A9A5EABB5 /* SHKCustomFormController.m */,
+				CAF0230CF5734B52BCA0E802 /* SHKCustomFormControllerLargeTextField.m */,
+				90A36A827C324D3FB2F3E9D0 /* SHKCustomFormFieldCell.m */,
+				8259EC1916644F77927AB4C4 /* SHKCustomShareMenu.m */,
+				474A1BE9E03845DD8ACED490 /* SHKCustomShareMenuCell.m */,
+				22635BF73A0A40B48AEFD50B /* SHKActionSheet.h */,
+				99058F26D1F1473480ED9648 /* SHKActivityIndicator.h */,
+				088DF250243C40309D27A7A7 /* SHKFormController.h */,
+				6BEAA0737E42432EBC40634D /* SHKFormControllerLargeTextField.h */,
+				231209BFDAD34068BA92EF62 /* SHKFormFieldCell.h */,
+				B8416E6E67974BF1A34285B0 /* SHKFormFieldSettings.h */,
+				6CAB42505E7D417FA55EC4EC /* SHKFormOptionController.h */,
+				7690CDEB1BD34BE9A4C314F5 /* SHKOAuthView.h */,
+				7DE79C5BB7C94C9D9E4BF1B8 /* SHKShareItemDelegate.h */,
+				547F5007B91A44F184FC32AD /* SHKShareMenu.h */,
+				CA5C9F3B6AA04AEF82CEB9BD /* SHKViewControllerWrapper.h */,
+				D8EBA22D525341689BC68717 /* SHKActionSheet.m */,
+				B13DEA966E57401A9BEB23D7 /* SHKActivityIndicator.m */,
+				93DDBE9F709547B1A5BE0DB5 /* SHKFormController.m */,
+				31F8DEE9761340EE8635AF32 /* SHKFormControllerLargeTextField.m */,
+				F92C17A1EDBF48C38B0EC86B /* SHKFormFieldCell.m */,
+				BB4D778DFA3D49B6864BF0E9 /* SHKFormFieldSettings.m */,
+				CB7A222D2AD74AC3867795EF /* SHKFormOptionController.m */,
+				8C81413D6B07426BBAEAE7C1 /* SHKOAuthView.m */,
+				D5D931AEB47F4EEFB235032E /* SHKShareMenu.m */,
+				09B2803DE446427780E02CDA /* SHKViewControllerWrapper.m */,
+				312DE332411742D78CBF45A2 /* SHKCopy.h */,
+				04F8337214B1465E9C9D2029 /* SHKMail.h */,
+				BCE302F8B2AF4F6F91A79AFD /* SHKLogout.h */,
+				CC1C9D4809484F89B756B6C7 /* SHKSafari.h */,
+				F8AECE6EA52E4BA0B5AA3C8A /* SHKPrint.h */,
+				EC1C36D8BFD74B168D83A236 /* SHKPhotoAlbum.h */,
+				49A08E5668E84EF9943FBC53 /* SHKTextMessage.h */,
+				7CE8D37AC86A4F92AB228838 /* SHKCopy.m */,
+				BF41B3D1FFB94DFC95F28EEF /* SHKMail.m */,
+				52186B1A383A4037A9EE4A87 /* SHKLogout.m */,
+				D716E28A349441A2A95C9F3D /* SHKSafari.m */,
+				DABD7CA655494F1B84D2CEC6 /* SHKPrint.m */,
+				A1B4308594EF43388658A16D /* SHKPhotoAlbum.m */,
+				4ED8AA5D9FD74CBEA7C425E6 /* SHKTextMessage.m */,
+				F664C829877C4A66A37B2884 /* Twitter */,
+				E4DB2CBC7A81400C849F03C9 /* Evernote */,
+				503F9EAC75784E10AEED4148 /* Instapaper */,
+				3F9F6F39FFE848738333AE82 /* ReadItLater */,
+				680ECD858D7C4C7E8A12825E /* GoogleReader */,
+			);
+			name = ShareKit;
+			sourceTree = "<group>";
+		};
+		0D8E4E94905C4DD48E59A36E /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				C6F564D91E4440D785DA654A /* MagicalImportFunctions.h */,
+				83913AB5E67345698170329C /* NSAttributeDescription+MagicalDataImport.h */,
+				C03634968A034C50B3F5FE42 /* NSEntityDescription+MagicalDataImport.h */,
+				7FD11A967C3A430E815EE52F /* NSNumber+MagicalDataImport.h */,
+				5963C7741D4848F0A7388073 /* NSObject+MagicalDataImport.h */,
+				B0E8C4F70F4540F28C55E5BE /* NSRelationshipDescription+MagicalDataImport.h */,
+				C4881DB4825C403AADA5B6B0 /* NSString+MagicalDataImport.h */,
+				EC6B725537754B158425BBA2 /* NSManagedObject+MagicalAggregation.h */,
+				DF512BE8FBE1465B96C68ED6 /* NSManagedObject+MagicalDataImport.h */,
+				F6CF11FA7B7A4B1B8738971F /* NSManagedObject+MagicalFinders.h */,
+				0FB5B5F056A1439C976AD55C /* NSManagedObject+MagicalRecord.h */,
+				5AB8E3EE3BA9412CBC245EA7 /* NSManagedObject+MagicalRequests.h */,
+				CBAA24E702264482BD3A880C /* NSManagedObjectContext+MagicalObserving.h */,
+				F3C8EB8AA775445686E89F4A /* NSManagedObjectContext+MagicalRecord.h */,
+				AB4E0242A1E14EFA9A14AA3F /* NSManagedObjectContext+MagicalSaves.h */,
+				5ABB7D45639847578B90C70C /* NSManagedObjectContext+MagicalThreading.h */,
+				0637BE2F80734689BB19EDEB /* NSManagedObjectModel+MagicalRecord.h */,
+				026A0159911040CD90DCA290 /* NSPersistentStore+MagicalRecord.h */,
+				D597CD705616483E91DAAC7E /* NSPersistentStoreCoordinator+MagicalRecord.h */,
+				E9DF8149572449D3B223A81C /* MagicalRecord+Actions.h */,
+				753C63199EAE4974A4CFCF00 /* MagicalRecord+ErrorHandling.h */,
+				1D09CAE69D254FF48AF770A8 /* MagicalRecord+iCloud.h */,
+				F3BA906D7C7849838E89CEB7 /* MagicalRecord+Options.h */,
+				9E538202BED94DE690FB071C /* MagicalRecord+Setup.h */,
+				0831008B396F43E0BD29C687 /* MagicalRecord+ShorthandSupport.h */,
+				D1928C8242AB40C1977CBAF6 /* MagicalRecord.h */,
+				9BDBB9AD8D2B4ED188F7A60D /* MagicalRecordShorthand.h */,
+				52DE507A0B1E447F96A0A14F /* CoreData+MagicalRecord.h */,
+				B9E3583D9C644D40A1D8F2E0 /* MagicalImportFunctions.m */,
+				9D34E8E7A8954BF1B46A1720 /* NSAttributeDescription+MagicalDataImport.m */,
+				0F1E6FAAF4934F688F89796D /* NSEntityDescription+MagicalDataImport.m */,
+				D40BCB91F98B45AAA4399CB7 /* NSNumber+MagicalDataImport.m */,
+				B03A9BF85E4D4C7E8DC3FF5C /* NSObject+MagicalDataImport.m */,
+				5E9870AE1FBB4442BF7ACF41 /* NSRelationshipDescription+MagicalDataImport.m */,
+				A84D63E96D754FE49FE1CCE1 /* NSString+MagicalDataImport.m */,
+				83A503219A294BDF977D90AB /* NSManagedObject+MagicalAggregation.m */,
+				94575BA54BA34C9A92508DF8 /* NSManagedObject+MagicalDataImport.m */,
+				93E666B4070649D98CD5886D /* NSManagedObject+MagicalFinders.m */,
+				A703CA74E47943148D6FF13C /* NSManagedObject+MagicalRecord.m */,
+				9BAE65D62EA6498590BF2B77 /* NSManagedObject+MagicalRequests.m */,
+				249BC5204A5B44CAB6F72FFC /* NSManagedObjectContext+MagicalObserving.m */,
+				E73D455013F04BA2BDB94B75 /* NSManagedObjectContext+MagicalRecord.m */,
+				5C0F81A575EA4660A08360C9 /* NSManagedObjectContext+MagicalSaves.m */,
+				DCB1724872214F96A8336093 /* NSManagedObjectContext+MagicalThreading.m */,
+				73CEDACE7FCA4745906D3687 /* NSManagedObjectModel+MagicalRecord.m */,
+				BCFE6855021843C88AAA12F2 /* NSPersistentStore+MagicalRecord.m */,
+				8616432742FA4C2F8476BE0B /* NSPersistentStoreCoordinator+MagicalRecord.m */,
+				EBCA2E7065D04F50AD08AF80 /* MagicalRecord+Actions.m */,
+				3CE1F66AAB184ED99B54482D /* MagicalRecord+ErrorHandling.m */,
+				8C30A3C174954EAB81C24AD6 /* MagicalRecord+iCloud.m */,
+				E0020F3CFE6A4F5B8A6944B3 /* MagicalRecord+Options.m */,
+				2F74EF9EA693455092CAA7AE /* MagicalRecord+Setup.m */,
+				4C0D026E80D14B79951725A5 /* MagicalRecord+ShorthandSupport.m */,
+				B5BCF29D48B7464FB8617A25 /* MagicalRecord.m */,
+			);
+			name = MagicalRecord;
+			sourceTree = "<group>";
+		};
+		23751477CF634857A0C95B92 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AAD592C2130A4B5C9BBC2371 /* AFHTTPClient.h */,
+				C43DD7BFBF04485D9D337B3B /* AFHTTPRequestOperation.h */,
+				AB6E169CA2684D76A33DDBC0 /* AFImageRequestOperation.h */,
+				9B703B180F3A4AB391DEE747 /* AFJSONRequestOperation.h */,
+				E5452BED1534416DA72583DE /* AFNetworkActivityIndicatorManager.h */,
+				A26B529B2EEB41989F4CC477 /* AFNetworking.h */,
+				FA6B0F6F72364B6ABDC0D0C1 /* AFPropertyListRequestOperation.h */,
+				E58D40E4163C4E94912395A5 /* AFURLConnectionOperation.h */,
+				BA8FDEB357E3499FAE81D423 /* AFXMLRequestOperation.h */,
+				D39C24B7833E465AAF26C72A /* UIImageView+AFNetworking.h */,
+				0DECE0B8F05043598D2BFCDB /* AFHTTPClient.m */,
+				5DC25D52CD7D49D5AE0D182D /* AFHTTPRequestOperation.m */,
+				DFF3CA848172488DA966892D /* AFImageRequestOperation.m */,
+				2AC528C653444959BF3F024E /* AFJSONRequestOperation.m */,
+				CCF0CFF8F15A4D17B806D9D4 /* AFNetworkActivityIndicatorManager.m */,
+				7E8B9861C1724247B82B2E2B /* AFPropertyListRequestOperation.m */,
+				CB3ED05866524D6D9A825D92 /* AFURLConnectionOperation.m */,
+				92837202C5894B4DA5BD6C79 /* AFXMLRequestOperation.m */,
+				91F642DBCF7242CD8F53883F /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		3BB17DD65D6E4ECE87703B87 /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				691B4CFD39914E7799A48116 /* SVPullToRefresh.h */,
+				A77D33F279384D8EA9DF9567 /* UIScrollView+SVInfiniteScrolling.h */,
+				1AC39785603E43E3B43EE003 /* UIScrollView+SVPullToRefresh.h */,
+				3D0B7618806C4C748078AD0B /* UIScrollView+SVInfiniteScrolling.m */,
+				3B4809BCF4C84896B67B3AFD /* UIScrollView+SVPullToRefresh.m */,
+			);
+			name = SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+		3F9F6F39FFE848738333AE82 /* ReadItLater */ = {
+			isa = PBXGroup;
+			children = (
+				BA773A5336FC4D43B69AA9B9 /* SHKReadItLater.h */,
+				AA9720F9C77647CE9871BF11 /* SHKReadItLater.m */,
+			);
+			name = ReadItLater;
+			sourceTree = "<group>";
+		};
+		503F9EAC75784E10AEED4148 /* Instapaper */ = {
+			isa = PBXGroup;
+			children = (
+				BE3747B5A60C4D2F8CDBDDCC /* SHKInstapaper.h */,
+				FCD0B1151359460BA39539EE /* SHKInstapaper.m */,
+			);
+			name = Instapaper;
+			sourceTree = "<group>";
+		};
+		5DEF77C91F554274902DF499 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				3AFBB0E6DBA648F5ADD2C688 /* SSKeychain.h */,
+				70CCC4B5D4454D4B92C617DB /* SSKeychain.m */,
+			);
+			name = SSKeychain;
+			sourceTree = "<group>";
+		};
+		680ECD858D7C4C7E8A12825E /* GoogleReader */ = {
+			isa = PBXGroup;
+			children = (
+				A067F6EDFACA472C9CA3B310 /* SHKGoogleReader.h */,
+				EC76D198ED9D4AF2B18D2F1D /* SHKGoogleReader.m */,
+			);
+			name = GoogleReader;
+			sourceTree = "<group>";
+		};
+		6BE071DFDEA445378F1EF819 /* Underscore.m */ = {
+			isa = PBXGroup;
+			children = (
+				E724D65C0114458BA9F132E6 /* Underscore.h */,
+				7285BFF6CE5F4E068442900E /* USArrayWrapper.h */,
+				201B9E82DEF24AE89A37A84A /* USConstants.h */,
+				D324341349524782851081FB /* USDictionaryWrapper.h */,
+				890B809BDBD142ED974AA9FA /* Underscore.m */,
+				9B3B632478F84FB380CB21F9 /* USArrayWrapper.m */,
+				D1DC9A1B17E647E49F325BBF /* USDictionaryWrapper.m */,
+			);
+			name = Underscore.m;
+			sourceTree = "<group>";
+		};
+		6D9DA139E2334882BF55D4D0 /* AFHTTPRequestOperationLogger */ = {
+			isa = PBXGroup;
+			children = (
+				1C7DD69087BB408D9658317D /* AFHTTPRequestOperationLogger.h */,
+				4F3A3D9E38124E82BDDC0D10 /* AFHTTPRequestOperationLogger.m */,
+			);
+			name = AFHTTPRequestOperationLogger;
+			sourceTree = "<group>";
+		};
+		6FCF1AD43C644156B0277C9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C844BEF07C34692AAFB471C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70DFD7848A5345AB92FC33DC /* SDURLCache */ = {
+			isa = PBXGroup;
+			children = (
+				B58B69AA2E5440CAB1B7BD5C /* SDURLCache.h */,
+				2B3C7376D0264C9E845B3B9A /* SDURLCache.m */,
+			);
+			name = SDURLCache;
+			sourceTree = "<group>";
+		};
+		76A445AAE6E042C5A118D4A0 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				175E185999D148AC9EF882FB /* SDImageCache.h */,
+				C3B52A7CD978424D8DF9130C /* SDImageCacheDelegate.h */,
+				3DB9C776F88947B68C8AECC9 /* SDWebImageCompat.h */,
+				67DBF710C166480B9900AF40 /* SDWebImageDecoder.h */,
+				3142E7CDFB9F4CE08793B807 /* SDWebImageDownloader.h */,
+				E8C2D40985D941BE9A9C4512 /* SDWebImageDownloaderDelegate.h */,
+				08CB1C9D036C488CA945EBF4 /* SDWebImageManager.h */,
+				6B2B03A931554F4CA3E1E6C1 /* SDWebImageManagerDelegate.h */,
+				BA2C99F09A2745A9B64D26A6 /* SDWebImagePrefetcher.h */,
+				2C857E8E46DC402E880DD30A /* SDImageCache.m */,
+				EAEE6ACCB66142768EAF2C8C /* SDWebImageDecoder.m */,
+				23322A6532644B9FBFBB82D3 /* SDWebImageDownloader.m */,
+				C34BB7F4590F4DEA8B09D845 /* SDWebImageManager.m */,
+				1815E08A7B7A4788822849D3 /* SDWebImagePrefetcher.m */,
+				53FAFAC81E2C4816876A11FC /* UIButton+WebCache.h */,
+				80E5E4DC82E44FD6BF04A65E /* UIImageView+WebCache.h */,
+				1E794FA90F494AA3A1C247CD /* UIButton+WebCache.m */,
+				D12B66CB3BDC45AABB03EFF0 /* UIImageView+WebCache.m */,
+			);
+			name = SDWebImage;
+			sourceTree = "<group>";
+		};
+		7FFF0DA5F5084102921C3806 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0EA13E10A492B952A03D8 /* Pods-resources.sh */,
+				0B982155AA864A74B5573E30 /* Pods-prefix.pch */,
+				B46462118BE54F09A0499994 /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD0B80DF49594A9FA3F4D523 = {
+			isa = PBXGroup;
+			children = (
+				E4A63321D5E847D7A9B6CCFA /* Products */,
+				6FCF1AD43C644156B0277C9C /* Frameworks */,
+				DC596F8EF4694C5D94E7AC5F /* Pods */,
+				B465D9BC60594553BB2BC548 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8189C3FE1A437880BA5CFA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2B37212357574790B594C88C /* Reachability.h */,
+				C3D23590251D4A13B631BF07 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		AEE98FABD20E41558A331401 /* ZUUIRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				36AECF16BEE043DEAF78117C /* ZUUIRevealController.h */,
+				53457F2822174186BC1580CB /* ZUUIRevealController.m */,
+			);
+			name = ZUUIRevealController;
+			sourceTree = "<group>";
+		};
+		B465D9BC60594553BB2BC548 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FFF0DA5F5084102921C3806 /* Pods */,
+				1955EA5558994E90A9C74D94 /* PodsDummy_Pods.m */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA879807A75A47E190181691 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8358A07E394B4C70B1415939 /* SVProgressHUD.h */,
+				AB0CD2F5711D4835BE55771C /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		C115366DC3A24EB380041D22 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				9C7E6763FF4D4FE4BCDDC0A3 /* JSONKit.h */,
+				18BDBD2641E84438AFEC12C4 /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		DC596F8EF4694C5D94E7AC5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D9DA139E2334882BF55D4D0 /* AFHTTPRequestOperationLogger */,
+				23751477CF634857A0C95B92 /* AFNetworking */,
+				C115366DC3A24EB380041D22 /* JSONKit */,
+				0D8E4E94905C4DD48E59A36E /* MagicalRecord */,
+				AE8189C3FE1A437880BA5CFA /* Reachability */,
+				70DFD7848A5345AB92FC33DC /* SDURLCache */,
+				76A445AAE6E042C5A118D4A0 /* SDWebImage */,
+				5DEF77C91F554274902DF499 /* SSKeychain */,
+				BA879807A75A47E190181691 /* SVProgressHUD */,
+				3BB17DD65D6E4ECE87703B87 /* SVPullToRefresh */,
+				00708AEAC3184B1DBB22C5DC /* ShareKit */,
+				6BE071DFDEA445378F1EF819 /* Underscore.m */,
+				AEE98FABD20E41558A331401 /* ZUUIRevealController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4A63321D5E847D7A9B6CCFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6108BFFCBC0E43C6AF77618C /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4DB2CBC7A81400C849F03C9 /* Evernote */ = {
+			isa = PBXGroup;
+			children = (
+				F669AD8E4E374EA89047A425 /* EDAMLimits.h */,
+				4B59375DBA08493B809F8D54 /* Errors.h */,
+				3F7980AF5BB844A0A31883C7 /* NoteStore.h */,
+				4B6EB55EE1F84078A180EF75 /* Types.h */,
+				FD2CE43E5B604E158124DDCA /* UserStore.h */,
+				FB17A90482144368984D7C97 /* TBinaryProtocol.h */,
+				087626E2169E45EA9B439F06 /* TProtocol.h */,
+				4DD56B0242D34673B5404CF4 /* TProtocolException.h */,
+				C7F958F6D3F54C33B00E4EC0 /* TProtocolFactory.h */,
+				11D0BCED32974057B4D9AF5C /* TProtocolUtil.h */,
+				08EFBDEED68E48059983E0C7 /* TApplicationException.h */,
+				1A03633E1DF44A5C9B9C98A9 /* TException.h */,
+				A63492B59A844B1DA15C72DE /* TProcessor.h */,
+				D4EDEAA455D2467896A5E77C /* TProcessorFactory.h */,
+				D116A703A8D44ACB9A80E4F3 /* THTTPClient.h */,
+				775CE466D3C24355AF05E4FE /* TMemoryBuffer.h */,
+				548B2380BCE44CC6AD02CE4D /* TTransport.h */,
+				6EA16D5A5DC348CD82281720 /* TTransportException.h */,
+				018F99B5DA6141968F66391E /* TSharedProcessorFactory.h */,
+				B1517B19D0034593B047F3E7 /* SHKEvernote.h */,
+				C201428EB5C54E6D88E89061 /* EDAMLimits.m */,
+				BE45A154970B468C82B9F83D /* Errors.m */,
+				B3F35BCF5AAE418482C5E8B2 /* NoteStore.m */,
+				64022514888A471AABD800DD /* Types.m */,
+				6576625B87B94AD0B35F7EA0 /* UserStore.m */,
+				98A80444841D42499B5361AC /* TBinaryProtocol.m */,
+				2D69CE6B0C83457B867C3FB2 /* TProtocolException.m */,
+				827F348D2E804FF8A32308C8 /* TProtocolUtil.m */,
+				F293C608E86D4D3283BF9960 /* TApplicationException.m */,
+				7799725250254735B3EE19BD /* TException.m */,
+				F0BA6777107F4C438490D2EB /* THTTPClient.m */,
+				C366A6F143DD4B428CCC4118 /* TMemoryBuffer.m */,
+				7BF916C4116F409588B172DB /* TTransportException.m */,
+				C44C39BD36BE489691A8CB02 /* TSharedProcessorFactory.m */,
+				258BB6D54DA94E06ABD627F1 /* SHKEvernote.m */,
+			);
+			name = Evernote;
+			sourceTree = "<group>";
+		};
+		F664C829877C4A66A37B2884 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				67C35200008B4AF8B18526DD /* SHKiOS5Twitter.h */,
+				3C3D3940459446BDBD403820 /* SHKTwitter.h */,
+				5A767E45FA384EC1B8747E4E /* SHKiOS5Twitter.m */,
+				A29E0FCB49D3416F8149E5FC /* SHKTwitter.m */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03422B510D304715A888800D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616D440AEF3A407D8EF61CDD /* AFHTTPRequestOperationLogger.h in Headers */,
+				15697705B3B14CE4AF422868 /* AFHTTPClient.h in Headers */,
+				4AF3DFAD40C04F89A42D5695 /* AFHTTPRequestOperation.h in Headers */,
+				B7233B8ED73A4FA9A62EC064 /* AFImageRequestOperation.h in Headers */,
+				E4E639DF7DDA4B178D54083C /* AFJSONRequestOperation.h in Headers */,
+				0AC07F21513A44D98E3044C3 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				E4B0882129834B1CA38C7D97 /* AFNetworking.h in Headers */,
+				D3159035930A4AD79F303E35 /* AFPropertyListRequestOperation.h in Headers */,
+				F46967383D134E9D8F7CC1B0 /* AFURLConnectionOperation.h in Headers */,
+				54148433779642B7BE8B25A0 /* AFXMLRequestOperation.h in Headers */,
+				E68A88A05AA84FA3B362B005 /* UIImageView+AFNetworking.h in Headers */,
+				BD8B64906DB143169CE78785 /* JSONKit.h in Headers */,
+				C5816229D3FA40838DBA8169 /* MagicalImportFunctions.h in Headers */,
+				871B2AEA1E99484383AFCFD4 /* NSAttributeDescription+MagicalDataImport.h in Headers */,
+				FC4D495659C140C2BD8848CA /* NSEntityDescription+MagicalDataImport.h in Headers */,
+				96F35DC6B84049CA8269421D /* NSNumber+MagicalDataImport.h in Headers */,
+				A5E8EEB1346F401D925EB892 /* NSObject+MagicalDataImport.h in Headers */,
+				99EC097575CF478B80C1641F /* NSRelationshipDescription+MagicalDataImport.h in Headers */,
+				212069CC7B0548618F093581 /* NSString+MagicalDataImport.h in Headers */,
+				5307AB4F4F7042CA831D6E25 /* NSManagedObject+MagicalAggregation.h in Headers */,
+				8191B5D9018047C7B7B7D696 /* NSManagedObject+MagicalDataImport.h in Headers */,
+				3435A3A07F1F4FD9B04C1AEE /* NSManagedObject+MagicalFinders.h in Headers */,
+				9A73F8CC8E584043B6BF110C /* NSManagedObject+MagicalRecord.h in Headers */,
+				0FF2202033E2405E8208F308 /* NSManagedObject+MagicalRequests.h in Headers */,
+				08C1BC9C68CE49D492B72FEB /* NSManagedObjectContext+MagicalObserving.h in Headers */,
+				6A4B838E568645DDA6DB612E /* NSManagedObjectContext+MagicalRecord.h in Headers */,
+				02B9AE146CE846BEA51C3DCE /* NSManagedObjectContext+MagicalSaves.h in Headers */,
+				059275719E9A42079609E983 /* NSManagedObjectContext+MagicalThreading.h in Headers */,
+				8F6DCECB230840D092E5EB3F /* NSManagedObjectModel+MagicalRecord.h in Headers */,
+				6ED639194B3C4F4993836C06 /* NSPersistentStore+MagicalRecord.h in Headers */,
+				DA76034BE2F6465F99BBACFE /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */,
+				3A3879B6C359475FAEEC938D /* MagicalRecord+Actions.h in Headers */,
+				B5F8F0CFA17B4DA3B2C18BA7 /* MagicalRecord+ErrorHandling.h in Headers */,
+				DE65E73A8C9F4D9DB922B120 /* MagicalRecord+iCloud.h in Headers */,
+				6FECDE58740F4161A1F72BB6 /* MagicalRecord+Options.h in Headers */,
+				3BA4BC5C54174CC0B8C84E46 /* MagicalRecord+Setup.h in Headers */,
+				6CE9F0C979F8467BBD1AAA6F /* MagicalRecord+ShorthandSupport.h in Headers */,
+				7E5D8D72F24C467D8A524250 /* MagicalRecord.h in Headers */,
+				A7EDB4791B5843EBB113AD82 /* MagicalRecordShorthand.h in Headers */,
+				DD7CA267F72E48FBB4E5C0F7 /* CoreData+MagicalRecord.h in Headers */,
+				ED31724CCC4C41F98CC6E09C /* Reachability.h in Headers */,
+				999421E539FF4098AD2C24D5 /* SDURLCache.h in Headers */,
+				FB1C43CD8B154FD6878C34D8 /* SDImageCache.h in Headers */,
+				089273955BF84D25BCE00693 /* SDImageCacheDelegate.h in Headers */,
+				7ABEC6384CEA4ABA9EC70F9C /* SDWebImageCompat.h in Headers */,
+				CA5C4F08E1354272AF9FEDBD /* SDWebImageDecoder.h in Headers */,
+				68F335AA24064ED4B54E3D8B /* SDWebImageDownloader.h in Headers */,
+				4F8CC496335E4913BC49445E /* SDWebImageDownloaderDelegate.h in Headers */,
+				A1C2A94F0E2B4510A2809CF5 /* SDWebImageManager.h in Headers */,
+				EE0733CD2D304958974172F0 /* SDWebImageManagerDelegate.h in Headers */,
+				697FEC0BB3EC4F3EB1A72729 /* SDWebImagePrefetcher.h in Headers */,
+				3D3299C665584486B3A3DACD /* UIButton+WebCache.h in Headers */,
+				105F8D7ACB2444D2B458C983 /* UIImageView+WebCache.h in Headers */,
+				37ECCFE377DA4522BCDF2853 /* SSKeychain.h in Headers */,
+				666357F0506E42EB80BAB0F5 /* SVProgressHUD.h in Headers */,
+				3EDC35FEF3F84ABF89F86AA9 /* SVPullToRefresh.h in Headers */,
+				6A964DC11F1F48448B15AE2B /* UIScrollView+SVInfiniteScrolling.h in Headers */,
+				ED6AF457CBE040C9BD3FF4A7 /* UIScrollView+SVPullToRefresh.h in Headers */,
+				5E7C1B990B2145E194AAA796 /* DefaultSHKConfigurator.h in Headers */,
+				6E742AFA56264A78981B7028 /* SHKConfiguration.h in Headers */,
+				948B42F844984F96BEFA457A /* SHKOAuthSharer.h in Headers */,
+				5E667FA30CA04682A0562593 /* SHKSharer.h in Headers */,
+				EF26EB0021D74471BFD919BA /* SHKSharerDelegate.h in Headers */,
+				86D34A6D05E14D619332F3D8 /* NSData+md5.h in Headers */,
+				89BF87DD38044C50A89615A1 /* NSHTTPCookieStorage+DeleteForURL.h in Headers */,
+				4B7EDE83FB4D4A62A6CB46BC /* NSMutableDictionary+NSNullsToEmptyStrings.h in Headers */,
+				96550664395D47358F321D3C /* UIWebView+SHK.h in Headers */,
+				A23EAB5C76D94F3BB4CEB7C4 /* NSMutableURLRequest+Parameters.h in Headers */,
+				B59D5EC346BA4008A0DFFA4D /* NSString+URLEncoding.h in Headers */,
+				FF4AF9DB01AC4C2D93E7878E /* NSURL+Base.h in Headers */,
+				97666A0BE09B4555A29787E4 /* Base64Transcoder.h in Headers */,
+				7B404371D5C740A98663D90C /* hmac.h in Headers */,
+				783F42624BF64055A399AB75 /* sha1.h in Headers */,
+				8BBD2E9B8F3F49D0B5EA5504 /* OAAsynchronousDataFetcher.h in Headers */,
+				FD80653E5745466A93FAD851 /* OAConsumer.h in Headers */,
+				6108D2F16D144EF6A8546F45 /* OADataFetcher.h in Headers */,
+				18C6640BBE5E4FD28A0BAE56 /* OAHMAC_SHA1SignatureProvider.h in Headers */,
+				524D03B7D88A4BFB8C8E7ECA /* OAMutableURLRequest.h in Headers */,
+				450994EF83394B22A5D1C852 /* OAPlaintextSignatureProvider.h in Headers */,
+				4E9D3C79C69C4750952044DB /* OARequestParameter.h in Headers */,
+				EFAC12E944724B4E9DCD779D /* OAServiceTicket.h in Headers */,
+				88834918DBA14E6E8BC60BD6 /* OASignatureProviding.h in Headers */,
+				1030FA2CF1DF4D418171FC13 /* OAToken.h in Headers */,
+				4CAD6428FDEF4526AF5015AD /* OAuthConsumer.h in Headers */,
+				B118C28E456546D297C5D2A5 /* SHKRequest.h in Headers */,
+				CE80F9E22F764811A97026E5 /* SHKXMLResponseParser.h in Headers */,
+				704168F141F0463593406364 /* SHK.h in Headers */,
+				4AC6BB1D484F4F2BAB617D85 /* SHKItem.h in Headers */,
+				59422CBA6EFC40D09345882B /* SHKOfflineSharer.h in Headers */,
+				4F1630A22A354B6DAC374BD7 /* SHKCustomActionSheet.h in Headers */,
+				1AC18085A22145889CA5EFE2 /* SHKCustomFormController.h in Headers */,
+				7154D4FBC30547ACB007DD1D /* SHKCustomFormControllerLargeTextField.h in Headers */,
+				D392090953594020A2262038 /* SHKCustomFormFieldCell.h in Headers */,
+				C1608330F04845FBAB4C451F /* SHKCustomShareMenu.h in Headers */,
+				CCCD529133974ED5BF325192 /* SHKCustomShareMenuCell.h in Headers */,
+				AA32DB3AA0F9472D99C6027C /* SHKActionSheet.h in Headers */,
+				DD4D7B38F22A40AA81CCF28A /* SHKActivityIndicator.h in Headers */,
+				5DEFEB64F6E64090B48C1456 /* SHKFormController.h in Headers */,
+				212225D7E1724893B88255B0 /* SHKFormControllerLargeTextField.h in Headers */,
+				9168458E31C247EC87FD37E2 /* SHKFormFieldCell.h in Headers */,
+				E4BFF5983B6A45F6A659DD7F /* SHKFormFieldSettings.h in Headers */,
+				2E99F65AE5F44A6DA41B2F82 /* SHKFormOptionController.h in Headers */,
+				FC5B7FB026B341469F8546A0 /* SHKOAuthView.h in Headers */,
+				AA69A6AE4B434C9DAB39E7E3 /* SHKShareItemDelegate.h in Headers */,
+				9D28FB577ED34D0A89DEC0D5 /* SHKShareMenu.h in Headers */,
+				937CE84D3F844A758EF2BFA5 /* SHKViewControllerWrapper.h in Headers */,
+				BA0894302E2A4B3CBB902F43 /* SHKCopy.h in Headers */,
+				3F2736B703D24AF6A3F639A8 /* SHKMail.h in Headers */,
+				29006F753AA04FEFA8281B7D /* SHKLogout.h in Headers */,
+				65F096BED15A40B593024E02 /* SHKSafari.h in Headers */,
+				C9388BCD11634841A0BA207D /* SHKPrint.h in Headers */,
+				CBF4844AC1164A0BB5BE04CD /* SHKPhotoAlbum.h in Headers */,
+				4E8E5EC217DE448FB43E8D53 /* SHKTextMessage.h in Headers */,
+				2FBBA9974EEE4803B4437587 /* SHKiOS5Twitter.h in Headers */,
+				D5633D5271084590AC736966 /* SHKTwitter.h in Headers */,
+				62F6803FF4EF497EB4F974B7 /* EDAMLimits.h in Headers */,
+				9AE5A3C1E58A4691A3E1F958 /* Errors.h in Headers */,
+				B12A464BAC2D4959B017A355 /* NoteStore.h in Headers */,
+				DFB37072242A4ADFA7FD390F /* Types.h in Headers */,
+				A496B59182594009B2F19EA8 /* UserStore.h in Headers */,
+				951B040726E44D40B6C62239 /* TBinaryProtocol.h in Headers */,
+				DFD435AF74944644A0901E27 /* TProtocol.h in Headers */,
+				841FB415ACB14856886463B3 /* TProtocolException.h in Headers */,
+				3A7939D5623745A995A88197 /* TProtocolFactory.h in Headers */,
+				650409912C8B43008FA7CC33 /* TProtocolUtil.h in Headers */,
+				E94971D88CB94F6699D4EF87 /* TApplicationException.h in Headers */,
+				8BF1C7B5B0E24793A81B84F1 /* TException.h in Headers */,
+				B32151D50C9D45DD88A337CA /* TProcessor.h in Headers */,
+				70F274296BF74F9E8F69C072 /* TProcessorFactory.h in Headers */,
+				0D6296AD22A84F77850966EB /* THTTPClient.h in Headers */,
+				19F272C17CF2483D9DDE5931 /* TMemoryBuffer.h in Headers */,
+				EC3DCEB0E48549EEA6D31BEE /* TTransport.h in Headers */,
+				E2085F86909742CDA8C3690C /* TTransportException.h in Headers */,
+				B1B09DEF5526474E8F8A22F5 /* TSharedProcessorFactory.h in Headers */,
+				31B6F19541D0494690DB309D /* SHKEvernote.h in Headers */,
+				B68B65419A224EA8B76F7332 /* SHKInstapaper.h in Headers */,
+				3640AACCF7D64179AA7D40AE /* SHKReadItLater.h in Headers */,
+				439DF7370DCA431485D26D90 /* SHKGoogleReader.h in Headers */,
+				935975E2367D48D596D68182 /* Underscore.h in Headers */,
+				F4962F290842409AB733DC30 /* USArrayWrapper.h in Headers */,
+				9342F43B443A4B4B8138EE26 /* USConstants.h in Headers */,
+				F1FA69D1C304437B85FB47D6 /* USDictionaryWrapper.h in Headers */,
+				8971B9096C944C4D96968125 /* ZUUIRevealController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		539D3BB3538B4ABAB7DCC6AE /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6A2D16EC68450CA5751854 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				6268BE6EF999440D8874AC33 /* Sources */,
+				9F9F28D2D5FE40BEB309F7F4 /* Frameworks */,
+				03422B510D304715A888800D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 6108BFFCBC0E43C6AF77618C /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB5F18D2CE647D6897068DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 67BE97CC85C74290B954A834 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD0B80DF49594A9FA3F4D523;
+			productRefGroup = E4A63321D5E847D7A9B6CCFA /* Products */;
+			projectReferences = (
+			);
+			targets = (
+				539D3BB3538B4ABAB7DCC6AE /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6268BE6EF999440D8874AC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEAFB329F9D422BAB96F4AE /* AFHTTPRequestOperationLogger.m in Sources */,
+				D76ABA05BFE846EC976AC08E /* AFHTTPClient.m in Sources */,
+				87C725AD81B94C6E8C153958 /* AFHTTPRequestOperation.m in Sources */,
+				31E22093C16840F8A9E6304E /* AFImageRequestOperation.m in Sources */,
+				53A727A0140B4DBCA17B005C /* AFJSONRequestOperation.m in Sources */,
+				83BE1FFB4450400880A502C3 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				450481714C0A4064BAD56D93 /* AFPropertyListRequestOperation.m in Sources */,
+				B1D51B90FDF04C0AA2C2EF81 /* AFURLConnectionOperation.m in Sources */,
+				B39C62FD4B9549A2B8E0B911 /* AFXMLRequestOperation.m in Sources */,
+				9BB3FBA8B7D84502B3AA2623 /* UIImageView+AFNetworking.m in Sources */,
+				32233678B59248C7BAA0B69C /* JSONKit.m in Sources */,
+				68161B255C0A4009BEDE26C7 /* MagicalImportFunctions.m in Sources */,
+				B5D6194740B943E7B57F0BF3 /* NSAttributeDescription+MagicalDataImport.m in Sources */,
+				F03EA0EE073443FFA396A8A3 /* NSEntityDescription+MagicalDataImport.m in Sources */,
+				3EC07D2581A945DDA9D5B8CB /* NSNumber+MagicalDataImport.m in Sources */,
+				1BF884941D5D4C9F83DB9F5C /* NSObject+MagicalDataImport.m in Sources */,
+				35C0CB008B304992AE9A2EDF /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
+				6B0FE9DE6ACC44638F238B76 /* NSString+MagicalDataImport.m in Sources */,
+				23EC7E8E1D9641778ACFA922 /* NSManagedObject+MagicalAggregation.m in Sources */,
+				7187DA1AFE144B8592F47C07 /* NSManagedObject+MagicalDataImport.m in Sources */,
+				47F3577E3D694932883BF050 /* NSManagedObject+MagicalFinders.m in Sources */,
+				9F0F5EDD7AE04A63A8AF50EB /* NSManagedObject+MagicalRecord.m in Sources */,
+				EC411D2286854384A5604E51 /* NSManagedObject+MagicalRequests.m in Sources */,
+				7F59825DA0B2492B9773AC70 /* NSManagedObjectContext+MagicalObserving.m in Sources */,
+				C2C6690F94B9456195BED930 /* NSManagedObjectContext+MagicalRecord.m in Sources */,
+				9CFCD90E513A45DAB99AC94A /* NSManagedObjectContext+MagicalSaves.m in Sources */,
+				93A0F770799945DE91929937 /* NSManagedObjectContext+MagicalThreading.m in Sources */,
+				5D8F7C4F15E84179A89132DD /* NSManagedObjectModel+MagicalRecord.m in Sources */,
+				8CC8D97A54664EEB8F321A14 /* NSPersistentStore+MagicalRecord.m in Sources */,
+				7CDF85532E9A4C52B6EF54D7 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
+				EF45A7340B2C4B108760A9D8 /* MagicalRecord+Actions.m in Sources */,
+				56163C8F71FA4FF4AA5C025D /* MagicalRecord+ErrorHandling.m in Sources */,
+				986471FEB84241829252A779 /* MagicalRecord+iCloud.m in Sources */,
+				8C0CD88083F5460D9BCB4646 /* MagicalRecord+Options.m in Sources */,
+				C8388CEBD5CC4F649D5FA558 /* MagicalRecord+Setup.m in Sources */,
+				65C42B4915D1466CBC0FA1E5 /* MagicalRecord+ShorthandSupport.m in Sources */,
+				352B603FA8404AC991916EF6 /* MagicalRecord.m in Sources */,
+				8AAAD46CEBDB4A36BDD819EE /* Reachability.m in Sources */,
+				97198F78462A403D82A515B4 /* SDURLCache.m in Sources */,
+				BC8B144C9B4749779A3054B5 /* SDImageCache.m in Sources */,
+				AE9C2CC0ED0D4435838762E8 /* SDWebImageDecoder.m in Sources */,
+				3C15D0FE91524B2B99FD3FC8 /* SDWebImageDownloader.m in Sources */,
+				40825C55D4EE4DEFB407A83E /* SDWebImageManager.m in Sources */,
+				3542010632D240169F5171F1 /* SDWebImagePrefetcher.m in Sources */,
+				8B26ED35CD42463CA3CB4BA3 /* UIButton+WebCache.m in Sources */,
+				AD03F7EA567A4C25929A9301 /* UIImageView+WebCache.m in Sources */,
+				124A9F18C3F744AA95AEF62A /* SSKeychain.m in Sources */,
+				5A453A6FA3C5405EA10CC885 /* SVProgressHUD.m in Sources */,
+				DC720E664EB349659A396978 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				97D171E473F3432EB0C93169 /* UIScrollView+SVPullToRefresh.m in Sources */,
+				42159B92CD404FC3B2037776 /* DefaultSHKConfigurator.m in Sources */,
+				19B38E98054942BD98F2C1EE /* SHKConfiguration.m in Sources */,
+				F0E0231227894B04B911B0BD /* SHKOAuthSharer.m in Sources */,
+				2EA1A39C28E5405A9F3DAB32 /* SHKSharer.m in Sources */,
+				447BE3C6521E41658EBEEF6C /* SHKSharerDelegate.m in Sources */,
+				DCC525E79F7A403DA8A4EE2C /* NSData+md5.m in Sources */,
+				94076DD966AF413795B7F50A /* NSHTTPCookieStorage+DeleteForURL.m in Sources */,
+				6784CFCC6209442BBC94DB85 /* NSMutableDictionary+NSNullsToEmptyStrings.m in Sources */,
+				5E53D7C199BC440EA78FF36A /* UIWebView+SHK.m in Sources */,
+				679B2C0CF590424ABCBD10C7 /* NSMutableURLRequest+Parameters.m in Sources */,
+				62EEBE4D1D7540D39E5B392F /* NSString+URLEncoding.m in Sources */,
+				5F6BAA6B58AE498B822CD9F9 /* NSURL+Base.m in Sources */,
+				210F8D3C03194702A6AA6065 /* OAAsynchronousDataFetcher.m in Sources */,
+				ABE1760FFE33436DBE810BE1 /* OAConsumer.m in Sources */,
+				80C6695791C147F69594AA7A /* OADataFetcher.m in Sources */,
+				F119BC89B2BA4E669E069C1F /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				42F886270B8241328714773B /* OAMutableURLRequest.m in Sources */,
+				BF2BD49820C54FDB97B5B290 /* OAPlaintextSignatureProvider.m in Sources */,
+				5B8837ACD804427E8CE937A5 /* OARequestParameter.m in Sources */,
+				7A5E3294FABE4585A0E48F4D /* OAServiceTicket.m in Sources */,
+				C5FB22F517814E4D90A3B048 /* OAToken.m in Sources */,
+				ECD3A58803E2463A99711257 /* SHKRequest.m in Sources */,
+				5AD89BCD05F74C6F94FAE57A /* SHKXMLResponseParser.m in Sources */,
+				27AE4D109DFB43DE94ACFA46 /* SHK.m in Sources */,
+				20EA673FDA7444AF9D18F9C1 /* SHKItem.m in Sources */,
+				2A2B3D5FE0A1497CB70258EA /* SHKOfflineSharer.m in Sources */,
+				83F2EEE668E340B1B0E6ECB9 /* Base64Transcoder.c in Sources */,
+				613A3217C1E74761848DFB7B /* hmac.c in Sources */,
+				493194536B2E43C9BF30E086 /* sha1.c in Sources */,
+				4AF4AFF48A1D40E18B0720FD /* SHKCustomActionSheet.m in Sources */,
+				524AC8E1975549259A074B0D /* SHKCustomFormController.m in Sources */,
+				9D68AA65E5F14649B13552FF /* SHKCustomFormControllerLargeTextField.m in Sources */,
+				8A3E838C6D2842448554F202 /* SHKCustomFormFieldCell.m in Sources */,
+				E7CD4E3D1E784592A4BA3664 /* SHKCustomShareMenu.m in Sources */,
+				23CA16E5EE2B4915B48E8AB4 /* SHKCustomShareMenuCell.m in Sources */,
+				AAC07578CC8F42EABBAD7771 /* SHKActionSheet.m in Sources */,
+				2D43F2CC577A4B12BB469F55 /* SHKActivityIndicator.m in Sources */,
+				C306B6C230064F4EBB03E6C2 /* SHKFormController.m in Sources */,
+				867EF65841B44E389F17DE7B /* SHKFormControllerLargeTextField.m in Sources */,
+				72A2694311F146C9AF061459 /* SHKFormFieldCell.m in Sources */,
+				F9893A515F2E4FDBAD471B13 /* SHKFormFieldSettings.m in Sources */,
+				3262B8C48D49498DAB9E0A13 /* SHKFormOptionController.m in Sources */,
+				30C2F2F4A4E24841BBC130CB /* SHKOAuthView.m in Sources */,
+				DE3E726DFF534EDC979E3EE0 /* SHKShareMenu.m in Sources */,
+				F2755A8CBF13488C96AD4C39 /* SHKViewControllerWrapper.m in Sources */,
+				C856F50AFDC24E63B2864D59 /* SHKCopy.m in Sources */,
+				C4B37955A3D5427A99AA6D0B /* SHKMail.m in Sources */,
+				09D37CACDD2B4286A4EA6C27 /* SHKLogout.m in Sources */,
+				15278819B505489BB3F2A48C /* SHKSafari.m in Sources */,
+				FB574A4C43E74FADB63AE31A /* SHKPrint.m in Sources */,
+				EC77EF2FE74D4CEBBA0CDC06 /* SHKPhotoAlbum.m in Sources */,
+				08313B656B5D43E0B168B934 /* SHKTextMessage.m in Sources */,
+				1BF047E519CA4CC6B9E48752 /* SHKiOS5Twitter.m in Sources */,
+				5FFCE6DAE4A1454CBFFBECB2 /* SHKTwitter.m in Sources */,
+				CFEB5031C655480786B4C675 /* EDAMLimits.m in Sources */,
+				F57EA1EB1E03425D8CFBBC62 /* Errors.m in Sources */,
+				6FE6C93AE63D4B40B8D7527F /* NoteStore.m in Sources */,
+				297F9E39A2234CFAB48E8173 /* Types.m in Sources */,
+				8F065B8527D149FE8F4DB352 /* UserStore.m in Sources */,
+				D412A596FEE64CC693E33F29 /* TBinaryProtocol.m in Sources */,
+				BC73BED4DB6C41E2967F6C09 /* TProtocolException.m in Sources */,
+				46B36B39A63F47758E9B8B47 /* TProtocolUtil.m in Sources */,
+				738FCCA958FA407597FC79DD /* TApplicationException.m in Sources */,
+				DC81F55C54564F96947B1CE0 /* TException.m in Sources */,
+				4C70E8256F90410BA8A9F5FA /* THTTPClient.m in Sources */,
+				34F54E70C0944373AB46E4A0 /* TMemoryBuffer.m in Sources */,
+				C4BCFE2E5BB9461190B8AC0E /* TTransportException.m in Sources */,
+				E5BF497247634D209FF244FA /* TSharedProcessorFactory.m in Sources */,
+				5182A801CEE34308B3ECDCDF /* SHKEvernote.m in Sources */,
+				4B2E0E9F5A8D4A4493F69650 /* SHKInstapaper.m in Sources */,
+				13EF5DCA586C4FFFB27C494B /* SHKReadItLater.m in Sources */,
+				525ABAFAD8784DC99B62E603 /* SHKGoogleReader.m in Sources */,
+				3C88159FA4954BA7B9851439 /* Underscore.m in Sources */,
+				7C9CA9CF3E24433097EF35EF /* USArrayWrapper.m in Sources */,
+				28DCB85B847849859EE4F9BE /* USDictionaryWrapper.m in Sources */,
+				A9E80BEAC3024D2B8C08202D /* ZUUIRevealController.m in Sources */,
+				0AAA298A606C4477B2F19CA0 /* PodsDummy_Pods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2351A2FE40DF4FD68FABF9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46462118BE54F09A0499994 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59F1BB3629F54D009AF7E9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AC9A689C877247E99F5F10E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C97BAEC408C44C678AE9F68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46462118BE54F09A0499994 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BE97CC85C74290B954A834 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9A689C877247E99F5F10E6 /* Release */,
+				59F1BB3629F54D009AF7E9BE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6A2D16EC68450CA5751854 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2351A2FE40DF4FD68FABF9C8 /* Release */,
+				C97BAEC408C44C678AE9F68E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB5F18D2CE647D6897068DD /* Project object */;
+}

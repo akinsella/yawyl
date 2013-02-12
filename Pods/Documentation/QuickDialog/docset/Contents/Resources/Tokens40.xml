@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QSortingSection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QSortingSection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSortingSection.h</DeclaredIn>
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSortingSection/setSortingEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSortingSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL sortingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/sortingEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSortingSection/sortingEnabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSortingSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL sortingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/sortingEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSortingSection/setCanDeleteRows:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSortingSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL canDeleteRows</Declaration>
+			
+			
+			<Anchor>//api/name/canDeleteRows</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QSortingSection/canDeleteRows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSortingSection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL canDeleteRows</Declaration>
+			
+			
+			<Anchor>//api/name/canDeleteRows</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSortingSection/moveElementFromRow:toRow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSortingSection.h</DeclaredIn>			
+			
+			<Declaration>- (void)moveElementFromRow:(NSUInteger)from toRow:(NSUInteger)to</Declaration>
+			
+			
+			<Anchor>//api/name/moveElementFromRow:toRow:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSortingSection/removeElementForRow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSortingSection.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)removeElementForRow:(NSInteger)integer</Declaration>
+			
+			
+			<Anchor>//api/name/removeElementForRow:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QSortingSection/canRemoveElementForRow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QSortingSection.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)canRemoveElementForRow:(NSInteger)integer</Declaration>
+			
+			
+			<Anchor>//api/name/canRemoveElementForRow:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
